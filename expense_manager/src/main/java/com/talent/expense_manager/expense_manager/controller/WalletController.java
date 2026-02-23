@@ -28,7 +28,6 @@ public class WalletController {
 
         walletService.myWallet(accountId);
         return ResponseEntity.ok(walletService.myWallet(accountId));
-
     }
 
     @PostMapping("/addbudget/{accountId}")

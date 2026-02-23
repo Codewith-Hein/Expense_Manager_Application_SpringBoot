@@ -12,8 +12,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import javax.swing.text.html.Option;
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.Optional;
 
 
 @Service
@@ -133,13 +135,17 @@ public class AccountServiceImpl implements AccountService {
     @Override
     public boolean login(String email, String password) {
 
-        Account account=accountRepository.findByEmail(email).orElseThrow(()->new RuntimeException("incorrect email "));
+         java.util.Optional<Account>  accountOptional=accountRepository.findByEmail(email);
+        if(accountOptional.isEmpty())
+            return  false;
+
+         Account account = accountOptional.get();
 
         if(!passwordEncoder.matches(password,account.getPassword())){
             throw new RuntimeException("Invalid password");
         }
 
-
+-
         return true;
     }
 
