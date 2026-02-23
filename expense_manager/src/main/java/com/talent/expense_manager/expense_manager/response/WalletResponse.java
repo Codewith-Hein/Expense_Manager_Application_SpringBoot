@@ -15,5 +15,6 @@ public class WalletResponse {
     private String accountId;
     private BigDecimal balance;
     private BigDecimal myBudget;
+    private Long walletId;
 
 }

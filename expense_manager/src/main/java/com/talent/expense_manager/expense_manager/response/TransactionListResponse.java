@@ -14,6 +14,7 @@ import java.util.List;
 public class TransactionListResponse {
 
     private BigDecimal totalBalance;
+    private BigDecimal Budget;
     private List<TransactionResponse> transactions;
 
 

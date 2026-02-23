@@ -9,6 +9,7 @@ import com.talent.expense_manager.expense_manager.request.ChangePasswordRequest;
 import com.talent.expense_manager.expense_manager.response.AccountResponse;
 import com.talent.expense_manager.expense_manager.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
@@ -20,6 +21,8 @@ public class AccountServiceImpl implements AccountService {
 
     @Autowired
    public AccountRepository accountRepository;
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
     public AccountServiceImpl(AccountRepository accountRepository) {
         this.accountRepository = accountRepository;
@@ -38,7 +41,7 @@ public class AccountServiceImpl implements AccountService {
         account.setName(request.getName());
         account.setDateOfBirth(request.getDateOfBirth());
         account.setEmail(request.getEmail());
-        account.setPassword(request.getPassword());
+        account.setPassword(passwordEncoder.encode(request.getPassword()));
 
 
         Wallet wallet=new Wallet();
@@ -117,11 +120,10 @@ public class AccountServiceImpl implements AccountService {
         Account account = accountRepository.findByAccountId(accountId)
                 .orElseThrow(() -> new RuntimeException("Account not found"));
 
-        if(!account.getPassword().equals(request.getCurrentPassword())){
-            throw new InvalidPasswordException("Current Password is incorrect");
-        }
-
-        account.setPassword(request.getNewPassword());
+       if(!passwordEncoder.matches(request.getCurrentPassword(),account.getPassword())){
+           throw new RuntimeException("Old password is incorrect");
+       }
+        account.setPassword(passwordEncoder.encode(request.getNewPassword()));
 
         accountRepository.save(account);
 
@@ -130,8 +132,17 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public boolean login(String email, String password) {
-        return accountRepository.findByEmail(email).map(account -> account.getPassword().equals(password)).orElse(false);
+
+        Account account=accountRepository.findByEmail(email).orElseThrow(()->new RuntimeException("incorrect email "));
+
+        if(!passwordEncoder.matches(password,account.getPassword())){
+            throw new RuntimeException("Invalid password");
+        }
+
+
+        return true;
     }
+
 
     @Override
     public void logout(String accountId) {

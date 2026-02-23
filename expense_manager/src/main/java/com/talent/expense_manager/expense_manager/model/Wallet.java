@@ -5,6 +5,9 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.SQLDelete;
+import org.hibernate.annotations.SQLRestriction;
+
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -14,7 +17,9 @@ import java.util.List;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Wallet {
+@SQLDelete(sql = "UPDATE wallet SET deleted_at = NOW() WHERE id = ?")
+//@SQLRestriction("deleted_at IS NULL")
+public class Wallet extends BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

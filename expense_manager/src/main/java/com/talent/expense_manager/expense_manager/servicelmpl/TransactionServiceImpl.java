@@ -57,11 +57,11 @@ public class TransactionServiceImpl implements TransactionService {
             wallet.setBalance(wallet.getBalance().add(request.getAmount()));
 
         } else if (request.getTransactionType() == TransactionType.EXPENSE) {
-            if (wallet.getBalance().compareTo(request.getAmount()) < 0) {
+            if (wallet.getBudget().compareTo(request.getAmount()) < 0) {
                 throw new RuntimeException("Insufficient balance");
             }
 
-            wallet.setBalance(wallet.getBalance().subtract(request.getAmount()));
+            wallet.setBudget(wallet.getBudget().subtract(request.getAmount()));
 
 
         }
@@ -94,6 +94,7 @@ public class TransactionServiceImpl implements TransactionService {
         TransactionListResponse response = new TransactionListResponse();
 
         response.setTotalBalance(wallet.getBalance());
+        response.setBudget(wallet.getBudget());
         response.setTransactions(transactionResponses);
 
         return response;
@@ -107,8 +108,15 @@ public class TransactionServiceImpl implements TransactionService {
 
         Wallet wallet = transaction.getWallet();
 
-        if (transaction.getTransactionType().name().equals("INCOME")) {
-            wallet.setBalance(wallet.getBalance().subtract(transaction.getAmount()));
+        if (transaction.getTransactionType()==TransactionType.INCOME) {
+
+            BigDecimal newBalance= wallet.getBalance().subtract(transaction.getAmount());
+
+            if (newBalance.compareTo(BigDecimal.ZERO)< 0){
+                throw new RuntimeException("Cannot delete transaction. Balance would become negative.");
+            }
+
+            wallet.setBalance(newBalance);
         } else {
             wallet.setBalance(wallet.getBalance().add(transaction.getAmount()));
         }
