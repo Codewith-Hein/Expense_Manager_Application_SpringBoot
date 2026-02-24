@@ -9,6 +9,8 @@ import com.talent.expense_manager.expense_manager.request.WalletRequest;
 import com.talent.expense_manager.expense_manager.response.WalletResponse;
 import com.talent.expense_manager.expense_manager.service.WalletService;
 import jakarta.transaction.Transactional;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
@@ -20,6 +22,9 @@ import java.util.Optional;
 
 @Service
 public class WalletServiceImpl implements WalletService {
+
+    private static final Logger LOGGER =
+            LoggerFactory.getLogger(WalletServiceImpl.class);
 
     @Autowired
     public AccountRepository accountRepository;

@@ -2,15 +2,12 @@ package com.talent.expense_manager.expense_manager.controller;
 
 
 import com.talent.expense_manager.expense_manager.request.TransactionRequest;
-import com.talent.expense_manager.expense_manager.response.MonthlySummaryResponse;
-import com.talent.expense_manager.expense_manager.response.TransactionListResponse;
-import com.talent.expense_manager.expense_manager.response.TransactionResponse;
+import com.talent.expense_manager.expense_manager.response.*;
 import com.talent.expense_manager.expense_manager.service.TransactionService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/api/transactions")
@@ -20,43 +17,88 @@ public class TransactionController {
     private final TransactionService transactionService;
 
     @PostMapping("/account/{accountId}")
-    public ResponseEntity<String> createTransaction(
+    public ResponseEntity<BaseResponse<String>> createTransaction(
             @PathVariable String accountId,
             @RequestBody TransactionRequest request) {
 
         transactionService.createTrasaction(accountId, request);
 
-        return ResponseEntity.ok("Transaction created successfully");
+        return ResponseUtil.success(
+                HttpStatus.OK,
+                "TransactionCreate",
+                "Post",
+                "TransactionCreate Successful",
+                null
+        );
 
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<TransactionResponse> getTransactionById(@PathVariable Long id) {
-        return ResponseEntity.ok(transactionService.findTransactionById(id));
+    public ResponseEntity<BaseResponse<TransactionResponse>> getTransactionById(@PathVariable Long id) {
+      TransactionResponse response=transactionService.findTransactionById(id);
+        return ResponseUtil.success(
+                HttpStatus.OK,
+                "getTransactionById",
+                "Get",
+                "FetchTransactionById Successful",
+                response
+        );
     }
 
     @GetMapping("/account/{accountId}")
-    public TransactionListResponse getAllTransactions(
+    public BaseResponse<TransactionListResponse> getAllTransactions(
             @PathVariable String accountId) {
 
-        return transactionService.getAllTransactions(accountId);
+         TransactionListResponse response=transactionService.getAllTransactions(accountId);
+        return ResponseUtil.success(
+                HttpStatus.OK,
+                "getAllTransaction",
+                "Get",
+                "FetchAllTransactionSuccessful",
+                response
+        ).getBody();
+
 
     }
 
     @DeleteMapping("/{transactionId}")
-    public ResponseEntity<String> deleteTransaction(@PathVariable Long transactionId) {
+    public ResponseEntity<BaseResponse<String>> deleteTransaction(@PathVariable Long transactionId) {
         transactionService.deleteTransaction(transactionId);
-        return ResponseEntity.ok("Transaction delete Successfull");
+
+        return ResponseUtil.success(
+                HttpStatus.OK,
+                "DeleteTransaction",
+                "Delete",
+                "deleteTransaction Successful",
+                null
+        );
+
     }
 
     @PutMapping("/{transactionId}")
-    public ResponseEntity<String> updateTransaction(@PathVariable Long transactionId, @RequestBody TransactionRequest request) {
+    public ResponseEntity<BaseResponse<String>> updateTransaction(@PathVariable Long transactionId, @RequestBody TransactionRequest request) {
         transactionService.updateTransaction(transactionId, request);
-        return ResponseEntity.ok("updateTransactionSuccessful");
+
+        return ResponseUtil.success(
+                HttpStatus.OK,
+                "UpdateTransaction",
+                "Put",
+                "UpdateTransaction Successful",
+                null
+        );
     }
 
     @GetMapping("/summary/{accountId}")
-    public ResponseEntity<MonthlySummaryResponse> getMonthlySummary(@PathVariable String accountId, @RequestParam int year, @RequestParam int month) {
-        return ResponseEntity.ok(transactionService.getMonthlySumary(accountId, year, month));
+    public ResponseEntity<BaseResponse<MonthlySummaryResponse>> getMonthlySummary(@PathVariable String accountId, @RequestParam int year, @RequestParam int month) {
+       MonthlySummaryResponse response=transactionService.getMonthlySumary(accountId, year, month);
+
+        return ResponseUtil.success(
+                HttpStatus.OK,
+                "MonthlySummary",
+                "Get",
+                "MonthlySummary",
+                response
+        );
+
     }
 }

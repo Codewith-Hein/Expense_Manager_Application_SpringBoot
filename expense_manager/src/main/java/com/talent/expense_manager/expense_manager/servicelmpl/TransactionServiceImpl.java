@@ -14,6 +14,8 @@ import com.talent.expense_manager.expense_manager.response.TransactionResponse;
 import com.talent.expense_manager.expense_manager.service.TransactionService;
 import lombok.RequiredArgsConstructor;
 import org.jspecify.annotations.NonNull;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -27,6 +29,9 @@ import java.util.UUID;
 @Service
 @RequiredArgsConstructor
 public class TransactionServiceImpl implements TransactionService {
+    private static final Logger LOGGER =
+            LoggerFactory.getLogger(TransactionServiceImpl.class);
+
 
     @Autowired
     public AccountRepository accountRepository;
@@ -40,6 +45,8 @@ public class TransactionServiceImpl implements TransactionService {
 
     @Override
     public void createTrasaction(String accountId, TransactionRequest request) {
+
+
 
         Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new RuntimeException("Account not found"));
 

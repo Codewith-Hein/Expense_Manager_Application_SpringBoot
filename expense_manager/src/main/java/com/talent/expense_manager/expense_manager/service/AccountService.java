@@ -23,7 +23,7 @@ public interface AccountService {
     void changePassword(String accountId, ChangePasswordRequest request);
 
 
-    boolean login(String email, String password);
+    AccountResponse login(AccountRequest request);
 
     void logout(String accountId);
 
