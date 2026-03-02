@@ -8,6 +8,8 @@ import com.talent.expense_manager.expense_manager.service.AccountService;
 import com.talent.expense_manager.expense_manager.service.TransactionService;
 import com.talent.expense_manager.expense_manager.service.WalletService;
 import lombok.RequiredArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
@@ -23,9 +25,11 @@ public class AdminController {
     private final AccountService accountService;
     private final TransactionService transactionService;
     private final WalletService walletService;
+    private static final Logger LOGGER = LoggerFactory.getLogger(AdminController.class);
 
     @GetMapping("/getallaccounts")
     public ResponseEntity<BaseResponse<List<AccountResponse>>> getAllAccounts() {
+        LOGGER.info("REST request to fetch all user accounts by ADMIN");
         List<AccountResponse> accounts = accountService.getAllAccounts();
 
 
@@ -41,6 +45,8 @@ public class AdminController {
 
     @DeleteMapping("accountdelete/{accountId}")
     public ResponseEntity<BaseResponse<String>> accountDelete(@PathVariable String accountId) {
+
+        LOGGER.info("REST request to delete account ID: {}", accountId);
         accountService.accountDelete(accountId);
         return ResponseUtil.success(
                 HttpStatus.OK,
@@ -76,7 +82,7 @@ public class AdminController {
     @GetMapping("/getallwallets")
     public ResponseEntity<BaseResponse<List<WalletResponse>>> getAllWallet() {
 
-
+        LOGGER.info("REST request by ADMIN to fetch all system wallets");
         return ResponseUtil.success(
                 HttpStatus.OK,
                 "View-Get",

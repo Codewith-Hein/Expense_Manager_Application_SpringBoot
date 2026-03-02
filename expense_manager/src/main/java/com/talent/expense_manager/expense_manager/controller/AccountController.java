@@ -45,7 +45,7 @@ public class AccountController {
 
     @PutMapping("/updateAccount/{accountId}")
     public ResponseEntity<BaseResponse<AccountResponse>> updateAccount(@PathVariable String accountId, @RequestBody AccountRequest request) {
-
+        LOGGER.info("REST request to update account: {}", accountId);
        AccountResponse response=accountService.updateAccount(accountId,request);
        return ResponseUtil.success(
                HttpStatus.OK,
@@ -62,7 +62,7 @@ public class AccountController {
 
     @PatchMapping("/change-password/{accountId}")
     public ResponseEntity<BaseResponse<String>> changePassword(@PathVariable String accountId, @RequestBody ChangePasswordRequest request) {
-
+        LOGGER.info("REST request to change password for account ID: {}", accountId);
             accountService.changePassword(accountId, request);
 
             return ResponseUtil.success(

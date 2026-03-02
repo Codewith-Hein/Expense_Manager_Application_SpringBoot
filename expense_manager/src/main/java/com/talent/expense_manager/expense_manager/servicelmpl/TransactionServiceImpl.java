@@ -65,6 +65,8 @@ public class TransactionServiceImpl implements TransactionService {
 //            throw new RuntimeException("You do not have permission to create a transaction.");
 //        }
 
+        LOGGER.info("Starting creation of {} transaction for account: {}", request.getTransactionType(), accountId);
+
         Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new AccountNotFound("Account not found"));
 
         Wallet wallet = account.getWallet();
@@ -152,6 +154,8 @@ public class TransactionServiceImpl implements TransactionService {
 
     @Override
     public void deleteTransaction(Long transactionId) {
+
+        LOGGER.info("Attempting to delete Transaction: {}", transactionId);
         Transaction transaction = transactionRepository.findById(transactionId).orElseThrow(() -> new RuntimeException("Invalid Id"));
 
 
@@ -207,6 +211,8 @@ public class TransactionServiceImpl implements TransactionService {
     @Override
     public MonthlySummaryResponse getMonthlySumary(String accountId, int year, int month) {
 
+        LOGGER.info("Generating monthly summary for Wallet: {} (Month: {}, Year: {})", accountId, month, year);
+
 //        Account currentAccount = securityUtils.getCurrentAccount(accountId);
 //
 //        if(!permissoinService.hasPermission(currentAccount,"TRANSACTION","VIEW")){
@@ -228,7 +234,7 @@ public class TransactionServiceImpl implements TransactionService {
 
     @Override
     public List<TransactionResponse> viewAllTransaction() {
-
+        LOGGER.info("View All Transaction by admin");
         return transactionRepository.findAll().stream().map(
                 this::mapToResponse
         ).toList();

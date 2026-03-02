@@ -1248,3 +1248,44 @@ io.jsonwebtoken.security.SignatureException: JWT signature does not match locall
 2026-03-02 16:57:29 - Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-03-02 16:57:29 - HikariPool-1 - Shutdown initiated...
 2026-03-02 16:57:29 - HikariPool-1 - Shutdown completed.
+2026-03-02 16:57:32 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 11012 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-02 16:57:32 - No active profile set, falling back to 1 default profile: "default"
+2026-03-02 16:57:32 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-02 16:57:32 - Finished Spring Data repository scanning in 45 ms. Found 6 JPA repository interfaces.
+2026-03-02 16:57:33 - Tomcat initialized with port 8080 (http)
+2026-03-02 16:57:33 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-02 16:57:33 - Starting service [Tomcat]
+2026-03-02 16:57:33 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-02 16:57:33 - Root WebApplicationContext: initialization completed in 1127 ms
+2026-03-02 16:57:33 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-02 16:57:33 - HikariPool-1 - Starting...
+2026-03-02 16:57:33 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c68e82
+2026-03-02 16:57:33 - HikariPool-1 - Start completed.
+2026-03-02 16:57:35 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-02 16:57:35 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-02 16:57:35 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-02 16:57:35 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-02 16:57:35 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-02 16:57:36 - 34 mappings in 'requestMappingHandlerMapping'
+2026-03-02 16:57:36 - Default resource handling disabled
+2026-03-02 16:57:36 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-02 16:57:36 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-02 16:57:36 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-02 16:57:36 - Started ExpenseManagerApplication in 4.691 seconds (process running for 5.024)
+2026-03-02 16:57:39 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-02 16:57:39 - Initializing Servlet 'dispatcherServlet'
+2026-03-02 16:57:39 - Detected StandardServletMultipartResolver
+2026-03-02 16:57:39 - Detected AcceptHeaderLocaleResolver
+2026-03-02 16:57:39 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7ad0d002
+2026-03-02 16:57:39 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5ccf1542
+2026-03-02 16:57:39 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-02 16:57:39 - Completed initialization in 4 ms
+2026-03-02 16:57:39 - POST "/api/transactions/account/0001", parameters={}
+2026-03-02 16:57:39 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#createTransaction(String, TransactionRequest)
+2026-03-02 16:57:40 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.TransactionRequest@7cc82a93]
+2026-03-02 16:57:40 - API Started: TransactionController.createTransaction(..)
+2026-03-02 16:57:40 - API Completed: TransactionController.createTransaction(..)
+2026-03-02 16:57:40 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-02 16:57:40 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@365b802]
+2026-03-02 16:57:40 - Completed 201 CREATED
+2026-03-02 19:12:59 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h14m55s399ms381µs600ns).

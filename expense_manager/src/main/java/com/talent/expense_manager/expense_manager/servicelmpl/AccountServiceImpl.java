@@ -42,6 +42,8 @@ public class AccountServiceImpl implements AccountService {
     @Override
     public AccountResponse createAccount(AccountRequest request) {
 
+        LOGGER.info("register {} : {} is started now.", "SYSTEM", request.getEmail());
+
         if (accountRepository.findByEmail(request.getEmail()).isPresent()) {
             throw new RuntimeException("Email already exist");
         }
@@ -136,7 +138,7 @@ public class AccountServiceImpl implements AccountService {
     @Override
     public AccountResponse login(AccountRequest request) {
 
-        LOGGER.info("Login attempt for account: {}", request.getAccountId());
+        LOGGER.info("login {} : {} is started now.", "GUEST", request.getEmail());
 
 
         java.util.Optional<Account> accountOptional = accountRepository.findByEmail(request.getEmail());
@@ -158,7 +160,7 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public void logout(String accountId) {
-        System.out.println("User logged out: " + accountId);
+        LOGGER.info("Logout user attempt {}",accountId);
     }
 
 

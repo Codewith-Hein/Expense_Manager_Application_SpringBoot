@@ -75,6 +75,10 @@ public class WalletServiceImpl implements WalletService {
 
     @Override
     public void updateBudget(String accountId, AddBudgetRequest request) {
+
+
+        LOGGER.info("updateBudget : {} started.", accountId);
+
         Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new AccountNotFound("Account Not found"));
 
         Wallet wallet = account.getWallet();
@@ -132,6 +136,8 @@ public class WalletServiceImpl implements WalletService {
     @Override
     @Transactional
     public WalletResponse createWallet(String accountId, WalletRequest request) {
+
+        LOGGER.info("createWallet SYSTEM : {} is started now.",accountId);
         Account account = accountRepository.findByAccountId(accountId)
                 .orElseThrow(() -> new AccountNotFound("Account not found"));
 
@@ -164,6 +170,7 @@ public class WalletServiceImpl implements WalletService {
 
     @Override
     public List<WalletResponse> getAllWallet() {
+        LOGGER.info("getAllWallets SYSTEM : Admin fetching all wallets.");
         return walletRepository.findAll()
                 .stream()
                 .map(this::mapToResponse)

@@ -9,6 +9,8 @@ import com.talent.expense_manager.expense_manager.response.ResponseUtil;
 import com.talent.expense_manager.expense_manager.response.WalletResponse;
 import com.talent.expense_manager.expense_manager.service.WalletService;
 import jakarta.validation.Valid;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -30,9 +32,13 @@ public class WalletController {
         this.walletService = walletService;
     }
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(WalletController.class);
+
 
     @GetMapping("/{accountId}")
     public ResponseEntity<BaseResponse<WalletResponse>> myWallet(@PathVariable String accountId) {
+
+        LOGGER.info("REST request to get wallet details for ID: {}", accountId);
 
       WalletResponse response=  walletService.myWallet(accountId);
         return ResponseUtil.success(
@@ -109,6 +115,8 @@ public class WalletController {
 
     @PostMapping("/createWallet/{accountId}")
     public ResponseEntity<BaseResponse<WalletResponse>> createWallet(@PathVariable String accountId,@Valid @RequestBody WalletRequest request) {
+        LOGGER.info("REST request to create wallet for account: {}", accountId);
+
        WalletResponse wallet= walletService.createWallet(accountId, request);
 
         return ResponseUtil.success(
