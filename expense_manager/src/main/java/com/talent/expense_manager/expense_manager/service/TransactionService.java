@@ -9,11 +9,11 @@ import java.util.List;
 
 public interface TransactionService {
 
-    void createTrasaction(String accountId, TransactionRequest request);
+    String createTrasaction(String accountId, TransactionRequest request);
 
-    TransactionResponse findTransactionById(Long id);
 
-  public TransactionListResponse getAllTransactions(String accountId);
+
+  public TransactionListResponse getAllTransactionsByAccountId(String accountId);
 
 
   void deleteTransaction(Long transactionId);
@@ -21,6 +21,8 @@ public interface TransactionService {
   void updateTransaction(Long transactionId,TransactionRequest request);
 
   MonthlySummaryResponse getMonthlySumary(String accountId,int year,int month);
+
+  public List<TransactionResponse> viewAllTransaction();
 
 
 }

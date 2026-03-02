@@ -14,7 +14,9 @@ import java.time.LocalDate;
 @NoArgsConstructor
 public class TransactionResponse {
 
+
     private Long id;
+    private String accountId;
     private BigDecimal amount;
     private Enum type;
     private Enum description;

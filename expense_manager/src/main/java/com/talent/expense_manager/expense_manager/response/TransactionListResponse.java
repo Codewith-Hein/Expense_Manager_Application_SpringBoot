@@ -15,6 +15,7 @@ public class TransactionListResponse {
 
     private BigDecimal totalBalance;
     private BigDecimal Budget;
+    private String accountId;
     private List<TransactionResponse> transactions;
 
 

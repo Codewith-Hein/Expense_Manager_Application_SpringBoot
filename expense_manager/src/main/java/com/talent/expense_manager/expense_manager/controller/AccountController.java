@@ -6,7 +6,10 @@ import com.talent.expense_manager.expense_manager.response.AccountResponse;
 import com.talent.expense_manager.expense_manager.response.BaseResponse;
 import com.talent.expense_manager.expense_manager.response.ResponseUtil;
 import com.talent.expense_manager.expense_manager.service.AccountService;
+import com.talent.expense_manager.expense_manager.servicelmpl.AccountServiceImpl;
 import lombok.RequiredArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -14,42 +17,16 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/accounts")
+    @RequestMapping("/api/accounts")
 @RequiredArgsConstructor
 public class AccountController {
-
+    private static final Logger LOGGER = LoggerFactory.getLogger(AccountController.class);
 
     private final AccountService accountService;
 
-    @PostMapping("/register")
-    public ResponseEntity<BaseResponse<AccountResponse>> createAccount(@RequestBody AccountRequest request) {
-        AccountResponse account = accountService.createAccount(request);
-
-        return ResponseUtil.success(
-                HttpStatus.OK,
-                "Register_Account",
-                "Post",
-                "Account Create Successful",
-                account
-        );
-
-    }
 
 
-    @GetMapping("/login")
-    public ResponseEntity<BaseResponse<AccountResponse>> login(@RequestBody AccountRequest request) {
 
-      AccountResponse account=accountService.login(request);
-
-        return ResponseUtil.success(
-                HttpStatus.OK,
-                "Login",
-                "Get",
-                "Login Account Successful",
-                account
-
-        );
-    }
 
     @PostMapping("/logout/{accountId}")
     public ResponseEntity<BaseResponse<String>> logout(@PathVariable String accountId) {
@@ -80,31 +57,8 @@ public class AccountController {
     }
 
 
-    @GetMapping
-    public ResponseEntity<BaseResponse<List<AccountResponse>>> getAllAccounts() {
-        List<AccountResponse> accounts = accountService.getAllAccounts();
 
 
-        return ResponseUtil.success(
-                HttpStatus.OK,
-                "FetchUserList",
-                "Get",
-                "Fetching UserList Successful",
-                accounts
-        );
-    }
-
-    @DeleteMapping("/{accountId}")
-    public ResponseEntity<BaseResponse<String>> accountDelete(@PathVariable String accountId) {
-        accountService.accountDelete(accountId);
-        return ResponseUtil.success(
-                HttpStatus.OK,
-                "delectAccount",
-                "Get",
-                "DeleteAccountSuccessful" ,
-                null
-        );
-    }
 
     @PatchMapping("/change-password/{accountId}")
     public ResponseEntity<BaseResponse<String>> changePassword(@PathVariable String accountId, @RequestBody ChangePasswordRequest request) {

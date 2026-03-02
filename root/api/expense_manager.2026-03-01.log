@@ -1,0 +1,1621 @@
+2026-03-01 00:29:03 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 00:29:03 - Graceful shutdown complete
+2026-03-01 00:29:03 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 00:29:03 - HikariPool-1 - Shutdown initiated...
+2026-03-01 00:29:03 - HikariPool-1 - Shutdown completed.
+2026-03-01 00:29:09 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 6184 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 00:29:09 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 00:29:10 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 00:29:10 - Finished Spring Data repository scanning in 48 ms. Found 6 JPA repository interfaces.
+2026-03-01 00:29:10 - Tomcat initialized with port 8080 (http)
+2026-03-01 00:29:10 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 00:29:10 - Starting service [Tomcat]
+2026-03-01 00:29:10 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 00:29:10 - Root WebApplicationContext: initialization completed in 1566 ms
+2026-03-01 00:29:11 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 00:29:11 - HikariPool-1 - Starting...
+2026-03-01 00:29:11 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17dbca0a
+2026-03-01 00:29:11 - HikariPool-1 - Start completed.
+2026-03-01 00:29:13 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 00:29:14 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 00:29:14 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 00:29:14 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 00:29:15 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 00:29:15 - 33 mappings in 'requestMappingHandlerMapping'
+2026-03-01 00:29:15 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-01 00:29:15 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 00:29:16 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 00:29:16 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 00:29:16 - Started ExpenseManagerApplication in 7.59 seconds (process running for 7.966)
+2026-03-01 00:29:56 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 00:29:56 - Graceful shutdown complete
+2026-03-01 00:29:56 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 00:29:56 - HikariPool-1 - Shutdown initiated...
+2026-03-01 00:29:56 - HikariPool-1 - Shutdown completed.
+2026-03-01 00:29:59 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 8296 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 00:29:59 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 00:29:59 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 00:29:59 - Finished Spring Data repository scanning in 42 ms. Found 6 JPA repository interfaces.
+2026-03-01 00:30:00 - Tomcat initialized with port 8080 (http)
+2026-03-01 00:30:00 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 00:30:00 - Starting service [Tomcat]
+2026-03-01 00:30:00 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 00:30:00 - Root WebApplicationContext: initialization completed in 1143 ms
+2026-03-01 00:30:01 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 00:30:01 - HikariPool-1 - Starting...
+2026-03-01 00:30:01 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@dd07be8
+2026-03-01 00:30:01 - HikariPool-1 - Start completed.
+2026-03-01 00:30:02 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 00:30:02 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 00:30:02 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 00:30:03 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 00:30:03 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 00:30:04 - 33 mappings in 'requestMappingHandlerMapping'
+2026-03-01 00:30:04 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-01 00:30:04 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 00:30:04 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 00:30:04 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 00:30:04 - Started ExpenseManagerApplication in 5.584 seconds (process running for 5.975)
+2026-03-01 00:30:28 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 00:30:28 - Initializing Servlet 'dispatcherServlet'
+2026-03-01 00:30:28 - Detected StandardServletMultipartResolver
+2026-03-01 00:30:28 - Detected AcceptHeaderLocaleResolver
+2026-03-01 00:30:28 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6e057374
+2026-03-01 00:30:28 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@67aedd28
+2026-03-01 00:30:28 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-01 00:30:28 - Completed initialization in 3 ms
+2026-03-01 00:30:28 - POST "/auth/register", parameters={}
+2026-03-01 00:30:28 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#createAccount(AccountRequest)
+2026-03-01 00:30:28 - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<com.talent.expense_manager.expense_manager.response.BaseResponse<com.talent.expense_manager.expense_manager.response.AccountResponse>> com.talent.expense_manager.expense_manager.controller.AuthController.createAccount(com.talent.expense_manager.expense_manager.request.AccountRequest): JSON parse error: Invalid numeric value: Leading zeroes not allowed
+2026-03-01 00:30:28 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-03-01 00:30:28 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 00:30:28 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@3ec19c35]
+2026-03-01 00:30:28 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Invalid numeric value: Leading zeroes not allowed]
+2026-03-01 00:30:28 - Completed 201 CREATED
+2026-03-01 00:30:49 - POST "/auth/register", parameters={}
+2026-03-01 00:30:49 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#createAccount(AccountRequest)
+2026-03-01 00:30:49 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@7d2da6e5]
+2026-03-01 00:30:50 - API Started: AuthController.createAccount(..)
+2026-03-01 00:30:51 - API Error in AuthController.createAccount(..) : could not execute statement [Duplicate entry '09252523100' for key 'account.UK4lde57f579n315au55ua4gqxk'] [insert into account (account_id,is_active,created_at,date_of_birth,deleted_at,email,name,password,role_id,updated_at) values (?,?,?,?,?,?,?,?,?,?)]; SQL [insert into account (account_id,is_active,created_at,date_of_birth,deleted_at,email,name,password,role_id,updated_at) values (?,?,?,?,?,?,?,?,?,?)]; constraint [account.UK4lde57f579n315au55ua4gqxk]
+2026-03-01 00:30:51 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-03-01 00:30:51 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 00:30:51 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@5a88b6a3]
+2026-03-01 00:30:51 - Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [Duplicate entry '09252523100' for key 'account.UK4lde57f579n315au55ua4gqxk'] [insert into account (account_id,is_active,created_at,date_of_birth,deleted_at,email,name,password,role_id,updated_at) values (?,?,?,?,?,?,?,?,?,?)]; SQL [insert into account (account_id,is_active,created_at,date_of_birth,deleted_at,email,name,password,role_id,updated_at) values (?,?,?,?,?,?,?,?,?,?)]; constraint [account.UK4lde57f579n315au55ua4gqxk]]
+2026-03-01 00:30:51 - Completed 201 CREATED
+2026-03-01 00:31:01 - POST "/auth/register", parameters={}
+2026-03-01 00:31:01 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#createAccount(AccountRequest)
+2026-03-01 00:31:01 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@364c6f6b]
+2026-03-01 00:31:01 - API Started: AuthController.createAccount(..)
+2026-03-01 00:31:02 - API Completed: AuthController.createAccount(..)
+2026-03-01 00:31:02 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 00:31:02 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@22813b0d]
+2026-03-01 00:31:02 - Completed 201 CREATED
+2026-03-01 00:31:21 - POST "/auth/login", parameters={}
+2026-03-01 00:31:21 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-03-01 00:31:21 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@2c668ac5]
+2026-03-01 00:31:21 - API Started: AuthController.login(..)
+2026-03-01 00:31:21 - API Error in AuthController.login(..) : Bad credentials
+2026-03-01 00:31:21 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-03-01 00:31:21 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 00:31:21 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@6d8b8c1a]
+2026-03-01 00:31:21 - Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
+2026-03-01 00:31:21 - Completed 201 CREATED
+2026-03-01 00:32:31 - POST "/auth/login", parameters={}
+2026-03-01 00:32:31 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-03-01 00:32:31 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@76f0ad65]
+2026-03-01 00:32:31 - API Started: AuthController.login(..)
+2026-03-01 00:32:31 - API Completed: AuthController.login(..)
+2026-03-01 00:32:31 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 00:32:31 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@7bb2eb58]
+2026-03-01 00:32:31 - Completed 201 CREATED
+2026-03-01 00:32:40 - POST "/api/transactions/account/0001", parameters={}
+2026-03-01 00:32:40 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#createTransaction(String, TransactionRequest)
+2026-03-01 00:32:41 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.TransactionRequest@38cdb98e]
+2026-03-01 00:32:41 - API Started: TransactionController.createTransaction(..)
+2026-03-01 00:32:41 - API Completed: TransactionController.createTransaction(..)
+2026-03-01 00:32:41 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 00:32:41 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@42b9aee]
+2026-03-01 00:32:41 - Completed 201 CREATED
+2026-03-01 00:34:39 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(JwtTokenExpiredException)
+2026-03-01 00:34:39 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 00:34:39 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@7ca733e8]
+2026-03-01 00:34:39 - Resolved [com.talent.expense_manager.expense_manager.exception.JwtTokenExpiredException: JWT token is expired]
+2026-03-01 00:35:20 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(JwtTokenExpiredException)
+2026-03-01 00:35:20 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 00:35:20 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@91cd72d]
+2026-03-01 00:35:20 - Resolved [com.talent.expense_manager.expense_manager.exception.JwtTokenExpiredException: JWT token is expired]
+2026-03-01 00:35:33 - POST "/auth/refresh-token", parameters={}
+2026-03-01 00:35:33 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#refreshToken(RefreshTokenRequest)
+2026-03-01 00:35:33 - Read "application/json;charset=UTF-8" to [RefreshTokenRequest(accountId=0002, refreshToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGF0QGdtYWlsLmNvbS (truncated)...]
+2026-03-01 00:35:33 - API Started: AuthController.refreshToken(..)
+2026-03-01 00:35:33 - API Completed: AuthController.refreshToken(..)
+2026-03-01 00:35:33 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 00:35:33 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@46605339]
+2026-03-01 00:35:33 - Completed 201 CREATED
+2026-03-01 00:35:40 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(JwtTokenExpiredException)
+2026-03-01 00:35:40 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 00:35:40 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@78e3dfe4]
+2026-03-01 00:35:40 - Resolved [com.talent.expense_manager.expense_manager.exception.JwtTokenExpiredException: JWT token is expired]
+2026-03-01 00:35:41 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(JwtTokenExpiredException)
+2026-03-01 00:35:41 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 00:35:41 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@693c47f2]
+2026-03-01 00:35:41 - Resolved [com.talent.expense_manager.expense_manager.exception.JwtTokenExpiredException: JWT token is expired]
+2026-03-01 00:35:41 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(JwtTokenExpiredException)
+2026-03-01 00:35:41 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 00:35:41 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@37fddcee]
+2026-03-01 00:35:41 - Resolved [com.talent.expense_manager.expense_manager.exception.JwtTokenExpiredException: JWT token is expired]
+2026-03-01 00:35:42 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(JwtTokenExpiredException)
+2026-03-01 00:35:42 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 00:35:42 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@53b77adf]
+2026-03-01 00:35:42 - Resolved [com.talent.expense_manager.expense_manager.exception.JwtTokenExpiredException: JWT token is expired]
+2026-03-01 00:35:42 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(JwtTokenExpiredException)
+2026-03-01 00:35:42 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 00:35:42 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@34f62592]
+2026-03-01 00:35:42 - Resolved [com.talent.expense_manager.expense_manager.exception.JwtTokenExpiredException: JWT token is expired]
+2026-03-01 00:35:49 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(JwtTokenExpiredException)
+2026-03-01 00:35:49 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 00:35:49 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@238bfe52]
+2026-03-01 00:35:49 - Resolved [com.talent.expense_manager.expense_manager.exception.JwtTokenExpiredException: JWT token is expired]
+2026-03-01 00:35:50 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(JwtTokenExpiredException)
+2026-03-01 00:35:50 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 00:35:50 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@1ed63fd8]
+2026-03-01 00:35:50 - Resolved [com.talent.expense_manager.expense_manager.exception.JwtTokenExpiredException: JWT token is expired]
+2026-03-01 00:35:55 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 00:35:55 - Graceful shutdown complete
+2026-03-01 00:35:55 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 00:35:55 - HikariPool-1 - Shutdown initiated...
+2026-03-01 00:35:55 - HikariPool-1 - Shutdown completed.
+2026-03-01 21:35:42 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 11800 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 21:35:42 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 21:35:43 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 21:35:43 - Finished Spring Data repository scanning in 52 ms. Found 6 JPA repository interfaces.
+2026-03-01 21:35:44 - Tomcat initialized with port 8080 (http)
+2026-03-01 21:35:44 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 21:35:44 - Starting service [Tomcat]
+2026-03-01 21:35:44 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 21:35:44 - Root WebApplicationContext: initialization completed in 1363 ms
+2026-03-01 21:35:44 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 21:35:44 - HikariPool-1 - Starting...
+2026-03-01 21:35:45 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b8fcdf2
+2026-03-01 21:35:45 - HikariPool-1 - Start completed.
+2026-03-01 21:35:46 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 21:35:46 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 21:35:46 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 21:35:46 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 21:35:47 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 21:35:47 - 33 mappings in 'requestMappingHandlerMapping'
+2026-03-01 21:35:47 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-01 21:35:47 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 21:35:47 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 21:35:47 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 21:35:47 - Started ExpenseManagerApplication in 5.758 seconds (process running for 6.414)
+2026-03-01 21:37:59 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 21:37:59 - Initializing Servlet 'dispatcherServlet'
+2026-03-01 21:37:59 - Detected StandardServletMultipartResolver
+2026-03-01 21:37:59 - Detected AcceptHeaderLocaleResolver
+2026-03-01 21:37:59 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3746766b
+2026-03-01 21:37:59 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@59dae020
+2026-03-01 21:37:59 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-01 21:37:59 - Completed initialization in 16 ms
+2026-03-01 21:45:16 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 21:45:16 - Graceful shutdown complete
+2026-03-01 21:45:16 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 21:45:16 - HikariPool-1 - Shutdown initiated...
+2026-03-01 21:45:16 - HikariPool-1 - Shutdown completed.
+2026-03-01 21:46:06 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 11112 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 21:46:06 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 21:46:07 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 21:46:07 - Finished Spring Data repository scanning in 51 ms. Found 6 JPA repository interfaces.
+2026-03-01 21:46:08 - Tomcat initialized with port 8080 (http)
+2026-03-01 21:46:08 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 21:46:08 - Starting service [Tomcat]
+2026-03-01 21:46:08 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 21:46:08 - Root WebApplicationContext: initialization completed in 1564 ms
+2026-03-01 21:46:08 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 21:46:08 - HikariPool-1 - Starting...
+2026-03-01 21:46:09 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@dd07be8
+2026-03-01 21:46:09 - HikariPool-1 - Start completed.
+2026-03-01 21:46:10 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 21:46:10 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 21:46:11 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 21:46:11 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 21:46:11 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 21:46:11 - 32 mappings in 'requestMappingHandlerMapping'
+2026-03-01 21:46:11 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-01 21:46:12 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 21:46:12 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 21:46:12 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 21:46:12 - Started ExpenseManagerApplication in 6.176 seconds (process running for 6.854)
+2026-03-01 21:46:21 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 21:46:21 - Initializing Servlet 'dispatcherServlet'
+2026-03-01 21:46:21 - Detected StandardServletMultipartResolver
+2026-03-01 21:46:21 - Detected AcceptHeaderLocaleResolver
+2026-03-01 21:46:21 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@23644367
+2026-03-01 21:46:21 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2fad470b
+2026-03-01 21:46:21 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-01 21:46:21 - Completed initialization in 2 ms
+2026-03-01 21:50:22 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 21:50:22 - Graceful shutdown complete
+2026-03-01 21:50:22 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 21:50:22 - HikariPool-1 - Shutdown initiated...
+2026-03-01 21:50:22 - HikariPool-1 - Shutdown completed.
+2026-03-01 21:50:46 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 11964 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 21:50:46 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 21:50:46 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 21:50:46 - Finished Spring Data repository scanning in 46 ms. Found 6 JPA repository interfaces.
+2026-03-01 21:50:47 - Tomcat initialized with port 8080 (http)
+2026-03-01 21:50:47 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 21:50:47 - Starting service [Tomcat]
+2026-03-01 21:50:47 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 21:50:47 - Root WebApplicationContext: initialization completed in 1197 ms
+2026-03-01 21:50:48 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 21:50:48 - HikariPool-1 - Starting...
+2026-03-01 21:50:48 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f67ece5
+2026-03-01 21:50:48 - HikariPool-1 - Start completed.
+2026-03-01 21:50:49 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 21:50:49 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 21:50:49 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 21:50:50 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 21:50:50 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 21:50:50 - 33 mappings in 'requestMappingHandlerMapping'
+2026-03-01 21:50:50 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-01 21:50:50 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 21:50:50 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 21:50:50 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 21:50:50 - Started ExpenseManagerApplication in 5.119 seconds (process running for 5.569)
+2026-03-01 21:50:56 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 21:50:56 - Initializing Servlet 'dispatcherServlet'
+2026-03-01 21:50:56 - Detected StandardServletMultipartResolver
+2026-03-01 21:50:56 - Detected AcceptHeaderLocaleResolver
+2026-03-01 21:50:56 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@18f37d6e
+2026-03-01 21:50:56 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@511e0453
+2026-03-01 21:50:56 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-01 21:50:56 - Completed initialization in 3 ms
+2026-03-01 21:51:46 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 21:51:46 - Graceful shutdown complete
+2026-03-01 21:51:46 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 21:51:46 - HikariPool-1 - Shutdown initiated...
+2026-03-01 21:51:46 - HikariPool-1 - Shutdown completed.
+2026-03-01 21:51:57 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 11600 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 21:51:57 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 21:51:57 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 21:51:58 - Finished Spring Data repository scanning in 50 ms. Found 6 JPA repository interfaces.
+2026-03-01 21:51:58 - Tomcat initialized with port 8080 (http)
+2026-03-01 21:51:58 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 21:51:58 - Starting service [Tomcat]
+2026-03-01 21:51:58 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 21:51:58 - Root WebApplicationContext: initialization completed in 1397 ms
+2026-03-01 21:51:59 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 21:51:59 - HikariPool-1 - Starting...
+2026-03-01 21:52:00 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78f4d15d
+2026-03-01 21:52:00 - HikariPool-1 - Start completed.
+2026-03-01 21:52:01 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 21:52:01 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 21:52:01 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 21:52:01 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 21:52:02 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 21:52:02 - 33 mappings in 'requestMappingHandlerMapping'
+2026-03-01 21:52:02 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-01 21:52:02 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 21:52:02 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 21:52:02 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 21:52:02 - Started ExpenseManagerApplication in 6.077 seconds (process running for 7.523)
+2026-03-01 21:52:05 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 21:52:05 - Initializing Servlet 'dispatcherServlet'
+2026-03-01 21:52:05 - Detected StandardServletMultipartResolver
+2026-03-01 21:52:05 - Detected AcceptHeaderLocaleResolver
+2026-03-01 21:52:05 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5bb0122
+2026-03-01 21:52:05 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@36821a1b
+2026-03-01 21:52:05 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-01 21:52:05 - Completed initialization in 4 ms
+2026-03-01 21:52:53 - POST "/auth/register", parameters={}
+2026-03-01 21:52:53 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#createAccount(AccountRequest)
+2026-03-01 21:52:54 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@748b55eb]
+2026-03-01 21:52:54 - API Started: AuthController.createAccount(..)
+2026-03-01 21:52:54 - API Completed: AuthController.createAccount(..)
+2026-03-01 21:52:54 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 21:52:54 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@41932318]
+2026-03-01 21:52:54 - Completed 201 CREATED
+2026-03-01 21:58:21 - POST "/auth/login", parameters={}
+2026-03-01 21:58:21 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-03-01 21:58:21 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@3177462b]
+2026-03-01 21:58:21 - API Started: AuthController.login(..)
+2026-03-01 21:58:50 - API Completed: AuthController.login(..)
+2026-03-01 21:58:50 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 21:58:50 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@32f45e90]
+2026-03-01 21:58:50 - Completed 201 CREATED
+2026-03-01 21:58:50 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 21:58:50 - Graceful shutdown complete
+2026-03-01 21:58:50 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 21:58:50 - HikariPool-1 - Shutdown initiated...
+2026-03-01 21:58:50 - HikariPool-1 - Shutdown completed.
+2026-03-01 21:58:53 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 7472 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 21:58:53 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 21:58:53 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 21:58:54 - Finished Spring Data repository scanning in 62 ms. Found 6 JPA repository interfaces.
+2026-03-01 21:58:54 - Tomcat initialized with port 8080 (http)
+2026-03-01 21:58:54 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 21:58:54 - Starting service [Tomcat]
+2026-03-01 21:58:54 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 21:58:54 - Root WebApplicationContext: initialization completed in 1631 ms
+2026-03-01 21:58:55 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 21:58:55 - HikariPool-1 - Starting...
+2026-03-01 21:58:56 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78f4d15d
+2026-03-01 21:58:56 - HikariPool-1 - Start completed.
+2026-03-01 21:58:57 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 21:58:57 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 21:58:57 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 21:58:57 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 21:58:58 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 21:58:58 - 33 mappings in 'requestMappingHandlerMapping'
+2026-03-01 21:58:58 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-01 21:58:58 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 21:58:58 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 21:58:58 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 21:58:58 - Started ExpenseManagerApplication in 6.131 seconds (process running for 6.868)
+2026-03-01 21:59:03 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 21:59:03 - Initializing Servlet 'dispatcherServlet'
+2026-03-01 21:59:03 - Detected StandardServletMultipartResolver
+2026-03-01 21:59:03 - Detected AcceptHeaderLocaleResolver
+2026-03-01 21:59:03 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6c758c74
+2026-03-01 21:59:03 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@358caf3a
+2026-03-01 21:59:03 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-01 21:59:03 - Completed initialization in 6 ms
+2026-03-01 21:59:03 - POST "/auth/login", parameters={}
+2026-03-01 21:59:03 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-03-01 21:59:04 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@157fc5b6]
+2026-03-01 21:59:04 - API Started: AuthController.login(..)
+2026-03-01 21:59:58 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m1s939ms557µs200ns).
+2026-03-01 21:59:58 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 21:59:58 - API Completed: AuthController.login(..)
+2026-03-01 21:59:58 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 21:59:58 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@27f8631c]
+2026-03-01 21:59:58 - Completed 201 CREATED
+2026-03-01 21:59:58 - Graceful shutdown complete
+2026-03-01 21:59:58 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 21:59:58 - HikariPool-1 - Shutdown initiated...
+2026-03-01 21:59:58 - HikariPool-1 - Shutdown completed.
+2026-03-01 22:00:03 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 9088 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 22:00:03 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 22:00:03 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 22:00:03 - Finished Spring Data repository scanning in 46 ms. Found 6 JPA repository interfaces.
+2026-03-01 22:00:04 - Tomcat initialized with port 8080 (http)
+2026-03-01 22:00:04 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 22:00:04 - Starting service [Tomcat]
+2026-03-01 22:00:04 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 22:00:04 - Root WebApplicationContext: initialization completed in 1324 ms
+2026-03-01 22:00:05 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 22:00:05 - HikariPool-1 - Starting...
+2026-03-01 22:00:05 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@319058ce
+2026-03-01 22:00:05 - HikariPool-1 - Start completed.
+2026-03-01 22:00:06 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:00:06 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 22:00:07 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 22:00:07 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 22:00:07 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 22:00:07 - 33 mappings in 'requestMappingHandlerMapping'
+2026-03-01 22:00:07 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-01 22:00:07 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 22:00:08 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 22:00:08 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 22:00:08 - Started ExpenseManagerApplication in 5.404 seconds (process running for 6.332)
+2026-03-01 22:00:14 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 22:00:14 - Initializing Servlet 'dispatcherServlet'
+2026-03-01 22:00:14 - Detected StandardServletMultipartResolver
+2026-03-01 22:00:14 - Detected AcceptHeaderLocaleResolver
+2026-03-01 22:00:14 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2693b289
+2026-03-01 22:00:14 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2aee0173
+2026-03-01 22:00:14 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-01 22:00:14 - Completed initialization in 5 ms
+2026-03-01 22:00:14 - POST "/auth/login", parameters={}
+2026-03-01 22:00:14 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-03-01 22:00:14 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@234c8fde]
+2026-03-01 22:00:14 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleValidationExceptions(MethodArgumentNotValidException)
+2026-03-01 22:00:14 - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2026-03-01 22:00:14 - Writing ["Name is required"]
+2026-03-01 22:00:14 - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.talent.expense_manager.expense_manager.response.BaseResponse<com.talent.expense_manager.expense_manager.response.AccountResponse>> com.talent.expense_manager.expense_manager.controller.AuthController.login(com.talent.expense_manager.expense_manager.request.AccountRequest) with 2 errors: [Field error in object 'accountRequest' on field 'name': rejected value [null]; codes [NotBlank.accountRequest.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [accountRequest.name,name]; arguments []; default message [name]]; default message [Name is required]] [Field error in object 'accountRequest' on field 'accountId': rejected value [null]; codes [NotBlank.accountRequest.accountId,NotBlank.accountId,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [accountRequest.accountId,accountId]; arguments []; default message [accountId]]; default message [Account ID is required]] ]
+2026-03-01 22:00:14 - Completed 400 BAD_REQUEST
+2026-03-01 22:03:57 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 22:03:57 - Graceful shutdown complete
+2026-03-01 22:03:57 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:03:57 - HikariPool-1 - Shutdown initiated...
+2026-03-01 22:03:57 - HikariPool-1 - Shutdown completed.
+2026-03-01 22:07:08 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 10764 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 22:07:08 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 22:07:09 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 22:07:09 - Finished Spring Data repository scanning in 42 ms. Found 6 JPA repository interfaces.
+2026-03-01 22:07:10 - Tomcat initialized with port 8080 (http)
+2026-03-01 22:07:10 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 22:07:10 - Starting service [Tomcat]
+2026-03-01 22:07:10 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 22:07:10 - Root WebApplicationContext: initialization completed in 1163 ms
+2026-03-01 22:07:10 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 22:07:10 - HikariPool-1 - Starting...
+2026-03-01 22:07:10 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@dd07be8
+2026-03-01 22:07:10 - HikariPool-1 - Start completed.
+2026-03-01 22:07:12 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:07:12 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 22:07:12 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 22:07:12 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 22:07:12 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 22:07:13 - 33 mappings in 'requestMappingHandlerMapping'
+2026-03-01 22:07:13 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-01 22:07:13 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 22:07:13 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 22:07:13 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 22:07:13 - Started ExpenseManagerApplication in 4.822 seconds (process running for 5.188)
+2026-03-01 22:07:17 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 22:07:17 - Initializing Servlet 'dispatcherServlet'
+2026-03-01 22:07:17 - Detected StandardServletMultipartResolver
+2026-03-01 22:07:17 - Detected AcceptHeaderLocaleResolver
+2026-03-01 22:07:17 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@107ac2b6
+2026-03-01 22:07:17 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@66d0d5ee
+2026-03-01 22:07:17 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-01 22:07:17 - Completed initialization in 4 ms
+2026-03-01 22:07:17 - POST "/auth/login", parameters={}
+2026-03-01 22:07:17 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(LoginRequest)
+2026-03-01 22:07:17 - Read "application/json;charset=UTF-8" to [LoginRequest(email=kyaw@gmail.com, password=121212)]
+2026-03-01 22:07:17 - API Started: AuthController.login(..)
+2026-03-01 22:07:18 - API Completed: AuthController.login(..)
+2026-03-01 22:07:18 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 22:07:18 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@5c18b565]
+2026-03-01 22:07:18 - Completed 201 CREATED
+2026-03-01 22:07:57 - POST "/auth/login", parameters={}
+2026-03-01 22:07:57 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(LoginRequest)
+2026-03-01 22:07:57 - Read "application/json;charset=UTF-8" to [LoginRequest(email=kyaw@gmail.com, password=12121)]
+2026-03-01 22:07:57 - API Started: AuthController.login(..)
+2026-03-01 22:07:58 - API Error in AuthController.login(..) : Bad credentials
+2026-03-01 22:07:58 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-03-01 22:07:58 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 22:07:58 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@4cf9b12e]
+2026-03-01 22:07:58 - Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
+2026-03-01 22:07:58 - Completed 201 CREATED
+2026-03-01 22:08:59 - POST "/auth/login", parameters={}
+2026-03-01 22:08:59 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(LoginRequest)
+2026-03-01 22:08:59 - Read "application/json;charset=UTF-8" to [LoginRequest(email=kyaw@gmail.com, password=121212)]
+2026-03-01 22:08:59 - API Started: AuthController.login(..)
+2026-03-01 22:08:59 - API Completed: AuthController.login(..)
+2026-03-01 22:08:59 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 22:08:59 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@3d661e45]
+2026-03-01 22:08:59 - Completed 201 CREATED
+2026-03-01 22:25:17 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 22:25:17 - Graceful shutdown complete
+2026-03-01 22:25:17 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:25:17 - HikariPool-1 - Shutdown initiated...
+2026-03-01 22:25:17 - HikariPool-1 - Shutdown completed.
+2026-03-01 22:25:23 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 11012 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 22:25:23 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 22:25:23 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 22:25:23 - Finished Spring Data repository scanning in 45 ms. Found 6 JPA repository interfaces.
+2026-03-01 22:25:24 - Tomcat initialized with port 8080 (http)
+2026-03-01 22:25:24 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 22:25:24 - Starting service [Tomcat]
+2026-03-01 22:25:24 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 22:25:24 - Root WebApplicationContext: initialization completed in 1372 ms
+2026-03-01 22:25:25 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 22:25:25 - HikariPool-1 - Starting...
+2026-03-01 22:25:25 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@dd07be8
+2026-03-01 22:25:25 - HikariPool-1 - Start completed.
+2026-03-01 22:25:26 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:25:26 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 22:25:27 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 22:25:27 - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main\com\talent\expense_manager\expense_manager\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+2026-03-01 22:25:27 - Stopping service [Tomcat]
+2026-03-01 22:25:27 - The web application [ROOT] appears to have started a thread named [HikariPool-1:housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-03-01 22:25:27 - The web application [ROOT] appears to have started a thread named [HikariPool-1:connection-adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-03-01 22:25:27 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2026-03-01 22:25:27 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:25:27 - HikariPool-1 - Shutdown initiated...
+2026-03-01 22:25:27 - HikariPool-1 - Shutdown completed.
+2026-03-01 22:25:27 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-01 22:25:27 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:614)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.talent.expense_manager.expense_manager.ExpenseManagerApplication.main(ExpenseManagerApplication.java:11)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:150)
+	at org.springframework.boot.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:110)
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:408)
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:166)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:190)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main\com\talent\expense_manager\expense_manager\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:231)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:185)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:180)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:165)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:97)
+	at org.springframework.boot.web.context.servlet.WebApplicationContextInitializer.initialize(WebApplicationContextInitializer.java:53)
+	at org.springframework.boot.tomcat.servlet.DeferredServletContainerInitializers.onStartup(DeferredServletContainerInitializers.java:55)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4416)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1162)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1158)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:714)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:780)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1162)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1158)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:714)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:410)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:864)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:435)
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:131)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 53 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 67 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:148)
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:101)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:310)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:277)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1054)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:989)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	... 70 common frames omitted
+2026-03-01 22:27:42 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 1792 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 22:27:42 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 22:27:43 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 22:27:43 - Finished Spring Data repository scanning in 40 ms. Found 6 JPA repository interfaces.
+2026-03-01 22:27:44 - Tomcat initialized with port 8080 (http)
+2026-03-01 22:27:44 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 22:27:44 - Starting service [Tomcat]
+2026-03-01 22:27:44 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 22:27:44 - Root WebApplicationContext: initialization completed in 1105 ms
+2026-03-01 22:27:44 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 22:27:44 - HikariPool-1 - Starting...
+2026-03-01 22:27:44 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b8fcdf2
+2026-03-01 22:27:44 - HikariPool-1 - Start completed.
+2026-03-01 22:27:45 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:27:46 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 22:27:46 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 22:27:46 - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main\com\talent\expense_manager\expense_manager\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidEmailException)}
+2026-03-01 22:27:46 - Stopping service [Tomcat]
+2026-03-01 22:27:46 - The web application [ROOT] appears to have started a thread named [HikariPool-1:housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-03-01 22:27:46 - The web application [ROOT] appears to have started a thread named [HikariPool-1:connection-adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-03-01 22:27:46 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2026-03-01 22:27:46 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:27:46 - HikariPool-1 - Shutdown initiated...
+2026-03-01 22:27:46 - HikariPool-1 - Shutdown completed.
+2026-03-01 22:27:46 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-01 22:27:46 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:614)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.talent.expense_manager.expense_manager.ExpenseManagerApplication.main(ExpenseManagerApplication.java:11)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:150)
+	at org.springframework.boot.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:110)
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:408)
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:166)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:190)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main\com\talent\expense_manager\expense_manager\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidEmailException)}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:231)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:185)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:180)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:165)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:97)
+	at org.springframework.boot.web.context.servlet.WebApplicationContextInitializer.initialize(WebApplicationContextInitializer.java:53)
+	at org.springframework.boot.tomcat.servlet.DeferredServletContainerInitializers.onStartup(DeferredServletContainerInitializers.java:55)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4416)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1162)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1158)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:714)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:780)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1162)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1158)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:714)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:410)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:864)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:435)
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:131)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidEmailException)}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 53 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidEmailException)}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 67 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidEmailException)}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:148)
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:101)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:310)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:277)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1054)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:989)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	... 70 common frames omitted
+2026-03-01 22:30:36 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 2848 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 22:30:36 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 22:30:37 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 22:30:37 - Finished Spring Data repository scanning in 48 ms. Found 6 JPA repository interfaces.
+2026-03-01 22:30:37 - Tomcat initialized with port 8080 (http)
+2026-03-01 22:30:37 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 22:30:37 - Starting service [Tomcat]
+2026-03-01 22:30:37 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 22:30:37 - Root WebApplicationContext: initialization completed in 1184 ms
+2026-03-01 22:30:38 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 22:30:38 - HikariPool-1 - Starting...
+2026-03-01 22:30:38 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52a74328
+2026-03-01 22:30:38 - HikariPool-1 - Start completed.
+2026-03-01 22:30:39 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:30:39 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 22:30:40 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 22:30:40 - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main\com\talent\expense_manager\expense_manager\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+2026-03-01 22:30:40 - Stopping service [Tomcat]
+2026-03-01 22:30:40 - The web application [ROOT] appears to have started a thread named [HikariPool-1:housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-03-01 22:30:40 - The web application [ROOT] appears to have started a thread named [HikariPool-1:connection-adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-03-01 22:30:40 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2026-03-01 22:30:40 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:30:40 - HikariPool-1 - Shutdown initiated...
+2026-03-01 22:30:40 - HikariPool-1 - Shutdown completed.
+2026-03-01 22:30:40 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-01 22:30:40 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:614)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.talent.expense_manager.expense_manager.ExpenseManagerApplication.main(ExpenseManagerApplication.java:11)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:150)
+	at org.springframework.boot.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:110)
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:408)
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:166)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:190)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main\com\talent\expense_manager\expense_manager\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:231)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:185)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:180)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:165)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:97)
+	at org.springframework.boot.web.context.servlet.WebApplicationContextInitializer.initialize(WebApplicationContextInitializer.java:53)
+	at org.springframework.boot.tomcat.servlet.DeferredServletContainerInitializers.onStartup(DeferredServletContainerInitializers.java:55)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4416)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1162)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1158)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:714)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:780)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1162)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1158)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:714)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:410)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:864)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:435)
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:131)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 53 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 67 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:148)
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:101)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:310)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:277)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1054)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:989)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	... 70 common frames omitted
+2026-03-01 22:32:23 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 16552 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 22:32:23 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 22:32:24 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 22:32:24 - Finished Spring Data repository scanning in 42 ms. Found 6 JPA repository interfaces.
+2026-03-01 22:32:24 - Tomcat initialized with port 8080 (http)
+2026-03-01 22:32:25 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 22:32:25 - Starting service [Tomcat]
+2026-03-01 22:32:25 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 22:32:25 - Root WebApplicationContext: initialization completed in 1139 ms
+2026-03-01 22:32:25 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 22:32:25 - HikariPool-1 - Starting...
+2026-03-01 22:32:25 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@dd07be8
+2026-03-01 22:32:25 - HikariPool-1 - Start completed.
+2026-03-01 22:32:26 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:32:26 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 22:32:27 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 22:32:27 - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main\com\talent\expense_manager\expense_manager\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+2026-03-01 22:32:27 - Stopping service [Tomcat]
+2026-03-01 22:32:27 - The web application [ROOT] appears to have started a thread named [HikariPool-1:housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-03-01 22:32:27 - The web application [ROOT] appears to have started a thread named [HikariPool-1:connection-adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-03-01 22:32:27 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2026-03-01 22:32:27 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:32:27 - HikariPool-1 - Shutdown initiated...
+2026-03-01 22:32:27 - HikariPool-1 - Shutdown completed.
+2026-03-01 22:32:27 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-01 22:32:27 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:614)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.talent.expense_manager.expense_manager.ExpenseManagerApplication.main(ExpenseManagerApplication.java:11)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:150)
+	at org.springframework.boot.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:110)
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:408)
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:166)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:190)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main\com\talent\expense_manager\expense_manager\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:231)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:185)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:180)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:165)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:97)
+	at org.springframework.boot.web.context.servlet.WebApplicationContextInitializer.initialize(WebApplicationContextInitializer.java:53)
+	at org.springframework.boot.tomcat.servlet.DeferredServletContainerInitializers.onStartup(DeferredServletContainerInitializers.java:55)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4416)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1162)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1158)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:714)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:780)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1162)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1158)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:714)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:410)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:864)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:435)
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:131)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 53 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 67 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=org.springframework.web.bind.MethodArgumentNotValidException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:148)
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:101)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:310)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:277)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1054)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:989)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	... 70 common frames omitted
+2026-03-01 22:34:44 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 17760 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 22:34:44 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 22:34:44 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 22:34:44 - Finished Spring Data repository scanning in 55 ms. Found 6 JPA repository interfaces.
+2026-03-01 22:34:45 - Tomcat initialized with port 8080 (http)
+2026-03-01 22:34:45 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 22:34:45 - Starting service [Tomcat]
+2026-03-01 22:34:45 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 22:34:45 - Root WebApplicationContext: initialization completed in 1428 ms
+2026-03-01 22:34:46 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 22:34:46 - HikariPool-1 - Starting...
+2026-03-01 22:34:46 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33765d22
+2026-03-01 22:34:46 - HikariPool-1 - Start completed.
+2026-03-01 22:34:48 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:34:48 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 22:34:48 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 22:34:48 - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main\com\talent\expense_manager\expense_manager\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=com.talent.expense_manager.expense_manager.exception.InvalidEmailException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleInvalidEmail(com.talent.expense_manager.expense_manager.exception.InvalidEmailException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+2026-03-01 22:34:48 - Stopping service [Tomcat]
+2026-03-01 22:34:48 - The web application [ROOT] appears to have started a thread named [HikariPool-1:housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-03-01 22:34:48 - The web application [ROOT] appears to have started a thread named [HikariPool-1:connection-adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-03-01 22:34:48 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2026-03-01 22:34:48 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:34:48 - HikariPool-1 - Shutdown initiated...
+2026-03-01 22:34:48 - HikariPool-1 - Shutdown completed.
+2026-03-01 22:34:48 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-01 22:34:48 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:614)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.talent.expense_manager.expense_manager.ExpenseManagerApplication.main(ExpenseManagerApplication.java:11)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:150)
+	at org.springframework.boot.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:110)
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:408)
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:166)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:190)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main\com\talent\expense_manager\expense_manager\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=com.talent.expense_manager.expense_manager.exception.InvalidEmailException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleInvalidEmail(com.talent.expense_manager.expense_manager.exception.InvalidEmailException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:231)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:185)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:180)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:165)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:97)
+	at org.springframework.boot.web.context.servlet.WebApplicationContextInitializer.initialize(WebApplicationContextInitializer.java:53)
+	at org.springframework.boot.tomcat.servlet.DeferredServletContainerInitializers.onStartup(DeferredServletContainerInitializers.java:55)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4416)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1162)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1158)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:714)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:780)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1162)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1158)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:714)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:410)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:864)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:435)
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:131)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=com.talent.expense_manager.expense_manager.exception.InvalidEmailException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleInvalidEmail(com.talent.expense_manager.expense_manager.exception.InvalidEmailException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 53 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=com.talent.expense_manager.expense_manager.exception.InvalidEmailException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleInvalidEmail(com.talent.expense_manager.expense_manager.exception.InvalidEmailException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 67 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=com.talent.expense_manager.expense_manager.exception.InvalidEmailException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleInvalidEmail(com.talent.expense_manager.expense_manager.exception.InvalidEmailException), public org.springframework.http.ResponseEntity com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler.handleException(com.talent.expense_manager.expense_manager.exception.InvalidRefreshTokenException)}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:148)
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:101)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:310)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:277)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1054)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:989)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	... 70 common frames omitted
+2026-03-01 22:36:34 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 13332 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 22:36:34 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 22:36:34 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 22:36:35 - Finished Spring Data repository scanning in 43 ms. Found 6 JPA repository interfaces.
+2026-03-01 22:36:35 - Tomcat initialized with port 8080 (http)
+2026-03-01 22:36:35 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 22:36:35 - Starting service [Tomcat]
+2026-03-01 22:36:35 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 22:36:35 - Root WebApplicationContext: initialization completed in 1152 ms
+2026-03-01 22:36:36 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 22:36:36 - HikariPool-1 - Starting...
+2026-03-01 22:36:36 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e5c7588
+2026-03-01 22:36:36 - HikariPool-1 - Start completed.
+2026-03-01 22:36:37 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:36:37 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 22:36:37 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 22:36:37 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 22:36:38 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 22:36:38 - 33 mappings in 'requestMappingHandlerMapping'
+2026-03-01 22:36:38 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-01 22:36:38 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 22:36:38 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 22:36:38 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 22:36:38 - Started ExpenseManagerApplication in 4.696 seconds (process running for 5.022)
+2026-03-01 22:37:11 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 22:37:11 - Initializing Servlet 'dispatcherServlet'
+2026-03-01 22:37:11 - Detected StandardServletMultipartResolver
+2026-03-01 22:37:11 - Detected AcceptHeaderLocaleResolver
+2026-03-01 22:37:11 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@113b39e9
+2026-03-01 22:37:11 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6c524a7f
+2026-03-01 22:37:11 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-01 22:37:11 - Completed initialization in 3 ms
+2026-03-01 22:37:11 - POST "/auth/login", parameters={}
+2026-03-01 22:37:11 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(LoginRequest)
+2026-03-01 22:37:11 - Read "application/json;charset=UTF-8" to [LoginRequest(email=kya@gmail.com, password=121212)]
+2026-03-01 22:37:11 - API Started: AuthController.login(..)
+2026-03-01 22:37:11 - API Error in AuthController.login(..) : Bad credentials
+2026-03-01 22:37:11 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-03-01 22:37:11 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 22:37:11 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@33a64fba]
+2026-03-01 22:37:11 - Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
+2026-03-01 22:37:11 - Completed 201 CREATED
+2026-03-01 22:41:04 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 22:41:04 - Graceful shutdown complete
+2026-03-01 22:41:04 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:41:04 - HikariPool-1 - Shutdown initiated...
+2026-03-01 22:41:04 - HikariPool-1 - Shutdown completed.
+2026-03-01 22:41:07 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 16488 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 22:41:07 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 22:41:08 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 22:41:08 - Finished Spring Data repository scanning in 44 ms. Found 6 JPA repository interfaces.
+2026-03-01 22:41:09 - Tomcat initialized with port 8080 (http)
+2026-03-01 22:41:09 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 22:41:09 - Starting service [Tomcat]
+2026-03-01 22:41:09 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 22:41:09 - Root WebApplicationContext: initialization completed in 1261 ms
+2026-03-01 22:41:09 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 22:41:09 - HikariPool-1 - Starting...
+2026-03-01 22:41:10 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62410e1f
+2026-03-01 22:41:10 - HikariPool-1 - Start completed.
+2026-03-01 22:41:11 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:41:11 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 22:41:11 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 22:41:12 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 22:41:12 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 22:41:13 - 33 mappings in 'requestMappingHandlerMapping'
+2026-03-01 22:41:13 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-01 22:41:13 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 22:41:14 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 22:41:14 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 22:41:14 - Started ExpenseManagerApplication in 7.141 seconds (process running for 7.511)
+2026-03-01 22:41:17 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 22:41:17 - Initializing Servlet 'dispatcherServlet'
+2026-03-01 22:41:17 - Detected StandardServletMultipartResolver
+2026-03-01 22:41:17 - Detected AcceptHeaderLocaleResolver
+2026-03-01 22:41:17 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@70efc3f9
+2026-03-01 22:41:17 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5546a9e0
+2026-03-01 22:41:17 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-01 22:41:17 - Completed initialization in 3 ms
+2026-03-01 22:41:17 - POST "/auth/login", parameters={}
+2026-03-01 22:41:17 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(LoginRequest)
+2026-03-01 22:41:18 - Read "application/json;charset=UTF-8" to [LoginRequest(email=kya@gmail.com, password=121212)]
+2026-03-01 22:41:18 - API Started: AuthController.login(..)
+2026-03-01 22:41:18 - API Error in AuthController.login(..) : Invalid email or password
+2026-03-01 22:41:18 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleInvalidEmail(InvalidEmailException)
+2026-03-01 22:41:18 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 22:41:18 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@569ca567]
+2026-03-01 22:41:18 - Resolved [com.talent.expense_manager.expense_manager.exception.InvalidEmailException: Invalid email or password]
+2026-03-01 22:41:18 - Completed 201 CREATED
+2026-03-01 22:41:24 - POST "/auth/register", parameters={}
+2026-03-01 22:41:24 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#createAccount(AccountRequest)
+2026-03-01 22:41:24 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@6a928f53]
+2026-03-01 22:41:24 - API Started: AuthController.createAccount(..)
+2026-03-01 22:41:24 - API Error in AuthController.createAccount(..) : Email already exist
+2026-03-01 22:41:24 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-03-01 22:41:24 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 22:41:24 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@5abffb74]
+2026-03-01 22:41:25 - Resolved [java.lang.RuntimeException: Email already exist]
+2026-03-01 22:41:25 - Completed 201 CREATED
+2026-03-01 22:45:01 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 22:45:01 - Graceful shutdown complete
+2026-03-01 22:45:01 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:45:01 - HikariPool-1 - Shutdown initiated...
+2026-03-01 22:45:01 - HikariPool-1 - Shutdown completed.
+2026-03-01 22:45:05 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 10620 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 22:45:05 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 22:45:06 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 22:45:06 - Finished Spring Data repository scanning in 55 ms. Found 6 JPA repository interfaces.
+2026-03-01 22:45:06 - Tomcat initialized with port 8080 (http)
+2026-03-01 22:45:06 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 22:45:06 - Starting service [Tomcat]
+2026-03-01 22:45:06 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 22:45:06 - Root WebApplicationContext: initialization completed in 1273 ms
+2026-03-01 22:45:07 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 22:45:07 - HikariPool-1 - Starting...
+2026-03-01 22:45:07 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33765d22
+2026-03-01 22:45:07 - HikariPool-1 - Start completed.
+2026-03-01 22:45:08 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 22:45:08 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 22:45:09 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 22:45:09 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 22:45:09 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 22:45:09 - 33 mappings in 'requestMappingHandlerMapping'
+2026-03-01 22:45:09 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-01 22:45:09 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 22:45:10 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 22:45:10 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 22:45:10 - Started ExpenseManagerApplication in 4.975 seconds (process running for 5.519)
+2026-03-01 22:45:49 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 22:45:49 - Initializing Servlet 'dispatcherServlet'
+2026-03-01 22:45:49 - Detected StandardServletMultipartResolver
+2026-03-01 22:45:49 - Detected AcceptHeaderLocaleResolver
+2026-03-01 22:45:49 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@69f35d31
+2026-03-01 22:45:49 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5f9d29c4
+2026-03-01 22:45:49 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-01 22:45:49 - Completed initialization in 3 ms
+2026-03-01 22:45:49 - POST "/auth/login", parameters={}
+2026-03-01 22:45:49 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(LoginRequest)
+2026-03-01 22:45:50 - Read "application/json;charset=UTF-8" to [LoginRequest(email=kya@gmail.com, password=121212)]
+2026-03-01 22:45:50 - API Started: AuthController.login(..)
+2026-03-01 22:45:50 - API Error in AuthController.login(..) : Invalid email or password
+2026-03-01 22:45:50 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleInvalidEmail(InvalidEmailException)
+2026-03-01 22:45:50 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 22:45:50 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@326f7583]
+2026-03-01 22:45:50 - Resolved [com.talent.expense_manager.expense_manager.exception.InvalidEmailException: Invalid email or password]
+2026-03-01 22:45:50 - Completed 201 CREATED
+2026-03-01 22:45:53 - POST "/auth/login", parameters={}
+2026-03-01 22:45:53 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(LoginRequest)
+2026-03-01 22:45:53 - Read "application/json;charset=UTF-8" to [LoginRequest(email=kyaw@gmail.com, password=121212)]
+2026-03-01 22:45:53 - API Started: AuthController.login(..)
+2026-03-01 22:45:54 - API Completed: AuthController.login(..)
+2026-03-01 22:45:54 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 22:45:54 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@28c378e4]
+2026-03-01 22:45:54 - Completed 201 CREATED
+2026-03-01 22:47:13 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(JwtTokenExpiredException)
+2026-03-01 22:47:13 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 22:47:13 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@5960a5ab]
+2026-03-01 22:47:13 - Resolved [com.talent.expense_manager.expense_manager.exception.JwtTokenExpiredException: JWT token is expired]
+2026-03-01 22:52:57 - GET "/auth/refresh-token", parameters={}
+2026-03-01 22:52:57 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-03-01 22:52:57 - Completed 405 METHOD_NOT_ALLOWED
+2026-03-01 22:52:58 - GET "/auth/refresh-token", parameters={}
+2026-03-01 22:52:58 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-03-01 22:52:58 - Completed 405 METHOD_NOT_ALLOWED
+2026-03-01 23:01:24 - GET "/auth/refresh-token", parameters={}
+2026-03-01 23:01:24 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-03-01 23:01:24 - Completed 405 METHOD_NOT_ALLOWED
+2026-03-01 23:01:54 - GET "/auth/refresh-token", parameters={}
+2026-03-01 23:01:54 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-03-01 23:01:54 - Completed 405 METHOD_NOT_ALLOWED
+2026-03-01 23:02:06 - POST "/auth/refresh-token", parameters={}
+2026-03-01 23:02:06 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#refreshToken(RefreshTokenRequest)
+2026-03-01 23:02:07 - Read "application/json;charset=UTF-8" to [RefreshTokenRequest(accountId=005, refreshToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJreWF3QGdtYWlsLmNvbSI (truncated)...]
+2026-03-01 23:02:07 - API Started: AuthController.refreshToken(..)
+2026-03-01 23:02:07 - API Completed: AuthController.refreshToken(..)
+2026-03-01 23:02:07 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 23:02:07 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@70bbffc1]
+2026-03-01 23:02:07 - Completed 201 CREATED
+2026-03-01 23:02:48 - POST "/auth/refresh-token", parameters={}
+2026-03-01 23:02:48 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#refreshToken(RefreshTokenRequest)
+2026-03-01 23:02:48 - Read "application/json;charset=UTF-8" to [RefreshTokenRequest(accountId=005, refreshToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJreWF3QGdtYWlsLmNvbSI (truncated)...]
+2026-03-01 23:02:48 - API Started: AuthController.refreshToken(..)
+2026-03-01 23:02:48 - API Completed: AuthController.refreshToken(..)
+2026-03-01 23:02:48 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 23:02:48 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@3cd2d086]
+2026-03-01 23:02:48 - Completed 201 CREATED
+2026-03-01 23:03:14 - GET "/api/account/mywallet/005", parameters={}
+2026-03-01 23:03:14 - Mapped to com.talent.expense_manager.expense_manager.controller.WalletController#myWallet(String)
+2026-03-01 23:03:14 - API Started: WalletController.myWallet(..)
+2026-03-01 23:03:15 - API Completed: WalletController.myWallet(..)
+2026-03-01 23:03:15 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 23:03:15 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@658ecf9f]
+2026-03-01 23:03:15 - Completed 201 CREATED
+2026-03-01 23:04:00 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 23:04:00 - Graceful shutdown complete
+2026-03-01 23:04:00 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 23:04:00 - HikariPool-1 - Shutdown initiated...
+2026-03-01 23:04:00 - HikariPool-1 - Shutdown completed.
+2026-03-01 23:04:03 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 15960 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 23:04:04 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 23:04:04 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 23:04:04 - Finished Spring Data repository scanning in 53 ms. Found 6 JPA repository interfaces.
+2026-03-01 23:04:05 - Tomcat initialized with port 8080 (http)
+2026-03-01 23:04:05 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 23:04:05 - Starting service [Tomcat]
+2026-03-01 23:04:05 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 23:04:05 - Root WebApplicationContext: initialization completed in 1340 ms
+2026-03-01 23:04:05 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 23:04:06 - HikariPool-1 - Starting...
+2026-03-01 23:04:06 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@dd07be8
+2026-03-01 23:04:06 - HikariPool-1 - Start completed.
+2026-03-01 23:04:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 23:04:07 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 23:04:07 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 23:04:07 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 23:04:08 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 23:04:08 - 33 mappings in 'requestMappingHandlerMapping'
+2026-03-01 23:04:08 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-01 23:04:08 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 23:04:08 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 23:04:08 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 23:04:08 - Started ExpenseManagerApplication in 5.282 seconds (process running for 5.701)
+2026-03-01 23:05:31 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 23:05:31 - Initializing Servlet 'dispatcherServlet'
+2026-03-01 23:05:31 - Detected StandardServletMultipartResolver
+2026-03-01 23:05:31 - Detected AcceptHeaderLocaleResolver
+2026-03-01 23:05:31 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3bf92d96
+2026-03-01 23:05:31 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6e057374
+2026-03-01 23:05:31 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-01 23:05:31 - Completed initialization in 4 ms
+2026-03-01 23:05:31 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(JwtTokenExpiredException)
+2026-03-01 23:05:31 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 23:05:31 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@3c9aeb1d]
+2026-03-01 23:05:31 - Resolved [com.talent.expense_manager.expense_manager.exception.JwtTokenExpiredException: JWT token is expired]
+2026-03-01 23:05:37 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 23:05:37 - Graceful shutdown complete
+2026-03-01 23:05:37 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 23:05:37 - HikariPool-1 - Shutdown initiated...
+2026-03-01 23:05:37 - HikariPool-1 - Shutdown completed.
+2026-03-01 23:05:39 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 9596 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 23:05:39 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 23:05:40 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 23:05:40 - Finished Spring Data repository scanning in 41 ms. Found 6 JPA repository interfaces.
+2026-03-01 23:05:40 - Tomcat initialized with port 8080 (http)
+2026-03-01 23:05:40 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 23:05:40 - Starting service [Tomcat]
+2026-03-01 23:05:40 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 23:05:40 - Root WebApplicationContext: initialization completed in 1183 ms
+2026-03-01 23:05:41 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 23:05:41 - HikariPool-1 - Starting...
+2026-03-01 23:05:42 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f67ece5
+2026-03-01 23:05:42 - HikariPool-1 - Start completed.
+2026-03-01 23:05:44 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 23:05:45 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 23:05:45 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 23:05:45 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 23:05:46 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 23:05:46 - 33 mappings in 'requestMappingHandlerMapping'
+2026-03-01 23:05:46 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-01 23:05:46 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 23:05:47 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 23:05:47 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 23:05:47 - Started ExpenseManagerApplication in 7.901 seconds (process running for 8.356)
+2026-03-01 23:05:48 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 23:05:48 - Initializing Servlet 'dispatcherServlet'
+2026-03-01 23:05:48 - Detected StandardServletMultipartResolver
+2026-03-01 23:05:48 - Detected AcceptHeaderLocaleResolver
+2026-03-01 23:05:48 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@75f2a654
+2026-03-01 23:05:48 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7a7b6556
+2026-03-01 23:05:48 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-01 23:05:48 - Completed initialization in 2 ms
+2026-03-01 23:05:48 - POST "/auth/login", parameters={}
+2026-03-01 23:05:48 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(LoginRequest)
+2026-03-01 23:05:48 - Read "application/json;charset=UTF-8" to [LoginRequest(email=kyaw@gmail.com, password=121212)]
+2026-03-01 23:05:48 - API Started: AuthController.login(..)
+2026-03-01 23:05:49 - API Completed: AuthController.login(..)
+2026-03-01 23:05:49 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 23:05:49 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@34db2ae2]
+2026-03-01 23:05:49 - Completed 201 CREATED
+2026-03-01 23:06:43 - DELETE "/api/account/mywallet/122", parameters={}
+2026-03-01 23:06:43 - Mapped to com.talent.expense_manager.expense_manager.controller.WalletController#deleteWallet(Long)
+2026-03-01 23:06:43 - API Started: WalletController.deleteWallet(..)
+2026-03-01 23:06:43 - API Error in WalletController.deleteWallet(..) : Invalid Wallet id
+2026-03-01 23:06:43 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-03-01 23:06:43 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 23:06:43 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@62b6ac5b]
+2026-03-01 23:06:43 - Resolved [java.lang.RuntimeException: Invalid Wallet id]
+2026-03-01 23:06:43 - Completed 201 CREATED
+2026-03-01 23:10:19 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 23:10:19 - Graceful shutdown complete
+2026-03-01 23:10:19 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 23:10:19 - HikariPool-1 - Shutdown initiated...
+2026-03-01 23:10:19 - HikariPool-1 - Shutdown completed.
+2026-03-01 23:10:23 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 9344 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 23:10:23 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 23:10:23 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 23:10:23 - Finished Spring Data repository scanning in 53 ms. Found 6 JPA repository interfaces.
+2026-03-01 23:10:24 - Tomcat initialized with port 8080 (http)
+2026-03-01 23:10:24 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 23:10:24 - Starting service [Tomcat]
+2026-03-01 23:10:24 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 23:10:24 - Root WebApplicationContext: initialization completed in 1139 ms
+2026-03-01 23:10:24 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 23:10:25 - HikariPool-1 - Starting...
+2026-03-01 23:10:25 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@dd07be8
+2026-03-01 23:10:25 - HikariPool-1 - Start completed.
+2026-03-01 23:10:26 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 23:10:26 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 23:10:26 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 23:10:26 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 23:10:26 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 23:10:27 - 33 mappings in 'requestMappingHandlerMapping'
+2026-03-01 23:10:27 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-01 23:10:27 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 23:10:27 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 23:10:27 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 23:10:27 - Started ExpenseManagerApplication in 4.619 seconds (process running for 4.985)
+2026-03-01 23:10:45 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 23:10:45 - Graceful shutdown complete
+2026-03-01 23:10:45 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 23:10:45 - HikariPool-1 - Shutdown initiated...
+2026-03-01 23:10:45 - HikariPool-1 - Shutdown completed.
+2026-03-01 23:10:47 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 9820 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 23:10:47 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 23:10:48 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 23:10:48 - Finished Spring Data repository scanning in 43 ms. Found 6 JPA repository interfaces.
+2026-03-01 23:10:48 - Tomcat initialized with port 8080 (http)
+2026-03-01 23:10:48 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 23:10:48 - Starting service [Tomcat]
+2026-03-01 23:10:48 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 23:10:48 - Root WebApplicationContext: initialization completed in 1257 ms
+2026-03-01 23:10:49 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 23:10:49 - HikariPool-1 - Starting...
+2026-03-01 23:10:49 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33765d22
+2026-03-01 23:10:49 - HikariPool-1 - Start completed.
+2026-03-01 23:10:51 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 23:10:51 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 23:10:52 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 23:10:52 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 23:10:53 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 23:10:54 - 33 mappings in 'requestMappingHandlerMapping'
+2026-03-01 23:10:54 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-01 23:10:54 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 23:10:55 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 23:10:55 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 23:10:55 - Started ExpenseManagerApplication in 8.347 seconds (process running for 8.842)
+2026-03-01 23:13:58 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 23:13:58 - Initializing Servlet 'dispatcherServlet'
+2026-03-01 23:13:58 - Detected StandardServletMultipartResolver
+2026-03-01 23:13:58 - Detected AcceptHeaderLocaleResolver
+2026-03-01 23:13:58 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@511e0453
+2026-03-01 23:13:58 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3bf92d96
+2026-03-01 23:13:58 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-01 23:13:58 - Completed initialization in 3 ms
+2026-03-01 23:13:58 - DELETE "/api/transactions/1111", parameters={}
+2026-03-01 23:13:58 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#deleteTransaction(Long)
+2026-03-01 23:13:58 - API Started: TransactionController.deleteTransaction(..)
+2026-03-01 23:13:58 - API Error in TransactionController.deleteTransaction(..) : Invalid Id
+2026-03-01 23:13:58 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-03-01 23:13:58 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 23:13:58 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@781145e]
+2026-03-01 23:13:59 - Resolved [java.lang.RuntimeException: Invalid Id]
+2026-03-01 23:13:59 - Completed 201 CREATED
+2026-03-01 23:14:31 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 23:14:31 - Graceful shutdown complete
+2026-03-01 23:14:31 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 23:14:31 - HikariPool-1 - Shutdown initiated...
+2026-03-01 23:14:31 - HikariPool-1 - Shutdown completed.
+2026-03-01 23:14:34 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 13492 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 23:14:34 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 23:14:35 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 23:14:35 - Finished Spring Data repository scanning in 40 ms. Found 6 JPA repository interfaces.
+2026-03-01 23:14:35 - Tomcat initialized with port 8080 (http)
+2026-03-01 23:14:35 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 23:14:35 - Starting service [Tomcat]
+2026-03-01 23:14:35 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 23:14:35 - Root WebApplicationContext: initialization completed in 1057 ms
+2026-03-01 23:14:36 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 23:14:36 - HikariPool-1 - Starting...
+2026-03-01 23:14:36 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e5c7588
+2026-03-01 23:14:36 - HikariPool-1 - Start completed.
+2026-03-01 23:14:38 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 23:14:38 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 23:14:39 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 23:14:39 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 23:14:40 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 23:14:41 - 33 mappings in 'requestMappingHandlerMapping'
+2026-03-01 23:14:41 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-01 23:14:41 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 23:14:41 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 23:14:42 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 23:14:42 - Started ExpenseManagerApplication in 7.931 seconds (process running for 8.359)
+2026-03-01 23:34:05 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-01 23:34:05 - Graceful shutdown complete
+2026-03-01 23:34:05 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 23:34:05 - HikariPool-1 - Shutdown initiated...
+2026-03-01 23:34:06 - HikariPool-1 - Shutdown completed.
+2026-03-01 23:34:10 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 15072 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-03-01 23:34:10 - No active profile set, falling back to 1 default profile: "default"
+2026-03-01 23:34:11 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-01 23:34:11 - Finished Spring Data repository scanning in 55 ms. Found 6 JPA repository interfaces.
+2026-03-01 23:34:12 - Tomcat initialized with port 8080 (http)
+2026-03-01 23:34:12 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-01 23:34:12 - Starting service [Tomcat]
+2026-03-01 23:34:12 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-01 23:34:12 - Root WebApplicationContext: initialization completed in 1492 ms
+2026-03-01 23:34:12 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-01 23:34:12 - HikariPool-1 - Starting...
+2026-03-01 23:34:13 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b8fcdf2
+2026-03-01 23:34:13 - HikariPool-1 - Start completed.
+2026-03-01 23:34:14 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-01 23:34:14 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-01 23:34:15 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-01 23:34:15 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-01 23:34:15 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-01 23:34:15 - 33 mappings in 'requestMappingHandlerMapping'
+2026-03-01 23:34:15 - Default resource handling disabled
+2026-03-01 23:34:15 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-01 23:34:16 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-01 23:34:16 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-01 23:34:16 - Started ExpenseManagerApplication in 5.773 seconds (process running for 6.142)
+2026-03-01 23:34:53 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 23:34:53 - Initializing Servlet 'dispatcherServlet'
+2026-03-01 23:34:53 - Detected StandardServletMultipartResolver
+2026-03-01 23:34:53 - Detected AcceptHeaderLocaleResolver
+2026-03-01 23:34:53 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@27959c4e
+2026-03-01 23:34:53 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@21f8693e
+2026-03-01 23:34:53 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-01 23:34:53 - Completed initialization in 2 ms
+2026-03-01 23:34:53 - POST "/auth/registe", parameters={}
+2026-03-01 23:34:53 - No mapping for POST /auth/registe
+2026-03-01 23:34:53 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleNotFound(NoHandlerFoundException)
+2026-03-01 23:34:53 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-03-01 23:34:53 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@55bde342]
+2026-03-01 23:34:53 - Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint POST /auth/registe.]
+2026-03-01 23:34:53 - Completed 201 CREATED

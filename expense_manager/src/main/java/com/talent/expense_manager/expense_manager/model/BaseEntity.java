@@ -2,42 +2,52 @@ package com.talent.expense_manager.expense_manager.model;
 
 
 import jakarta.persistence.*;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.data.annotation.CreatedBy;
-import org.springframework.data.annotation.CreatedDate;
-import org.springframework.data.annotation.LastModifiedBy;
-import org.springframework.data.annotation.LastModifiedDate;
-import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+
 
 import java.time.LocalDateTime;
 
 @MappedSuperclass
-@EntityListeners(AuditingEntityListener.class)
-@Getter
-@Setter
-@NoArgsConstructor
-public class BaseEntity {
+@Data
+public abstract class BaseEntity {
 
-    @CreatedDate
-    @Column(nullable = false,updatable = false)
-    private LocalDateTime createdAt;
+    @Column(name = "created_at", updatable = false)
+    private LocalDateTime createdDatetime;
 
+    @Column(name = "updated_at")
+    private LocalDateTime updatedDatetime;
 
-    @LastModifiedDate
-    private LocalDateTime updatedAt;
+    @Column(name = "is_active", nullable = false)
+    private Boolean active;
 
     @Column(name = "deleted_at")
-    private LocalDateTime deletedAt;
+    private LocalDateTime deletedDatetime;
 
-    @CreatedBy
-    @Column(updatable = false)
-    private String createdBy;
+    @PrePersist
+    protected void onCreate() {
+        LocalDateTime now = LocalDateTime.now();
+        this.createdDatetime = now;
+        this.updatedDatetime = now;
 
-    @LastModifiedBy
-    private String updatedBy;
+        if (this.active == null) {
+            this.active = true;
+        }
+    }
 
+    @PreUpdate
+    protected void onUpdate() {
+        this.updatedDatetime = LocalDateTime.now();
 
+        if (Boolean.FALSE.equals(this.active) && this.deletedDatetime == null) {
+            this.deletedDatetime = LocalDateTime.now();
+        }
+    }
+
+    public Boolean isActive() {
+        return this.active;
+    }
 
 }

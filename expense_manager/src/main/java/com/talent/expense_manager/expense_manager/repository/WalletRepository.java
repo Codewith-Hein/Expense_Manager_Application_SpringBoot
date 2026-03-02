@@ -16,11 +16,9 @@ public interface WalletRepository extends JpaRepository<Wallet,Long> {
     Optional<Wallet> findByAccount_AccountId(String accountId);
 
 
-    Optional<Wallet> findByIdAndDeletedAtIsNull(Long id);
+    Optional<Wallet> findByIdAndDeletedDatetimeIsNull(Long id);
 
-
-    Optional<Wallet> findByAccountAndDeletedAtIsNull(Account account);
-
+    Optional<Wallet> findByAccountAndDeletedDatetimeIsNull(Account account);
     Optional<Wallet> findByAccount(Account account);
 
 

@@ -5,6 +5,7 @@ import com.talent.expense_manager.expense_manager.request.WalletRequest;
 import com.talent.expense_manager.expense_manager.response.WalletResponse;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 public interface WalletService {
 
@@ -21,6 +22,9 @@ void withDrawBlance(Long walletId,BigDecimal amount);
 void deleteWallet(Long walletId);
 
 WalletResponse createWallet(String accountId,WalletRequest request);
+
+
+List<WalletResponse> getAllWallet();
 
 
 

@@ -1,10 +1,12 @@
 package com.talent.expense_manager.expense_manager.response;
 
+import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
 import java.time.LocalDateTime;
 
+@AllArgsConstructor
 public class ResponseUtil {
 
     public static <T> ResponseEntity<BaseResponse<T>> success(

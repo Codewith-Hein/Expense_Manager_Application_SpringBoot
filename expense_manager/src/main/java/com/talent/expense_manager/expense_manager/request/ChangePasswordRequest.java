@@ -2,6 +2,8 @@ package com.talent.expense_manager.expense_manager.request;
 
 
 import jakarta.persistence.Column;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -11,10 +13,12 @@ import lombok.Setter;
 @NoArgsConstructor
 public class ChangePasswordRequest {
 
-
-    @Column(nullable = false)
+    @NotBlank(message = "Current password is required")
     private String currentPassword;
 
-    @Column(nullable = false)
+
+
+    @NotBlank(message = "New password is required")
+    @Size(min = 6, message = "New password must be at least 6 characters")
     private String newPassword;
 }

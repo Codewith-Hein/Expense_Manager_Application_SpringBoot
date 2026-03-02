@@ -1,0 +1,1511 @@
+2026-02-27 00:05:26 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 00:05:26 - Graceful shutdown complete
+2026-02-27 00:05:26 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 00:05:26 - HikariPool-1 - Shutdown initiated...
+2026-02-27 00:05:26 - HikariPool-1 - Shutdown completed.
+2026-02-27 00:05:31 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 5012 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 00:05:31 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 00:05:32 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 00:05:32 - Finished Spring Data repository scanning in 61 ms. Found 6 JPA repository interfaces.
+2026-02-27 00:05:33 - Tomcat initialized with port 8080 (http)
+2026-02-27 00:05:33 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 00:05:33 - Starting service [Tomcat]
+2026-02-27 00:05:33 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 00:05:33 - Root WebApplicationContext: initialization completed in 1676 ms
+2026-02-27 00:05:33 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 00:05:33 - HikariPool-1 - Starting...
+2026-02-27 00:05:34 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b046e64
+2026-02-27 00:05:34 - HikariPool-1 - Start completed.
+2026-02-27 00:05:35 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 00:05:35 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 00:05:35 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 00:05:36 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 00:05:36 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 00:05:36 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 00:05:36 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 00:05:36 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 00:05:36 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 00:05:36 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 00:05:36 - Started ExpenseManagerApplication in 5.67 seconds (process running for 6.174)
+2026-02-27 00:05:41 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 00:05:41 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 00:05:41 - Detected StandardServletMultipartResolver
+2026-02-27 00:05:41 - Detected AcceptHeaderLocaleResolver
+2026-02-27 00:05:41 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1b0709e7
+2026-02-27 00:05:41 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5feceb2f
+2026-02-27 00:05:41 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 00:05:41 - Completed initialization in 2 ms
+2026-02-27 00:05:42 - POST "/api/transactions/account/09252523100", parameters={}
+2026-02-27 00:05:42 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#createTransaction(String, TransactionRequest)
+2026-02-27 00:05:42 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.TransactionRequest@50ad0017]
+2026-02-27 00:05:42 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-02-27 00:05:42 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 00:05:42 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@65d977b7]
+2026-02-27 00:05:42 - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2026-02-27 00:05:42 - Completed 201 CREATED
+2026-02-27 00:08:38 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 00:08:38 - Graceful shutdown complete
+2026-02-27 00:08:38 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 00:08:38 - HikariPool-1 - Shutdown initiated...
+2026-02-27 00:08:38 - HikariPool-1 - Shutdown completed.
+2026-02-27 00:08:42 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 19312 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 00:08:42 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 00:08:43 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 00:08:43 - Finished Spring Data repository scanning in 64 ms. Found 6 JPA repository interfaces.
+2026-02-27 00:08:44 - Tomcat initialized with port 8080 (http)
+2026-02-27 00:08:44 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 00:08:44 - Starting service [Tomcat]
+2026-02-27 00:08:44 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 00:08:44 - Root WebApplicationContext: initialization completed in 1445 ms
+2026-02-27 00:08:44 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 00:08:45 - HikariPool-1 - Starting...
+2026-02-27 00:08:45 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14b9df65
+2026-02-27 00:08:45 - HikariPool-1 - Start completed.
+2026-02-27 00:08:46 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 00:08:46 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 00:08:47 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 00:08:47 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 00:08:47 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 00:08:47 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 00:08:48 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 00:08:48 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 00:08:48 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 00:08:48 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 00:08:48 - Started ExpenseManagerApplication in 6.434 seconds (process running for 6.851)
+2026-02-27 00:08:51 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 00:08:51 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 00:08:51 - Detected StandardServletMultipartResolver
+2026-02-27 00:08:51 - Detected AcceptHeaderLocaleResolver
+2026-02-27 00:08:51 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7dd3f20e
+2026-02-27 00:08:51 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7a90796c
+2026-02-27 00:08:51 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 00:08:51 - Completed initialization in 2 ms
+2026-02-27 00:08:53 - POST "/api/transactions/account/09252523100", parameters={}
+2026-02-27 00:08:53 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#createTransaction(String, TransactionRequest)
+2026-02-27 00:08:53 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.TransactionRequest@1553b4e4]
+2026-02-27 00:08:53 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-02-27 00:08:53 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 00:08:53 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@6e84abd5]
+2026-02-27 00:08:53 - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2026-02-27 00:08:53 - Completed 201 CREATED
+2026-02-27 00:09:29 - POST "/api/transactions/account/09252523100", parameters={}
+2026-02-27 00:09:29 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#createTransaction(String, TransactionRequest)
+2026-02-27 00:09:29 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.TransactionRequest@2c54673c]
+2026-02-27 00:09:29 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-02-27 00:09:29 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 00:09:29 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@47c4f07c]
+2026-02-27 00:09:29 - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2026-02-27 00:09:29 - Completed 201 CREATED
+2026-02-27 00:12:34 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 00:12:34 - Graceful shutdown complete
+2026-02-27 00:12:34 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 00:12:34 - HikariPool-1 - Shutdown initiated...
+2026-02-27 00:12:34 - HikariPool-1 - Shutdown completed.
+2026-02-27 09:30:19 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 9164 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 09:30:19 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 09:30:19 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 09:30:20 - Finished Spring Data repository scanning in 66 ms. Found 6 JPA repository interfaces.
+2026-02-27 09:30:20 - Tomcat initialized with port 8080 (http)
+2026-02-27 09:30:20 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 09:30:20 - Starting service [Tomcat]
+2026-02-27 09:30:20 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 09:30:20 - Root WebApplicationContext: initialization completed in 1655 ms
+2026-02-27 09:30:21 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 09:30:21 - HikariPool-1 - Starting...
+2026-02-27 09:30:22 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b046e64
+2026-02-27 09:30:22 - HikariPool-1 - Start completed.
+2026-02-27 09:30:23 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 09:30:23 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 09:30:24 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 09:30:24 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 09:30:25 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 09:30:25 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 09:30:25 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 09:30:25 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 09:30:25 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 09:30:25 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 09:30:25 - Started ExpenseManagerApplication in 6.636 seconds (process running for 7.14)
+2026-02-27 09:33:07 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 09:33:07 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 09:33:07 - Detected StandardServletMultipartResolver
+2026-02-27 09:33:07 - Detected AcceptHeaderLocaleResolver
+2026-02-27 09:33:07 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@67d8e214
+2026-02-27 09:33:07 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@67bf393c
+2026-02-27 09:33:07 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 09:33:07 - Completed initialization in 60 ms
+2026-02-27 09:33:08 - POST "/api/auth/login", parameters={}
+2026-02-27 09:33:08 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-02-27 09:33:08 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@20b75fe3]
+2026-02-27 09:33:08 - API Started: AuthController.login(..)
+2026-02-27 09:33:11 - API Completed: AuthController.login(..)
+2026-02-27 09:33:11 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 09:33:11 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@2ebd3b44]
+2026-02-27 09:33:11 - Completed 201 CREATED
+2026-02-27 09:33:43 - POST "/api/transactions/account/09252523100", parameters={}
+2026-02-27 09:33:43 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#createTransaction(String, TransactionRequest)
+2026-02-27 09:33:43 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.TransactionRequest@43c3d87e]
+2026-02-27 09:33:43 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-02-27 09:33:43 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 09:33:43 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@60ce64f0]
+2026-02-27 09:33:44 - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2026-02-27 09:33:44 - Completed 201 CREATED
+2026-02-27 09:37:54 - POST "/api/transactions/account/09252523100", parameters={}
+2026-02-27 09:37:54 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#createTransaction(String, TransactionRequest)
+2026-02-27 09:37:54 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.TransactionRequest@43e169e9]
+2026-02-27 09:37:54 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-02-27 09:37:54 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 09:37:54 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@527fdb5d]
+2026-02-27 09:37:54 - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2026-02-27 09:37:54 - Completed 201 CREATED
+2026-02-27 09:43:19 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 09:43:19 - Graceful shutdown complete
+2026-02-27 09:43:19 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 09:43:19 - HikariPool-1 - Shutdown initiated...
+2026-02-27 09:43:19 - HikariPool-1 - Shutdown completed.
+2026-02-27 09:43:28 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 5340 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 09:43:28 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 09:43:28 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 09:43:28 - Finished Spring Data repository scanning in 57 ms. Found 6 JPA repository interfaces.
+2026-02-27 09:43:29 - Tomcat initialized with port 8080 (http)
+2026-02-27 09:43:29 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 09:43:29 - Starting service [Tomcat]
+2026-02-27 09:43:29 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 09:43:29 - Root WebApplicationContext: initialization completed in 1586 ms
+2026-02-27 09:43:30 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 09:43:30 - HikariPool-1 - Starting...
+2026-02-27 09:43:31 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21ce2e4d
+2026-02-27 09:43:31 - HikariPool-1 - Start completed.
+2026-02-27 09:43:32 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 09:43:33 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 09:43:33 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 09:43:34 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 09:43:34 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 09:43:34 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 09:43:34 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 09:43:34 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 09:43:35 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 09:43:35 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 09:43:35 - Started ExpenseManagerApplication in 7.635 seconds (process running for 8.091)
+2026-02-27 09:44:03 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 09:44:03 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 09:44:03 - Detected StandardServletMultipartResolver
+2026-02-27 09:44:03 - Detected AcceptHeaderLocaleResolver
+2026-02-27 09:44:03 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@656dc20f
+2026-02-27 09:44:03 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7c3920a7
+2026-02-27 09:44:03 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 09:44:03 - Completed initialization in 6 ms
+2026-02-27 09:44:06 - POST "/api/transactions/account/09252523100", parameters={}
+2026-02-27 09:44:06 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#createTransaction(String, TransactionRequest)
+2026-02-27 09:44:06 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.TransactionRequest@12a4514b]
+2026-02-27 09:44:06 - API Started: TransactionController.createTransaction(..)
+2026-02-27 09:44:07 - API Completed: TransactionController.createTransaction(..)
+2026-02-27 09:44:07 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 09:44:07 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@5c5de700]
+2026-02-27 09:44:07 - Completed 201 CREATED
+2026-02-27 10:00:00 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 10:00:00 - Graceful shutdown complete
+2026-02-27 10:00:00 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 10:00:00 - HikariPool-1 - Shutdown initiated...
+2026-02-27 10:00:00 - HikariPool-1 - Shutdown completed.
+2026-02-27 10:00:11 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 6972 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 10:00:11 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 10:00:12 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 10:00:12 - Finished Spring Data repository scanning in 58 ms. Found 6 JPA repository interfaces.
+2026-02-27 10:00:13 - Tomcat initialized with port 8080 (http)
+2026-02-27 10:00:13 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 10:00:13 - Starting service [Tomcat]
+2026-02-27 10:00:13 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 10:00:13 - Root WebApplicationContext: initialization completed in 2143 ms
+2026-02-27 10:00:14 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 10:00:14 - HikariPool-1 - Starting...
+2026-02-27 10:00:15 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@744fb110
+2026-02-27 10:00:15 - HikariPool-1 - Start completed.
+2026-02-27 10:00:16 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 10:00:16 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 10:00:16 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 10:00:17 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 10:00:17 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 10:00:17 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 10:00:17 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 10:00:17 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 10:00:17 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 10:00:17 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 10:00:17 - Started ExpenseManagerApplication in 7.086 seconds (process running for 7.649)
+2026-02-27 10:01:26 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 10:01:26 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 10:01:26 - Detected StandardServletMultipartResolver
+2026-02-27 10:01:26 - Detected AcceptHeaderLocaleResolver
+2026-02-27 10:01:26 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@47511582
+2026-02-27 10:01:26 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6070990b
+2026-02-27 10:01:26 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 10:01:26 - Completed initialization in 7 ms
+2026-02-27 10:01:29 - POST "/api/transactions/account/09252523100", parameters={}
+2026-02-27 10:01:29 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#createTransaction(String, TransactionRequest)
+2026-02-27 10:01:29 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.TransactionRequest@38fd2bfc]
+2026-02-27 10:01:29 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-02-27 10:01:29 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 10:01:29 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@2b72946f]
+2026-02-27 10:01:29 - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2026-02-27 10:01:29 - Completed 201 CREATED
+2026-02-27 10:04:44 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 10:04:44 - Graceful shutdown complete
+2026-02-27 10:04:44 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 10:04:44 - HikariPool-1 - Shutdown initiated...
+2026-02-27 10:04:44 - HikariPool-1 - Shutdown completed.
+2026-02-27 10:04:50 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 5440 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 10:04:50 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 10:04:50 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 10:04:50 - Finished Spring Data repository scanning in 64 ms. Found 6 JPA repository interfaces.
+2026-02-27 10:04:52 - Tomcat initialized with port 8080 (http)
+2026-02-27 10:04:52 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 10:04:52 - Starting service [Tomcat]
+2026-02-27 10:04:52 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 10:04:52 - Root WebApplicationContext: initialization completed in 1994 ms
+2026-02-27 10:04:53 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 10:04:53 - HikariPool-1 - Starting...
+2026-02-27 10:04:53 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14b9df65
+2026-02-27 10:04:53 - HikariPool-1 - Start completed.
+2026-02-27 10:04:55 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 10:04:55 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 10:04:55 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 10:04:56 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 10:04:56 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 10:04:56 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 10:04:56 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 10:04:56 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 10:04:56 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 10:04:56 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 10:04:56 - Started ExpenseManagerApplication in 7.115 seconds (process running for 7.622)
+2026-02-27 10:05:20 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 10:05:20 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 10:05:20 - Detected StandardServletMultipartResolver
+2026-02-27 10:05:20 - Detected AcceptHeaderLocaleResolver
+2026-02-27 10:05:20 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@f511a8e
+2026-02-27 10:05:20 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@35f34ccc
+2026-02-27 10:05:20 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 10:05:20 - Completed initialization in 6 ms
+2026-02-27 10:05:22 - POST "/api/transactions/account/09252523100", parameters={}
+2026-02-27 10:05:22 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#createTransaction(String, TransactionRequest)
+2026-02-27 10:05:22 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.TransactionRequest@15012bf6]
+2026-02-27 10:05:22 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-02-27 10:05:22 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 10:05:22 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@311553c9]
+2026-02-27 10:05:23 - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2026-02-27 10:05:23 - Completed 201 CREATED
+2026-02-27 10:19:29 - POST "/api/auth/login", parameters={}
+2026-02-27 10:19:29 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-02-27 10:19:29 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@4103405a]
+2026-02-27 10:19:29 - API Started: AuthController.login(..)
+2026-02-27 10:19:30 - Encoded password does not look like BCrypt
+2026-02-27 10:19:30 - API Error in AuthController.login(..) : Bad credentials
+2026-02-27 10:19:30 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-02-27 10:19:30 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 10:19:30 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@2f581ce8]
+2026-02-27 10:19:30 - Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
+2026-02-27 10:19:30 - Completed 201 CREATED
+2026-02-27 10:19:36 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 10:19:36 - Graceful shutdown complete
+2026-02-27 10:19:36 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 10:19:36 - HikariPool-1 - Shutdown initiated...
+2026-02-27 10:19:36 - HikariPool-1 - Shutdown completed.
+2026-02-27 10:19:41 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 9320 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 10:19:41 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 10:19:42 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 10:19:42 - Finished Spring Data repository scanning in 90 ms. Found 6 JPA repository interfaces.
+2026-02-27 10:19:43 - Tomcat initialized with port 8080 (http)
+2026-02-27 10:19:43 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 10:19:43 - Starting service [Tomcat]
+2026-02-27 10:19:43 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 10:19:43 - Root WebApplicationContext: initialization completed in 2365 ms
+2026-02-27 10:19:44 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 10:19:44 - HikariPool-1 - Starting...
+2026-02-27 10:19:45 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b046e64
+2026-02-27 10:19:45 - HikariPool-1 - Start completed.
+2026-02-27 10:19:47 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 10:19:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 10:19:48 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 10:19:48 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 10:19:48 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 10:19:48 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 10:19:48 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 10:19:49 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 10:19:49 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 10:19:49 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 10:19:49 - Started ExpenseManagerApplication in 8.663 seconds (process running for 9.248)
+2026-02-27 10:19:55 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 10:19:55 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 10:19:55 - Detected StandardServletMultipartResolver
+2026-02-27 10:19:55 - Detected AcceptHeaderLocaleResolver
+2026-02-27 10:19:55 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2f2e75ae
+2026-02-27 10:19:55 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2526ecb7
+2026-02-27 10:19:55 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 10:19:55 - Completed initialization in 6 ms
+2026-02-27 10:19:55 - POST "/api/auth/login", parameters={}
+2026-02-27 10:19:55 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-02-27 10:19:55 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@75cea638]
+2026-02-27 10:19:55 - API Started: AuthController.login(..)
+2026-02-27 10:19:57 - Encoded password does not look like BCrypt
+2026-02-27 10:19:57 - API Error in AuthController.login(..) : Bad credentials
+2026-02-27 10:19:57 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-02-27 10:19:57 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 10:19:57 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@20b6b9d]
+2026-02-27 10:19:57 - Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
+2026-02-27 10:19:57 - Completed 201 CREATED
+2026-02-27 10:20:13 - POST "/api/auth/login", parameters={}
+2026-02-27 10:20:13 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-02-27 10:20:13 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@6fec153e]
+2026-02-27 10:20:13 - API Started: AuthController.login(..)
+2026-02-27 10:20:13 - Encoded password does not look like BCrypt
+2026-02-27 10:20:13 - API Error in AuthController.login(..) : Bad credentials
+2026-02-27 10:20:13 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-02-27 10:20:13 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 10:20:13 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@44772f47]
+2026-02-27 10:20:13 - Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
+2026-02-27 10:20:13 - Completed 201 CREATED
+2026-02-27 10:31:21 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 10:31:21 - Graceful shutdown complete
+2026-02-27 10:31:21 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 10:31:21 - HikariPool-1 - Shutdown initiated...
+2026-02-27 10:31:21 - HikariPool-1 - Shutdown completed.
+2026-02-27 10:31:28 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 9136 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 10:31:28 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 10:31:29 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 10:31:29 - Finished Spring Data repository scanning in 65 ms. Found 6 JPA repository interfaces.
+2026-02-27 10:31:30 - Tomcat initialized with port 8080 (http)
+2026-02-27 10:31:30 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 10:31:30 - Starting service [Tomcat]
+2026-02-27 10:31:30 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 10:31:30 - Root WebApplicationContext: initialization completed in 1731 ms
+2026-02-27 10:31:31 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 10:31:31 - HikariPool-1 - Starting...
+2026-02-27 10:31:31 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52a74328
+2026-02-27 10:31:31 - HikariPool-1 - Start completed.
+2026-02-27 10:31:33 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 10:31:33 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 10:31:33 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 10:31:33 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 10:31:34 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 10:31:34 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 10:31:34 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 10:31:34 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 10:31:34 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 10:31:34 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 10:31:34 - Started ExpenseManagerApplication in 6.866 seconds (process running for 7.504)
+2026-02-27 10:32:54 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 10:32:54 - Graceful shutdown complete
+2026-02-27 10:32:54 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 10:32:54 - HikariPool-1 - Shutdown initiated...
+2026-02-27 10:32:54 - HikariPool-1 - Shutdown completed.
+2026-02-27 10:32:59 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 7972 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 10:32:59 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 10:33:00 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 10:33:00 - Finished Spring Data repository scanning in 77 ms. Found 6 JPA repository interfaces.
+2026-02-27 10:33:00 - Tomcat initialized with port 8080 (http)
+2026-02-27 10:33:00 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 10:33:00 - Starting service [Tomcat]
+2026-02-27 10:33:00 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 10:33:01 - Root WebApplicationContext: initialization completed in 1647 ms
+2026-02-27 10:33:01 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 10:33:01 - HikariPool-1 - Starting...
+2026-02-27 10:33:02 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6aa9a93b
+2026-02-27 10:33:02 - HikariPool-1 - Start completed.
+2026-02-27 10:33:03 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 10:33:03 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 10:33:04 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 10:33:04 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 10:33:06 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 10:33:06 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 10:33:06 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 10:33:06 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 10:33:07 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 10:33:07 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 10:33:07 - Started ExpenseManagerApplication in 8.762 seconds (process running for 9.411)
+2026-02-27 10:33:25 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 10:33:25 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 10:33:25 - Detected StandardServletMultipartResolver
+2026-02-27 10:33:25 - Detected AcceptHeaderLocaleResolver
+2026-02-27 10:33:25 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@74161ed7
+2026-02-27 10:33:25 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@66851c18
+2026-02-27 10:33:25 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 10:33:25 - Completed initialization in 5 ms
+2026-02-27 10:33:25 - POST "/api/auth/login", parameters={}
+2026-02-27 10:33:25 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-02-27 10:33:25 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@70cbe822]
+2026-02-27 10:33:25 - API Started: AuthController.login(..)
+2026-02-27 10:33:26 - API Error in AuthController.login(..) : Cannot invoke "com.talent.expense_manager.expense_manager.model.Wallet.getBalance()" because the return value of "com.talent.expense_manager.expense_manager.model.Account.getWallet()" is null
+2026-02-27 10:33:26 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-02-27 10:33:26 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 10:33:26 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@4751252f]
+2026-02-27 10:33:26 - Resolved [java.lang.NullPointerException: Cannot invoke "com.talent.expense_manager.expense_manager.model.Wallet.getBalance()" because the return value of "com.talent.expense_manager.expense_manager.model.Account.getWallet()" is null]
+2026-02-27 10:33:26 - Completed 201 CREATED
+2026-02-27 10:34:42 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 10:34:42 - Graceful shutdown complete
+2026-02-27 10:34:42 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 10:34:42 - HikariPool-1 - Shutdown initiated...
+2026-02-27 10:34:42 - HikariPool-1 - Shutdown completed.
+2026-02-27 10:34:46 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 7828 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 10:34:46 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 10:34:47 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 10:34:47 - Finished Spring Data repository scanning in 88 ms. Found 6 JPA repository interfaces.
+2026-02-27 10:34:48 - Tomcat initialized with port 8080 (http)
+2026-02-27 10:34:48 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 10:34:48 - Starting service [Tomcat]
+2026-02-27 10:34:48 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 10:34:48 - Root WebApplicationContext: initialization completed in 1617 ms
+2026-02-27 10:34:49 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 10:34:49 - HikariPool-1 - Starting...
+2026-02-27 10:34:49 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62ee1c89
+2026-02-27 10:34:49 - HikariPool-1 - Start completed.
+2026-02-27 10:34:50 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 10:34:50 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 10:34:51 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 10:34:51 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 10:34:52 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 10:34:52 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 10:34:52 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 10:34:52 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 10:34:52 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 10:34:52 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 10:34:52 - Started ExpenseManagerApplication in 6.132 seconds (process running for 6.726)
+2026-02-27 10:35:00 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 10:35:00 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 10:35:00 - Detected StandardServletMultipartResolver
+2026-02-27 10:35:00 - Detected AcceptHeaderLocaleResolver
+2026-02-27 10:35:00 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@75a0e0c2
+2026-02-27 10:35:00 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@16716cc0
+2026-02-27 10:35:00 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 10:35:00 - Completed initialization in 5 ms
+2026-02-27 10:35:01 - POST "/api/auth/login", parameters={}
+2026-02-27 10:35:01 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-02-27 10:35:01 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@4958b1e0]
+2026-02-27 10:35:01 - API Started: AuthController.login(..)
+2026-02-27 10:35:02 - API Error in AuthController.login(..) : Cannot invoke "com.talent.expense_manager.expense_manager.model.Wallet.getBalance()" because the return value of "com.talent.expense_manager.expense_manager.model.Account.getWallet()" is null
+2026-02-27 10:35:02 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-02-27 10:35:02 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 10:35:02 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@7c87dd34]
+2026-02-27 10:35:03 - Resolved [java.lang.NullPointerException: Cannot invoke "com.talent.expense_manager.expense_manager.model.Wallet.getBalance()" because the return value of "com.talent.expense_manager.expense_manager.model.Account.getWallet()" is null]
+2026-02-27 10:35:03 - Completed 201 CREATED
+2026-02-27 10:37:19 - POST "/api/auth/login", parameters={}
+2026-02-27 10:37:19 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-02-27 10:37:19 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@777a2cd3]
+2026-02-27 10:37:19 - API Started: AuthController.login(..)
+2026-02-27 10:37:19 - API Completed: AuthController.login(..)
+2026-02-27 10:37:19 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 10:37:19 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@1a70d690]
+2026-02-27 10:37:19 - Completed 201 CREATED
+2026-02-27 10:39:33 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s502ms444µs800ns).
+2026-02-27 10:39:48 - DELETE "/api/accounts/", parameters={}
+2026-02-27 10:39:48 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-02-27 10:39:48 - Resource not found
+2026-02-27 10:39:48 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/accounts for request '/api/accounts/'.]
+2026-02-27 10:39:48 - Completed 404 NOT_FOUND
+2026-02-27 10:39:57 - DELETE "/api/accounts/09252523100", parameters={}
+2026-02-27 10:39:57 - Mapped to com.talent.expense_manager.expense_manager.controller.AccountController#accountDelete(String)
+2026-02-27 10:39:57 - API Started: AccountController.accountDelete(..)
+2026-02-27 10:39:59 - API Error in AccountController.accountDelete(..) : could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`expense_manager`.`wallet`, CONSTRAINT `FK4q1fs3jihuicq5afy27cy2gk9` FOREIGN KEY (`account_id`) REFERENCES `account` (`id`))] [delete from account where id=?]; SQL [delete from account where id=?]; constraint [FK4q1fs3jihuicq5afy27cy2gk9]
+2026-02-27 10:39:59 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-02-27 10:39:59 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 10:39:59 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@3f8e7f62]
+2026-02-27 10:39:59 - Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`expense_manager`.`wallet`, CONSTRAINT `FK4q1fs3jihuicq5afy27cy2gk9` FOREIGN KEY (`account_id`) REFERENCES `account` (`id`))] [delete from account where id=?]; SQL [delete from account where id=?]; constraint [FK4q1fs3jihuicq5afy27cy2gk9]]
+2026-02-27 10:39:59 - Completed 201 CREATED
+2026-02-27 10:40:28 - DELETE "/api/accounts/6", parameters={}
+2026-02-27 10:40:28 - Mapped to com.talent.expense_manager.expense_manager.controller.AccountController#accountDelete(String)
+2026-02-27 10:40:28 - API Started: AccountController.accountDelete(..)
+2026-02-27 10:40:28 - API Error in AccountController.accountDelete(..) : Account not found
+2026-02-27 10:40:28 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-02-27 10:40:28 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 10:40:28 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@110806b1]
+2026-02-27 10:40:28 - Resolved [java.lang.RuntimeException: Account not found]
+2026-02-27 10:40:28 - Completed 201 CREATED
+2026-02-27 10:40:52 - DELETE "/api/accounts/007700", parameters={}
+2026-02-27 10:40:52 - Mapped to com.talent.expense_manager.expense_manager.controller.AccountController#accountDelete(String)
+2026-02-27 10:40:52 - API Started: AccountController.accountDelete(..)
+2026-02-27 10:40:52 - API Completed: AccountController.accountDelete(..)
+2026-02-27 10:40:52 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 10:40:52 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@5f2fc56f]
+2026-02-27 10:40:52 - Completed 201 CREATED
+2026-02-27 10:40:58 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 10:40:58 - Graceful shutdown complete
+2026-02-27 10:40:58 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 10:40:58 - HikariPool-1 - Shutdown initiated...
+2026-02-27 10:40:58 - HikariPool-1 - Shutdown completed.
+2026-02-27 10:41:03 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 18992 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 10:41:03 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 10:41:04 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 10:41:04 - Finished Spring Data repository scanning in 87 ms. Found 6 JPA repository interfaces.
+2026-02-27 10:41:05 - Tomcat initialized with port 8080 (http)
+2026-02-27 10:41:05 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 10:41:05 - Starting service [Tomcat]
+2026-02-27 10:41:05 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 10:41:05 - Root WebApplicationContext: initialization completed in 2081 ms
+2026-02-27 10:41:06 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 10:41:06 - HikariPool-1 - Starting...
+2026-02-27 10:41:06 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5bba9949
+2026-02-27 10:41:06 - HikariPool-1 - Start completed.
+2026-02-27 10:41:08 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 10:41:08 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 10:41:09 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 10:41:09 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 10:41:09 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 10:41:09 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 10:41:09 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 10:41:09 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 10:41:10 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 10:41:10 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 10:41:10 - Started ExpenseManagerApplication in 7.572 seconds (process running for 8.184)
+2026-02-27 10:41:36 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 10:41:36 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 10:41:36 - Detected StandardServletMultipartResolver
+2026-02-27 10:41:36 - Detected AcceptHeaderLocaleResolver
+2026-02-27 10:41:36 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7dd3f20e
+2026-02-27 10:41:36 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7a90796c
+2026-02-27 10:41:36 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 10:41:36 - Completed initialization in 5 ms
+2026-02-27 10:41:36 - POST "/api/auth/login", parameters={}
+2026-02-27 10:41:36 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-02-27 10:41:37 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@1a35e1f9]
+2026-02-27 10:41:37 - API Started: AuthController.login(..)
+2026-02-27 10:41:37 - API Completed: AuthController.login(..)
+2026-02-27 10:41:37 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 10:41:37 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@6971c291]
+2026-02-27 10:41:38 - Completed 201 CREATED
+2026-02-27 10:58:07 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m363ms674µs400ns).
+2026-02-27 11:40:10 - POST "/api/auth/login", parameters={}
+2026-02-27 11:40:10 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-02-27 11:40:10 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@5927deae]
+2026-02-27 11:40:10 - API Started: AuthController.login(..)
+2026-02-27 11:40:11 - API Completed: AuthController.login(..)
+2026-02-27 11:40:11 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 11:40:11 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@541f4d69]
+2026-02-27 11:40:11 - Completed 201 CREATED
+2026-02-27 11:41:32 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 11:41:32 - Graceful shutdown complete
+2026-02-27 11:41:32 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 11:41:32 - HikariPool-1 - Shutdown initiated...
+2026-02-27 11:41:32 - HikariPool-1 - Shutdown completed.
+2026-02-27 11:41:40 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 11832 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 11:41:40 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 11:41:41 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 11:41:41 - Finished Spring Data repository scanning in 95 ms. Found 6 JPA repository interfaces.
+2026-02-27 11:41:42 - Tomcat initialized with port 8080 (http)
+2026-02-27 11:41:42 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 11:41:42 - Starting service [Tomcat]
+2026-02-27 11:41:42 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 11:41:42 - Root WebApplicationContext: initialization completed in 2594 ms
+2026-02-27 11:41:43 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 11:41:43 - HikariPool-1 - Starting...
+2026-02-27 11:41:44 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c43e84e
+2026-02-27 11:41:44 - HikariPool-1 - Start completed.
+2026-02-27 11:41:46 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 11:41:46 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 11:41:46 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 11:41:47 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 11:41:47 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 11:41:48 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 11:41:48 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 11:41:48 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 11:41:48 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 11:41:48 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 11:41:48 - Started ExpenseManagerApplication in 9.413 seconds (process running for 10.186)
+2026-02-27 11:41:52 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 11:41:52 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 11:41:52 - Detected StandardServletMultipartResolver
+2026-02-27 11:41:52 - Detected AcceptHeaderLocaleResolver
+2026-02-27 11:41:52 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@708378cc
+2026-02-27 11:41:52 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@77524169
+2026-02-27 11:41:52 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 11:41:52 - Completed initialization in 6 ms
+2026-02-27 11:42:20 - POST "/api/transactions/account/09252523100", parameters={}
+2026-02-27 11:42:20 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#createTransaction(String, TransactionRequest)
+2026-02-27 11:42:20 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.TransactionRequest@52100907]
+2026-02-27 11:42:20 - API Started: TransactionController.createTransaction(..)
+2026-02-27 11:42:21 - API Completed: TransactionController.createTransaction(..)
+2026-02-27 11:42:21 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 11:42:21 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@2da499a4]
+2026-02-27 11:42:21 - Completed 201 CREATED
+2026-02-27 11:45:02 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 11:45:02 - Graceful shutdown complete
+2026-02-27 11:45:02 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 11:45:02 - HikariPool-1 - Shutdown initiated...
+2026-02-27 11:45:02 - HikariPool-1 - Shutdown completed.
+2026-02-27 11:45:07 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 19800 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 11:45:07 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 11:45:07 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 11:45:07 - Finished Spring Data repository scanning in 62 ms. Found 6 JPA repository interfaces.
+2026-02-27 11:45:08 - Tomcat initialized with port 8080 (http)
+2026-02-27 11:45:08 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 11:45:08 - Starting service [Tomcat]
+2026-02-27 11:45:08 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 11:45:08 - Root WebApplicationContext: initialization completed in 1660 ms
+2026-02-27 11:45:09 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 11:45:09 - HikariPool-1 - Starting...
+2026-02-27 11:45:09 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b046e64
+2026-02-27 11:45:09 - HikariPool-1 - Start completed.
+2026-02-27 11:45:11 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 11:45:11 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 11:45:11 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 11:45:12 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 11:45:12 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 11:45:12 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 11:45:12 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 11:45:12 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 11:45:12 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 11:45:12 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 11:45:12 - Started ExpenseManagerApplication in 6.635 seconds (process running for 7.242)
+2026-02-27 11:45:21 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 11:45:21 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 11:45:21 - Detected StandardServletMultipartResolver
+2026-02-27 11:45:21 - Detected AcceptHeaderLocaleResolver
+2026-02-27 11:45:21 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1ca6323c
+2026-02-27 11:45:21 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5876cd86
+2026-02-27 11:45:21 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 11:45:21 - Completed initialization in 7 ms
+2026-02-27 11:47:13 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 11:47:13 - Graceful shutdown complete
+2026-02-27 11:47:13 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 11:47:13 - HikariPool-1 - Shutdown initiated...
+2026-02-27 11:47:13 - HikariPool-1 - Shutdown completed.
+2026-02-27 11:47:16 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 3984 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 11:47:16 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 11:47:17 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 11:47:17 - Finished Spring Data repository scanning in 58 ms. Found 6 JPA repository interfaces.
+2026-02-27 11:47:18 - Tomcat initialized with port 8080 (http)
+2026-02-27 11:47:18 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 11:47:18 - Starting service [Tomcat]
+2026-02-27 11:47:18 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 11:47:18 - Root WebApplicationContext: initialization completed in 1502 ms
+2026-02-27 11:47:18 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 11:47:18 - HikariPool-1 - Starting...
+2026-02-27 11:47:19 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5bba9949
+2026-02-27 11:47:19 - HikariPool-1 - Start completed.
+2026-02-27 11:47:20 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 11:47:20 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 11:47:20 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 11:47:21 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 11:47:21 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 11:47:21 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 11:47:21 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 11:47:21 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 11:47:21 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 11:47:21 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 11:47:21 - Started ExpenseManagerApplication in 6.03 seconds (process running for 6.565)
+2026-02-27 11:47:27 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 11:47:27 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 11:47:27 - Detected StandardServletMultipartResolver
+2026-02-27 11:47:27 - Detected AcceptHeaderLocaleResolver
+2026-02-27 11:47:27 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@66851c18
+2026-02-27 11:47:27 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7d593bbc
+2026-02-27 11:47:27 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 11:47:27 - Completed initialization in 6 ms
+2026-02-27 11:50:41 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 11:50:41 - Graceful shutdown complete
+2026-02-27 11:50:41 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 11:50:41 - HikariPool-1 - Shutdown initiated...
+2026-02-27 11:50:41 - HikariPool-1 - Shutdown completed.
+2026-02-27 11:50:48 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 13088 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 11:50:48 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 11:50:49 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 11:50:49 - Finished Spring Data repository scanning in 78 ms. Found 6 JPA repository interfaces.
+2026-02-27 11:50:50 - Tomcat initialized with port 8080 (http)
+2026-02-27 11:50:50 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 11:50:50 - Starting service [Tomcat]
+2026-02-27 11:50:50 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 11:50:50 - Root WebApplicationContext: initialization completed in 2261 ms
+2026-02-27 11:50:51 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 11:50:51 - HikariPool-1 - Starting...
+2026-02-27 11:50:52 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c43e84e
+2026-02-27 11:50:52 - HikariPool-1 - Start completed.
+2026-02-27 11:50:53 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 11:50:54 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 11:50:54 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 11:50:55 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 11:50:55 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 11:50:55 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 11:50:55 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 11:50:55 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 11:50:55 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 11:50:55 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 11:50:55 - Started ExpenseManagerApplication in 8.513 seconds (process running for 9.324)
+2026-02-27 11:51:05 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 11:51:05 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 11:51:05 - Detected StandardServletMultipartResolver
+2026-02-27 11:51:05 - Detected AcceptHeaderLocaleResolver
+2026-02-27 11:51:05 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3841e77a
+2026-02-27 11:51:05 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@27449f65
+2026-02-27 11:51:05 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 11:51:05 - Completed initialization in 4 ms
+2026-02-27 11:51:05 - POST "/api/transactions/account/09252523100", parameters={}
+2026-02-27 11:51:05 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#createTransaction(String, TransactionRequest)
+2026-02-27 11:51:06 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.TransactionRequest@55881e4e]
+2026-02-27 11:51:06 - API Started: TransactionController.createTransaction(..)
+2026-02-27 11:51:06 - API Completed: TransactionController.createTransaction(..)
+2026-02-27 11:51:06 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 11:51:06 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@7e13b87f]
+2026-02-27 11:51:06 - Completed 201 CREATED
+2026-02-27 11:52:35 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 11:52:35 - Graceful shutdown complete
+2026-02-27 11:52:35 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 11:52:35 - HikariPool-1 - Shutdown initiated...
+2026-02-27 11:52:35 - HikariPool-1 - Shutdown completed.
+2026-02-27 11:52:39 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 10904 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 11:52:39 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 11:52:40 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 11:52:40 - Finished Spring Data repository scanning in 61 ms. Found 6 JPA repository interfaces.
+2026-02-27 11:52:41 - Tomcat initialized with port 8080 (http)
+2026-02-27 11:52:41 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 11:52:41 - Starting service [Tomcat]
+2026-02-27 11:52:41 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 11:52:41 - Root WebApplicationContext: initialization completed in 1545 ms
+2026-02-27 11:52:42 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 11:52:42 - HikariPool-1 - Starting...
+2026-02-27 11:52:42 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b046e64
+2026-02-27 11:52:42 - HikariPool-1 - Start completed.
+2026-02-27 11:52:44 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 11:52:44 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 11:52:44 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 11:52:45 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 11:52:45 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 11:52:45 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 11:52:45 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 11:52:45 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 11:52:45 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 11:52:45 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 11:52:45 - Started ExpenseManagerApplication in 6.364 seconds (process running for 6.829)
+2026-02-27 11:52:53 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 11:52:53 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 11:52:53 - Detected StandardServletMultipartResolver
+2026-02-27 11:52:53 - Detected AcceptHeaderLocaleResolver
+2026-02-27 11:52:53 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6e4d660
+2026-02-27 11:52:53 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@73c25e8
+2026-02-27 11:52:53 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 11:52:53 - Completed initialization in 5 ms
+2026-02-27 11:52:53 - POST "/api/transactions/account/09252523100", parameters={}
+2026-02-27 11:52:53 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#createTransaction(String, TransactionRequest)
+2026-02-27 11:52:54 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.TransactionRequest@2687c3bc]
+2026-02-27 11:52:54 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-02-27 11:52:54 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 11:52:54 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@28162701]
+2026-02-27 11:52:54 - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2026-02-27 11:52:54 - Completed 201 CREATED
+2026-02-27 12:01:42 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 12:01:42 - Graceful shutdown complete
+2026-02-27 12:01:42 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 12:01:42 - HikariPool-1 - Shutdown initiated...
+2026-02-27 12:01:42 - HikariPool-1 - Shutdown completed.
+2026-02-27 12:01:52 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 18648 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 12:01:52 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 12:01:53 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 12:01:53 - Finished Spring Data repository scanning in 84 ms. Found 6 JPA repository interfaces.
+2026-02-27 12:01:54 - Tomcat initialized with port 8080 (http)
+2026-02-27 12:01:54 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 12:01:54 - Starting service [Tomcat]
+2026-02-27 12:01:54 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 12:01:54 - Root WebApplicationContext: initialization completed in 2324 ms
+2026-02-27 12:01:56 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 12:01:56 - HikariPool-1 - Starting...
+2026-02-27 12:01:56 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5bba9949
+2026-02-27 12:01:56 - HikariPool-1 - Start completed.
+2026-02-27 12:01:58 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 12:01:58 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 12:02:00 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 12:02:01 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 12:02:03 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 12:02:03 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 12:02:03 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 12:02:03 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 12:02:03 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 12:02:04 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 12:02:04 - Started ExpenseManagerApplication in 12.195 seconds (process running for 12.865)
+2026-02-27 12:54:15 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51m18s668ms700µs900ns).
+2026-02-27 14:14:23 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m7s712ms456µs).
+2026-02-27 14:34:27 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m34s265ms321µs).
+2026-02-27 15:08:03 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 15:08:03 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 15:08:04 - Detected StandardServletMultipartResolver
+2026-02-27 15:08:04 - Detected AcceptHeaderLocaleResolver
+2026-02-27 15:08:04 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1e368085
+2026-02-27 15:08:04 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5327c503
+2026-02-27 15:08:04 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 15:08:04 - Completed initialization in 150 ms
+2026-02-27 15:08:05 - POST "/api/transactions/account/09252523100", parameters={}
+2026-02-27 15:08:05 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#createTransaction(String, TransactionRequest)
+2026-02-27 15:08:06 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.TransactionRequest@65da28e3]
+2026-02-27 15:08:06 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(RuntimeException)
+2026-02-27 15:08:06 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 15:08:06 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@158a691d]
+2026-02-27 15:08:06 - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2026-02-27 15:08:06 - Completed 201 CREATED
+2026-02-27 15:10:27 - GET "/hello", parameters={}
+2026-02-27 15:10:27 - Mapped to com.talent.expense_manager.expense_manager.controller.GreetingController#hello(Model)
+2026-02-27 15:10:27 - API Started: GreetingController.hello(..)
+2026-02-27 15:10:27 - API Completed: GreetingController.hello(..)
+2026-02-27 15:10:27 - Selected '*/*' given [application/json, text/plain, */*]
+2026-02-27 15:10:27 - View name [greeting], model {name=Alice}
+2026-02-27 15:10:27 - Forwarding to [greeting]
+2026-02-27 15:10:27 - "FORWARD" dispatch for GET "/greeting", parameters={}
+2026-02-27 15:10:27 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-02-27 15:10:27 - Resource not found
+2026-02-27 15:10:27 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource greeting for request '/greeting'.]
+2026-02-27 15:10:27 - Exiting from "FORWARD" dispatch, status 404
+2026-02-27 15:10:27 - Completed 404 NOT_FOUND
+2026-02-27 15:20:44 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 15:20:44 - Graceful shutdown complete
+2026-02-27 15:20:44 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 15:20:44 - HikariPool-1 - Shutdown initiated...
+2026-02-27 15:20:44 - HikariPool-1 - Shutdown completed.
+2026-02-27 15:20:57 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 20352 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 15:20:57 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 15:20:57 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 15:20:57 - Finished Spring Data repository scanning in 53 ms. Found 6 JPA repository interfaces.
+2026-02-27 15:20:58 - Tomcat initialized with port 8080 (http)
+2026-02-27 15:20:58 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 15:20:58 - Starting service [Tomcat]
+2026-02-27 15:20:58 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 15:20:58 - Root WebApplicationContext: initialization completed in 1411 ms
+2026-02-27 15:20:59 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 15:20:59 - HikariPool-1 - Starting...
+2026-02-27 15:20:59 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bd694a5
+2026-02-27 15:20:59 - HikariPool-1 - Start completed.
+2026-02-27 15:21:01 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 15:21:01 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 15:21:01 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 15:21:01 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 15:21:02 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 15:21:02 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 15:21:02 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 15:21:02 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 15:21:02 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 15:21:02 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 15:21:02 - Started ExpenseManagerApplication in 6.009 seconds (process running for 6.492)
+2026-02-27 15:28:00 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 15:28:00 - Graceful shutdown complete
+2026-02-27 15:28:00 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 15:28:00 - HikariPool-1 - Shutdown initiated...
+2026-02-27 15:28:00 - HikariPool-1 - Shutdown completed.
+2026-02-27 15:28:03 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 18508 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 15:28:03 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 15:28:04 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 15:28:04 - Finished Spring Data repository scanning in 47 ms. Found 6 JPA repository interfaces.
+2026-02-27 15:28:04 - Tomcat initialized with port 8080 (http)
+2026-02-27 15:28:04 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 15:28:04 - Starting service [Tomcat]
+2026-02-27 15:28:04 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 15:28:04 - Root WebApplicationContext: initialization completed in 1212 ms
+2026-02-27 15:28:05 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 15:28:05 - HikariPool-1 - Starting...
+2026-02-27 15:28:05 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bd694a5
+2026-02-27 15:28:05 - HikariPool-1 - Start completed.
+2026-02-27 15:28:06 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 15:28:07 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 15:28:07 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 15:28:07 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 15:28:07 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 15:28:07 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 15:28:08 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 15:28:08 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 15:28:08 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 15:28:08 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 15:28:08 - Started ExpenseManagerApplication in 5.043 seconds (process running for 5.382)
+2026-02-27 15:28:15 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 15:28:15 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 15:28:15 - Detected StandardServletMultipartResolver
+2026-02-27 15:28:15 - Detected AcceptHeaderLocaleResolver
+2026-02-27 15:28:15 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@79143853
+2026-02-27 15:28:15 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@1ec690bd
+2026-02-27 15:28:15 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 15:28:15 - Completed initialization in 2 ms
+2026-02-27 15:28:15 - POST "/api/auth/login", parameters={}
+2026-02-27 15:28:15 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-02-27 15:28:15 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@70cbe822]
+2026-02-27 15:28:15 - API Started: AuthController.login(..)
+2026-02-27 15:28:16 - API Completed: AuthController.login(..)
+2026-02-27 15:28:16 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 15:28:16 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@e0586e2]
+2026-02-27 15:28:16 - Completed 201 CREATED
+2026-02-27 15:29:06 - POST "/api/auth/login", parameters={}
+2026-02-27 15:29:06 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-02-27 15:29:06 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@439644f4]
+2026-02-27 15:29:06 - API Started: AuthController.login(..)
+2026-02-27 15:29:06 - API Completed: AuthController.login(..)
+2026-02-27 15:29:06 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 15:29:06 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@18de7220]
+2026-02-27 15:29:06 - Completed 201 CREATED
+2026-02-27 15:30:28 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 15:30:28 - Graceful shutdown complete
+2026-02-27 15:30:28 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 15:30:28 - HikariPool-1 - Shutdown initiated...
+2026-02-27 15:30:28 - HikariPool-1 - Shutdown completed.
+2026-02-27 15:30:33 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 15752 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 15:30:33 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 15:30:34 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 15:30:34 - Finished Spring Data repository scanning in 44 ms. Found 6 JPA repository interfaces.
+2026-02-27 15:30:35 - Tomcat initialized with port 8080 (http)
+2026-02-27 15:30:35 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 15:30:35 - Starting service [Tomcat]
+2026-02-27 15:30:35 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 15:30:35 - Root WebApplicationContext: initialization completed in 1200 ms
+2026-02-27 15:30:35 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 15:30:35 - HikariPool-1 - Starting...
+2026-02-27 15:30:36 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b046e64
+2026-02-27 15:30:36 - HikariPool-1 - Start completed.
+2026-02-27 15:30:37 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 15:30:37 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 15:30:37 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 15:30:37 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 15:30:38 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 15:30:38 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 15:30:38 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 15:30:38 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 15:30:38 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 15:30:38 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 15:30:38 - Started ExpenseManagerApplication in 5.07 seconds (process running for 5.48)
+2026-02-27 15:30:43 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 15:30:43 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 15:30:43 - Detected StandardServletMultipartResolver
+2026-02-27 15:30:43 - Detected AcceptHeaderLocaleResolver
+2026-02-27 15:30:43 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2c332922
+2026-02-27 15:30:43 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@67b6cb6e
+2026-02-27 15:30:43 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 15:30:43 - Completed initialization in 3 ms
+2026-02-27 16:04:04 - Starting ExpenseManagerApplicationTests using Java 21.0.9 with PID 22044 (started by DELL in C:\Users\DELL\IdeaProjects\expense_manager\expense_manager)
+2026-02-27 16:04:04 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 16:04:04 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3c79088e
+2026-02-27 16:04:05 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 16:04:05 - Finished Spring Data repository scanning in 66 ms. Found 6 JPA repository interfaces.
+2026-02-27 16:04:07 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 16:04:07 - HikariPool-1 - Starting...
+2026-02-27 16:04:07 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c205259
+2026-02-27 16:04:07 - HikariPool-1 - Start completed.
+2026-02-27 16:04:08 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 16:04:09 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 16:04:09 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 16:04:10 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 16:04:11 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 16:04:11 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 16:04:11 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 16:04:11 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 16:04:12 - Started ExpenseManagerApplicationTests in 8.207 seconds (process running for 9.902)
+2026-02-27 16:04:13 - Closing org.springframework.web.context.support.GenericWebApplicationContext@3c79088e, started on Fri Feb 27 16:04:04 MMT 2026
+2026-02-27 16:04:13 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 16:04:13 - HikariPool-1 - Shutdown initiated...
+2026-02-27 16:04:13 - HikariPool-1 - Shutdown completed.
+2026-02-27 16:10:45 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 16:10:45 - Graceful shutdown complete
+2026-02-27 16:10:45 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 16:10:45 - HikariPool-1 - Shutdown initiated...
+2026-02-27 16:10:45 - HikariPool-1 - Shutdown completed.
+2026-02-27 22:48:53 - Starting ExpenseManagerApplicationTests using Java 21.0.9 with PID 1792 (started by DELL in C:\Users\DELL\IdeaProjects\expense_manager\expense_manager)
+2026-02-27 22:48:53 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 22:48:53 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3c79088e
+2026-02-27 22:48:56 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 22:48:57 - Finished Spring Data repository scanning in 490 ms. Found 6 JPA repository interfaces.
+2026-02-27 22:49:05 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 22:49:05 - HikariPool-1 - Starting...
+2026-02-27 22:49:07 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c205259
+2026-02-27 22:49:07 - HikariPool-1 - Start completed.
+2026-02-27 22:49:18 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 22:49:19 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 22:49:21 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 22:49:22 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 22:49:23 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 2696 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 22:49:23 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 22:49:25 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 22:49:26 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 22:49:26 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 22:49:26 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 22:49:28 - Started ExpenseManagerApplicationTests in 34.963 seconds (process running for 37.27)
+2026-02-27 22:49:28 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 22:49:28 - Finished Spring Data repository scanning in 119 ms. Found 6 JPA repository interfaces.
+2026-02-27 22:49:30 - Tomcat initialized with port 8080 (http)
+2026-02-27 22:49:30 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 22:49:30 - Starting service [Tomcat]
+2026-02-27 22:49:30 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 22:49:30 - Root WebApplicationContext: initialization completed in 6542 ms
+2026-02-27 22:49:30 - Closing org.springframework.web.context.support.GenericWebApplicationContext@3c79088e, started on Fri Feb 27 22:48:53 MMT 2026
+2026-02-27 22:49:30 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 22:49:30 - HikariPool-1 - Shutdown initiated...
+2026-02-27 22:49:30 - HikariPool-1 - Shutdown completed.
+2026-02-27 22:49:31 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 22:49:31 - HikariPool-1 - Starting...
+2026-02-27 22:49:32 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7cd3860
+2026-02-27 22:49:32 - HikariPool-1 - Start completed.
+2026-02-27 22:49:34 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 22:49:35 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 22:49:35 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 22:49:35 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 22:49:36 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 22:49:36 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 22:49:36 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 22:49:36 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 22:49:36 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 22:49:36 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 22:49:36 - Started ExpenseManagerApplication in 15.473 seconds (process running for 17.959)
+2026-02-27 22:49:39 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 22:49:39 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 22:49:39 - Detected StandardServletMultipartResolver
+2026-02-27 22:49:39 - Detected AcceptHeaderLocaleResolver
+2026-02-27 22:49:39 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@53b42a0d
+2026-02-27 22:49:39 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@45e6f47a
+2026-02-27 22:49:39 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 22:49:39 - Completed initialization in 6 ms
+2026-02-27 22:49:39 - POST "/api/auth/login", parameters={}
+2026-02-27 22:49:39 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-02-27 22:49:39 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@5d25ae93]
+2026-02-27 22:49:39 - API Started: AuthController.login(..)
+2026-02-27 22:49:40 - API Completed: AuthController.login(..)
+2026-02-27 22:49:40 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 22:49:40 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@da8e94c]
+2026-02-27 22:49:40 - Completed 201 CREATED
+2026-02-27 22:59:12 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 22:59:12 - Graceful shutdown complete
+2026-02-27 22:59:13 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 22:59:13 - HikariPool-1 - Shutdown initiated...
+2026-02-27 22:59:13 - HikariPool-1 - Shutdown completed.
+2026-02-27 22:59:20 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 8140 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 22:59:20 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 22:59:21 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 22:59:21 - Finished Spring Data repository scanning in 56 ms. Found 6 JPA repository interfaces.
+2026-02-27 22:59:22 - Tomcat initialized with port 8080 (http)
+2026-02-27 22:59:22 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 22:59:22 - Starting service [Tomcat]
+2026-02-27 22:59:22 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 22:59:22 - Root WebApplicationContext: initialization completed in 1681 ms
+2026-02-27 22:59:22 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 22:59:22 - HikariPool-1 - Starting...
+2026-02-27 22:59:23 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44f23927
+2026-02-27 22:59:23 - HikariPool-1 - Start completed.
+2026-02-27 22:59:25 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 22:59:25 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 22:59:25 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 22:59:26 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 22:59:26 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 22:59:26 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 22:59:26 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 22:59:26 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 22:59:26 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 22:59:26 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 22:59:26 - Started ExpenseManagerApplication in 6.977 seconds (process running for 7.395)
+2026-02-27 22:59:31 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 22:59:31 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 22:59:31 - Detected StandardServletMultipartResolver
+2026-02-27 22:59:31 - Detected AcceptHeaderLocaleResolver
+2026-02-27 22:59:31 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5d52a17b
+2026-02-27 22:59:31 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@51a42767
+2026-02-27 22:59:31 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 22:59:31 - Completed initialization in 6 ms
+2026-02-27 22:59:31 - POST "/api/auth/login", parameters={}
+2026-02-27 22:59:31 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-02-27 22:59:31 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@207d54e9]
+2026-02-27 22:59:31 - API Started: AuthController.login(..)
+2026-02-27 22:59:32 - API Completed: AuthController.login(..)
+2026-02-27 22:59:32 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 22:59:32 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@fa4abfb]
+2026-02-27 22:59:32 - Completed 201 CREATED
+2026-02-27 23:02:01 - POST "/api/auth/login", parameters={}
+2026-02-27 23:02:01 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-02-27 23:02:01 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@8ed8f9c]
+2026-02-27 23:02:01 - API Started: AuthController.login(..)
+2026-02-27 23:02:01 - API Completed: AuthController.login(..)
+2026-02-27 23:02:01 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 23:02:01 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@17fdf1c9]
+2026-02-27 23:02:01 - Completed 201 CREATED
+2026-02-27 23:02:14 - POST "/api/transactions/account/09252523100", parameters={}
+2026-02-27 23:02:14 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#createTransaction(String, TransactionRequest)
+2026-02-27 23:02:14 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.TransactionRequest@6ec6e7ce]
+2026-02-27 23:02:14 - API Started: TransactionController.createTransaction(..)
+2026-02-27 23:02:14 - API Completed: TransactionController.createTransaction(..)
+2026-02-27 23:02:14 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 23:02:14 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@40af398a]
+2026-02-27 23:02:14 - Completed 201 CREATED
+2026-02-27 23:13:18 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 23:13:25 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 5352 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 23:13:25 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 23:13:26 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 23:13:26 - Finished Spring Data repository scanning in 75 ms. Found 6 JPA repository interfaces.
+2026-02-27 23:13:28 - Tomcat initialized with port 8080 (http)
+2026-02-27 23:13:28 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 23:13:28 - Starting service [Tomcat]
+2026-02-27 23:13:28 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 23:13:28 - Root WebApplicationContext: initialization completed in 2400 ms
+2026-02-27 23:13:29 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 23:13:29 - HikariPool-1 - Starting...
+2026-02-27 23:13:29 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52a74328
+2026-02-27 23:13:29 - HikariPool-1 - Start completed.
+2026-02-27 23:13:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 23:13:31 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 23:13:32 - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main\com\talent\expense_manager\expense_manager\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'org.springframework.web.servlet.HandlerExceptionResolver' available: expected single matching bean but found 2: errorAttributes,handlerExceptionResolver
+2026-02-27 23:13:32 - Stopping service [Tomcat]
+2026-02-27 23:13:32 - The web application [ROOT] appears to have started a thread named [HikariPool-1:housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-02-27 23:13:32 - The web application [ROOT] appears to have started a thread named [HikariPool-1:connection-adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-02-27 23:13:32 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2026-02-27 23:13:32 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 23:13:32 - HikariPool-1 - Shutdown initiated...
+2026-02-27 23:13:32 - HikariPool-1 - Shutdown completed.
+2026-02-27 23:13:32 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-27 23:13:32 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.talent.expense_manager.expense_manager.security.JwtAuthenticationFilter required a single bean, but 2 were found:
+	- errorAttributes: defined by method 'errorAttributes' in class path resource [org/springframework/boot/webmvc/autoconfigure/error/ErrorMvcAutoConfiguration.class]
+	- handlerExceptionResolver: defined by method 'handlerExceptionResolver' in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]
+
+This may be due to missing parameter name information
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+Ensure that your compiler is configured to use the '-parameters' flag.
+You may need to update both your build tool settings as well as your IDE.
+(See https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-6.1-Release-Notes#parameter-name-retention)
+
+
+2026-02-27 23:17:15 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 8964 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 23:17:15 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 23:17:15 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 1324 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 23:17:15 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 23:17:16 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 23:17:16 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 23:17:16 - Finished Spring Data repository scanning in 103 ms. Found 6 JPA repository interfaces.
+2026-02-27 23:17:16 - Finished Spring Data repository scanning in 129 ms. Found 6 JPA repository interfaces.
+2026-02-27 23:17:18 - Tomcat initialized with port 8080 (http)
+2026-02-27 23:17:18 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 23:17:18 - Starting service [Tomcat]
+2026-02-27 23:17:18 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 23:17:18 - Root WebApplicationContext: initialization completed in 2897 ms
+2026-02-27 23:17:18 - Tomcat initialized with port 8080 (http)
+2026-02-27 23:17:18 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 23:17:18 - Starting service [Tomcat]
+2026-02-27 23:17:18 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 23:17:18 - Root WebApplicationContext: initialization completed in 3122 ms
+2026-02-27 23:17:19 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 23:17:19 - HikariPool-1 - Starting...
+2026-02-27 23:17:19 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 23:17:19 - HikariPool-1 - Starting...
+2026-02-27 23:17:20 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f439e0f
+2026-02-27 23:17:20 - HikariPool-1 - Start completed.
+2026-02-27 23:17:20 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b6c740b
+2026-02-27 23:17:20 - HikariPool-1 - Start completed.
+2026-02-27 23:17:22 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 23:17:22 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 23:17:23 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 23:17:23 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 23:17:23 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 23:17:23 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 23:17:23 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 23:17:23 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 23:17:24 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 23:17:24 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 23:17:25 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 23:17:25 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 23:17:25 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 23:17:25 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 23:17:25 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 23:17:25 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 23:17:25 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 23:17:25 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 23:17:25 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-02-27 23:17:25 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 23:17:25 - HikariPool-1 - Shutdown initiated...
+2026-02-27 23:17:25 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 23:17:25 - HikariPool-1 - Shutdown completed.
+2026-02-27 23:17:25 - Started ExpenseManagerApplication in 11.532 seconds (process running for 12.544)
+2026-02-27 23:17:25 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-27 23:17:25 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-02-27 23:17:31 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 23:17:31 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 23:17:31 - Detected StandardServletMultipartResolver
+2026-02-27 23:17:31 - Detected AcceptHeaderLocaleResolver
+2026-02-27 23:17:31 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@29617475
+2026-02-27 23:17:31 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@494775f1
+2026-02-27 23:17:31 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 23:17:31 - Completed initialization in 36 ms
+2026-02-27 23:22:40 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 23:22:40 - Graceful shutdown complete
+2026-02-27 23:22:40 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 23:22:40 - HikariPool-1 - Shutdown initiated...
+2026-02-27 23:22:40 - HikariPool-1 - Shutdown completed.
+2026-02-27 23:22:46 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 18984 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 23:22:46 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 23:22:47 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 23:22:47 - Finished Spring Data repository scanning in 65 ms. Found 6 JPA repository interfaces.
+2026-02-27 23:22:48 - Tomcat initialized with port 8080 (http)
+2026-02-27 23:22:48 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 23:22:48 - Starting service [Tomcat]
+2026-02-27 23:22:48 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 23:22:48 - Root WebApplicationContext: initialization completed in 1773 ms
+2026-02-27 23:22:49 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 23:22:49 - HikariPool-1 - Starting...
+2026-02-27 23:22:50 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44f23927
+2026-02-27 23:22:50 - HikariPool-1 - Start completed.
+2026-02-27 23:22:51 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 23:22:51 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 23:22:52 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 23:22:52 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 23:22:52 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 23:22:53 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 23:22:53 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 23:22:53 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 23:22:53 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 23:22:53 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 23:22:53 - Started ExpenseManagerApplication in 7.798 seconds (process running for 8.465)
+2026-02-27 23:23:08 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 23:23:08 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 23:23:08 - Detected StandardServletMultipartResolver
+2026-02-27 23:23:08 - Detected AcceptHeaderLocaleResolver
+2026-02-27 23:23:08 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@71cdb24
+2026-02-27 23:23:08 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@f1f41b5
+2026-02-27 23:23:08 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 23:23:08 - Completed initialization in 5 ms
+2026-02-27 23:29:06 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 23:29:06 - Graceful shutdown complete
+2026-02-27 23:29:06 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 23:29:06 - HikariPool-1 - Shutdown initiated...
+2026-02-27 23:29:06 - HikariPool-1 - Shutdown completed.
+2026-02-27 23:29:12 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 3936 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 23:29:12 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 23:29:12 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 23:29:13 - Finished Spring Data repository scanning in 63 ms. Found 6 JPA repository interfaces.
+2026-02-27 23:29:13 - Tomcat initialized with port 8080 (http)
+2026-02-27 23:29:13 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 23:29:13 - Starting service [Tomcat]
+2026-02-27 23:29:13 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 23:29:14 - Root WebApplicationContext: initialization completed in 1916 ms
+2026-02-27 23:29:14 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 23:29:14 - HikariPool-1 - Starting...
+2026-02-27 23:29:15 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44f23927
+2026-02-27 23:29:15 - HikariPool-1 - Start completed.
+2026-02-27 23:29:17 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 23:29:17 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 23:29:17 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 23:29:17 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 23:29:18 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 23:29:18 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 23:29:18 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 23:29:18 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 23:29:18 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 23:29:18 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 23:29:18 - Started ExpenseManagerApplication in 7.491 seconds (process running for 8.119)
+2026-02-27 23:29:25 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 23:29:25 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 23:29:25 - Detected StandardServletMultipartResolver
+2026-02-27 23:29:25 - Detected AcceptHeaderLocaleResolver
+2026-02-27 23:29:25 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@154ea177
+2026-02-27 23:29:25 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@56c95789
+2026-02-27 23:29:25 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 23:29:25 - Completed initialization in 6 ms
+2026-02-27 23:29:32 - POST "/api/auth/login", parameters={}
+2026-02-27 23:29:32 - Mapped to com.talent.expense_manager.expense_manager.controller.AuthController#login(AccountRequest)
+2026-02-27 23:29:33 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.AccountRequest@7e1a40fb]
+2026-02-27 23:29:33 - API Started: AuthController.login(..)
+2026-02-27 23:29:34 - API Completed: AuthController.login(..)
+2026-02-27 23:29:34 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 23:29:34 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@60f79eb0]
+2026-02-27 23:29:34 - Completed 201 CREATED
+2026-02-27 23:29:59 - POST "/api/transactions/account/09252523100", parameters={}
+2026-02-27 23:29:59 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#createTransaction(String, TransactionRequest)
+2026-02-27 23:29:59 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.TransactionRequest@87ccdd1]
+2026-02-27 23:29:59 - API Started: TransactionController.createTransaction(..)
+2026-02-27 23:30:00 - API Completed: TransactionController.createTransaction(..)
+2026-02-27 23:30:00 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 23:30:00 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@287be13b]
+2026-02-27 23:30:00 - Completed 201 CREATED
+2026-02-27 23:30:26 - POST "/api/transactions/account/09252523100", parameters={}
+2026-02-27 23:30:26 - Mapped to com.talent.expense_manager.expense_manager.controller.TransactionController#createTransaction(String, TransactionRequest)
+2026-02-27 23:30:26 - Read "application/json;charset=UTF-8" to [com.talent.expense_manager.expense_manager.request.TransactionRequest@576173b2]
+2026-02-27 23:30:26 - API Started: TransactionController.createTransaction(..)
+2026-02-27 23:30:26 - API Completed: TransactionController.createTransaction(..)
+2026-02-27 23:30:26 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 23:30:26 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@2d0de7dc]
+2026-02-27 23:30:26 - Completed 201 CREATED
+2026-02-27 23:35:19 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 23:35:19 - Graceful shutdown complete
+2026-02-27 23:35:19 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 23:35:19 - HikariPool-1 - Shutdown initiated...
+2026-02-27 23:35:19 - HikariPool-1 - Shutdown completed.
+2026-02-27 23:35:27 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 10328 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 23:35:27 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 23:35:28 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 23:35:28 - Finished Spring Data repository scanning in 75 ms. Found 6 JPA repository interfaces.
+2026-02-27 23:35:29 - Tomcat initialized with port 8080 (http)
+2026-02-27 23:35:29 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 23:35:29 - Starting service [Tomcat]
+2026-02-27 23:35:29 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 23:35:29 - Root WebApplicationContext: initialization completed in 1984 ms
+2026-02-27 23:35:29 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 23:35:30 - HikariPool-1 - Starting...
+2026-02-27 23:35:30 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a34505a
+2026-02-27 23:35:30 - HikariPool-1 - Start completed.
+2026-02-27 23:35:32 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 23:35:32 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 23:35:33 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 23:35:34 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 23:35:35 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 23:35:36 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 23:35:36 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 23:35:36 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 23:35:36 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 23:35:37 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 23:35:37 - Started ExpenseManagerApplication in 10.618 seconds (process running for 11.358)
+2026-02-27 23:35:40 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 23:35:40 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 23:35:40 - Detected StandardServletMultipartResolver
+2026-02-27 23:35:40 - Detected AcceptHeaderLocaleResolver
+2026-02-27 23:35:40 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2b3b25ad
+2026-02-27 23:35:40 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7668edd7
+2026-02-27 23:35:40 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 23:35:40 - Completed initialization in 8 ms
+2026-02-27 23:45:30 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 23:45:30 - Graceful shutdown complete
+2026-02-27 23:45:30 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 23:45:30 - HikariPool-1 - Shutdown initiated...
+2026-02-27 23:45:30 - HikariPool-1 - Shutdown completed.
+2026-02-27 23:45:36 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 10780 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 23:45:36 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 23:45:38 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 23:45:39 - Finished Spring Data repository scanning in 511 ms. Found 6 JPA repository interfaces.
+2026-02-27 23:45:43 - Tomcat initialized with port 8080 (http)
+2026-02-27 23:45:43 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 23:45:43 - Starting service [Tomcat]
+2026-02-27 23:45:43 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 23:45:43 - Root WebApplicationContext: initialization completed in 7208 ms
+2026-02-27 23:45:45 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 23:45:45 - HikariPool-1 - Starting...
+2026-02-27 23:45:46 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45f95ac0
+2026-02-27 23:45:46 - HikariPool-1 - Start completed.
+2026-02-27 23:45:48 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 23:45:48 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 23:45:48 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 23:45:48 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 23:45:49 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 23:45:49 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 23:45:49 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 23:45:49 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 23:45:49 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 23:45:49 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 23:45:49 - Started ExpenseManagerApplication in 14.896 seconds (process running for 15.546)
+2026-02-27 23:46:16 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 23:46:16 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 23:46:16 - Detected StandardServletMultipartResolver
+2026-02-27 23:46:16 - Detected AcceptHeaderLocaleResolver
+2026-02-27 23:46:16 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@56d9ef05
+2026-02-27 23:46:16 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@64c009b8
+2026-02-27 23:46:16 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 23:46:16 - Completed initialization in 5 ms
+2026-02-27 23:47:51 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 23:47:51 - Graceful shutdown complete
+2026-02-27 23:47:51 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 23:47:51 - HikariPool-1 - Shutdown initiated...
+2026-02-27 23:47:51 - HikariPool-1 - Shutdown completed.
+2026-02-27 23:47:56 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 15672 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 23:47:56 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 23:47:57 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 23:47:57 - Finished Spring Data repository scanning in 58 ms. Found 6 JPA repository interfaces.
+2026-02-27 23:47:58 - Tomcat initialized with port 8080 (http)
+2026-02-27 23:47:58 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 23:47:58 - Starting service [Tomcat]
+2026-02-27 23:47:58 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 23:47:58 - Root WebApplicationContext: initialization completed in 1526 ms
+2026-02-27 23:47:58 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 23:47:58 - HikariPool-1 - Starting...
+2026-02-27 23:47:59 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54970127
+2026-02-27 23:47:59 - HikariPool-1 - Start completed.
+2026-02-27 23:48:00 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 23:48:00 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 23:48:00 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 23:48:01 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 23:48:02 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 23:48:03 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 23:48:03 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 23:48:03 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 23:48:03 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 23:48:03 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 23:48:03 - Started ExpenseManagerApplication in 7.925 seconds (process running for 8.527)
+2026-02-27 23:48:05 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 23:48:05 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 23:48:05 - Detected StandardServletMultipartResolver
+2026-02-27 23:48:05 - Detected AcceptHeaderLocaleResolver
+2026-02-27 23:48:05 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@24484dfb
+2026-02-27 23:48:05 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@1227862a
+2026-02-27 23:48:05 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 23:48:05 - Completed initialization in 6 ms
+2026-02-27 23:57:07 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-27 23:57:07 - Graceful shutdown complete
+2026-02-27 23:57:07 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 23:57:07 - HikariPool-1 - Shutdown initiated...
+2026-02-27 23:57:07 - HikariPool-1 - Shutdown completed.
+2026-02-27 23:57:13 - Starting ExpenseManagerApplication using Java 21.0.9 with PID 17400 (C:\Users\DELL\IdeaProjects\expense_manager\expense_manager\build\classes\java\main started by DELL in C:\Users\DELL\IdeaProjects\expense_manager)
+2026-02-27 23:57:13 - No active profile set, falling back to 1 default profile: "default"
+2026-02-27 23:57:14 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27 23:57:14 - Finished Spring Data repository scanning in 79 ms. Found 6 JPA repository interfaces.
+2026-02-27 23:57:15 - Tomcat initialized with port 8080 (http)
+2026-02-27 23:57:15 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-27 23:57:15 - Starting service [Tomcat]
+2026-02-27 23:57:15 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-27 23:57:15 - Root WebApplicationContext: initialization completed in 2006 ms
+2026-02-27 23:57:16 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27 23:57:16 - HikariPool-1 - Starting...
+2026-02-27 23:57:16 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54970127
+2026-02-27 23:57:16 - HikariPool-1 - Start completed.
+2026-02-27 23:57:18 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27 23:57:18 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-27 23:57:19 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27 23:57:19 - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-27 23:57:19 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-27 23:57:19 - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-27 23:57:19 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-27 23:57:19 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-27 23:57:20 - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-27 23:57:20 - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 23:57:20 - Started ExpenseManagerApplication in 7.731 seconds (process running for 8.401)
+2026-02-27 23:57:25 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 23:57:25 - Initializing Servlet 'dispatcherServlet'
+2026-02-27 23:57:25 - Detected StandardServletMultipartResolver
+2026-02-27 23:57:25 - Detected AcceptHeaderLocaleResolver
+2026-02-27 23:57:25 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@62d10834
+2026-02-27 23:57:25 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@1fc02a84
+2026-02-27 23:57:25 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-27 23:57:25 - Completed initialization in 6 ms
+2026-02-27 23:57:26 - Using @ExceptionHandler com.talent.expense_manager.expense_manager.exception.GlobalExceptionHandler#handleException(JwtTokenExpiredException)
+2026-02-27 23:57:26 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-27 23:57:26 - Writing [com.talent.expense_manager.expense_manager.response.BaseResponse@34dad355]
+2026-02-27 23:57:26 - Resolved [com.talent.expense_manager.expense_manager.exception.JwtTokenExpiredException: JWT token is expired]

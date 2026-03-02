@@ -1,5 +1,6 @@
 package com.talent.expense_manager.expense_manager.response;
 
+import com.talent.expense_manager.expense_manager.model.Role;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -19,6 +20,8 @@ public class AccountResponse {
     private LocalDate dateOfBirth;
     private String email;
     private WalletInfo walletInfo;
+    private String role;
+    private TokenResponseDto tokenResponseDto;
 
 
 }

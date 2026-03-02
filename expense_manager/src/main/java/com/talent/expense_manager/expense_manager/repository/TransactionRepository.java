@@ -16,11 +16,10 @@ public interface TransactionRepository extends JpaRepository<Transaction,Long> {
 
     List<Transaction> findByWallet(Wallet wallet);
 
-    List<Transaction> findByWalletAndCreatedAtGreaterThanEqualAndCreatedAtLessThan(
+    List<Transaction> findByWalletAndCreatedDatetimeGreaterThanEqualAndCreatedDatetimeLessThan(
             Wallet wallet,
             LocalDateTime start,
             LocalDateTime end);
-
 
 
 }

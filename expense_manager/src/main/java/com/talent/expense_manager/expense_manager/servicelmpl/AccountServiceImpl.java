@@ -1,11 +1,15 @@
 package com.talent.expense_manager.expense_manager.servicelmpl;
 
+import com.talent.expense_manager.expense_manager.exception.AccountNotFound;
 import com.talent.expense_manager.expense_manager.model.Account;
+import com.talent.expense_manager.expense_manager.model.Role;
 import com.talent.expense_manager.expense_manager.model.Wallet;
 import com.talent.expense_manager.expense_manager.repository.AccountRepository;
+import com.talent.expense_manager.expense_manager.repository.RoleRepository;
 import com.talent.expense_manager.expense_manager.request.AccountRequest;
 import com.talent.expense_manager.expense_manager.request.ChangePasswordRequest;
 import com.talent.expense_manager.expense_manager.response.AccountResponse;
+import com.talent.expense_manager.expense_manager.response.TokenResponseDto;
 import com.talent.expense_manager.expense_manager.response.WalletInfo;
 import com.talent.expense_manager.expense_manager.response.WalletResponse;
 import com.talent.expense_manager.expense_manager.service.AccountService;
@@ -29,6 +33,8 @@ public class AccountServiceImpl implements AccountService {
 
     public final AccountRepository accountRepository;
 
+    private final RoleRepository roleRepository;
+
     @Autowired
     private PasswordEncoder passwordEncoder;
 
@@ -40,6 +46,9 @@ public class AccountServiceImpl implements AccountService {
             throw new RuntimeException("Email already exist");
         }
 
+        Role defaultRole = roleRepository.findByName("USER")
+                .orElseThrow(() -> new RuntimeException("Default role not found"));
+
         Account account = new Account();
 
         account.setAccountId(request.getAccountId());
@@ -47,6 +56,8 @@ public class AccountServiceImpl implements AccountService {
         account.setDateOfBirth(request.getDateOfBirth());
         account.setEmail(request.getEmail());
         account.setPassword(passwordEncoder.encode(request.getPassword()));
+        account.setActive(true);
+        account.setRole(defaultRole);
 
 
         Wallet wallet = new Wallet();
@@ -90,7 +101,7 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public AccountResponse updateAccount(String accountId, AccountRequest request) {
-        Account existingAccount = accountRepository.findByAccountId(accountId).orElseThrow(() -> new RuntimeException("Account not found"));
+        Account existingAccount = accountRepository.findByAccountId(accountId).orElseThrow(() -> new AccountNotFound("Account not found"));
 
         existingAccount.setName(request.getName());
         existingAccount.setDateOfBirth(request.getDateOfBirth());
@@ -110,7 +121,7 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public void changePassword(String accountId, ChangePasswordRequest request) {
-        Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new RuntimeException("Account not found"));
+        Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new AccountNotFound("Account not found"));
 
         if (!passwordEncoder.matches(request.getCurrentPassword(), account.getPassword())) {
             throw new RuntimeException("Old password is incorrect");
@@ -155,6 +166,8 @@ public class AccountServiceImpl implements AccountService {
 
         WalletInfo walletInfo = new WalletInfo(account.getWallet().getBalance(), account.getWallet().getBudget());
 
-        return new AccountResponse(account.getAccountId(), account.getName(), account.getDateOfBirth(), account.getEmail(), walletInfo);
+        TokenResponseDto tokenResponseDto=new TokenResponseDto();
+
+        return new AccountResponse(account.getAccountId(), account.getName(), account.getDateOfBirth(), account.getEmail(), walletInfo,account.getRole().getName(),tokenResponseDto);
     }
 }

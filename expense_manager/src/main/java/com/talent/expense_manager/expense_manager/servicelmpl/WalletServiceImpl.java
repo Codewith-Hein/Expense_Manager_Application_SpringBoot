@@ -1,5 +1,7 @@
 package com.talent.expense_manager.expense_manager.servicelmpl;
 
+import com.talent.expense_manager.expense_manager.exception.AccountNotFound;
+import com.talent.expense_manager.expense_manager.exception.WalletNotFoundException;
 import com.talent.expense_manager.expense_manager.model.Account;
 import com.talent.expense_manager.expense_manager.model.Wallet;
 import com.talent.expense_manager.expense_manager.repository.AccountRepository;
@@ -18,6 +20,7 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -35,9 +38,9 @@ public class WalletServiceImpl implements WalletService {
     @Override
     public WalletResponse myWallet(String accountId) {
 
-        Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new RuntimeException("Account Not found"));
+        Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new AccountNotFound("Account Not found"));
 
-        Wallet wallet = walletRepository.findByAccountAndDeletedAtIsNull(account).orElseThrow(() -> new RuntimeException("Wallet not found"));
+        Wallet wallet = walletRepository.findByAccountAndDeletedDatetimeIsNull(account).orElseThrow(() -> new WalletNotFoundException("Wallet not found"));
 
         WalletResponse response = new WalletResponse();
         response.setAccountId(account.getAccountId());
@@ -51,11 +54,11 @@ public class WalletServiceImpl implements WalletService {
 
     @Override
     public void addMyBudget(String accountId, AddBudgetRequest request) {
-        Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new RuntimeException("Account Not found"));
+        Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new AccountNotFound("Account Not found"));
 
         Wallet wallet = account.getWallet();
 
-        BigDecimal newBudget=request.getMyBudget();
+        BigDecimal newBudget = request.getMyBudget();
 
         if (wallet.getBalance().compareTo(newBudget) < 0) {
             throw new RuntimeException("Not Enough Balance");
@@ -66,14 +69,13 @@ public class WalletServiceImpl implements WalletService {
         wallet.setBalance(wallet.getBalance().subtract(newBudget));
 
 
-
         walletRepository.save(wallet);
 
     }
 
     @Override
     public void updateBudget(String accountId, AddBudgetRequest request) {
-        Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new RuntimeException("Account Not found"));
+        Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new AccountNotFound("Account Not found"));
 
         Wallet wallet = account.getWallet();
 
@@ -86,7 +88,7 @@ public class WalletServiceImpl implements WalletService {
 
     @Override
     public void addBalance(Long walletId, BigDecimal amount) {
-        Wallet wallet = walletRepository.findById(walletId).orElseThrow(() -> new RuntimeException("Wallet Not Found"));
+        Wallet wallet = walletRepository.findById(walletId).orElseThrow(() -> new WalletNotFoundException("Wallet Not Found"));
 
         BigDecimal newBalance = wallet.getBalance().add(amount);
         wallet.setBalance(newBalance);
@@ -97,7 +99,7 @@ public class WalletServiceImpl implements WalletService {
 
     @Override
     public void withDrawBlance(Long walletId, BigDecimal amount) {
-        Wallet wallet = walletRepository.findById(walletId).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Wallet Not Found"));
+        Wallet wallet = walletRepository.findById(walletId).orElseThrow(() -> new WalletNotFoundException("Wallet Not Found"));
 
 
         if ((amount == null || amount.compareTo(BigDecimal.ZERO) <= 0)) {
@@ -121,7 +123,7 @@ public class WalletServiceImpl implements WalletService {
     public void deleteWallet(Long walletId) {
         Wallet wallet = walletRepository.findById(walletId).orElseThrow(() -> new RuntimeException("Invalid Wallet id"));
 
-        wallet.setDeletedAt(LocalDateTime.now());
+        wallet.setDeletedDatetime(LocalDateTime.now());
 
         walletRepository.save(wallet);
 
@@ -131,7 +133,7 @@ public class WalletServiceImpl implements WalletService {
     @Transactional
     public WalletResponse createWallet(String accountId, WalletRequest request) {
         Account account = accountRepository.findByAccountId(accountId)
-                .orElseThrow(() -> new RuntimeException("Account not found"));
+                .orElseThrow(() -> new AccountNotFound("Account not found"));
 
         // 🔥 IMPORTANT — find ANY wallet (even deleted)
         Optional<Wallet> existingWallet = walletRepository.findByAccount(account);
@@ -140,9 +142,9 @@ public class WalletServiceImpl implements WalletService {
 
             Wallet wallet = existingWallet.get();
 
-            if (wallet.getDeletedAt() != null) {
+            if (wallet.getDeletedDatetime() != null) {
                 // RESTORE
-                wallet.setDeletedAt(null);
+                wallet.setDeletedDatetime(null);
                 wallet.setBalance(request.getAmount());
                 wallet.setBudget(request.getBudget());
                 return mapToResponse(walletRepository.save(wallet));
@@ -160,11 +162,21 @@ public class WalletServiceImpl implements WalletService {
         return mapToResponse(walletRepository.save(wallet));
     }
 
+    @Override
+    public List<WalletResponse> getAllWallet() {
+        return walletRepository.findAll()
+                .stream()
+                .map(this::mapToResponse)
+                .toList();
+    }
+
+
+
 
     private WalletResponse mapToResponse(Wallet wallet) {
 
         WalletResponse response = new WalletResponse();
-
+        response.setWalletId(wallet.getId());
         response.setAccountId(wallet.getAccount().getAccountId());
         response.setBalance(wallet.getBalance());
         response.setMyBudget(wallet.getBudget());
