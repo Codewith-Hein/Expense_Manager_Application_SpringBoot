@@ -36,7 +36,7 @@ public class JWTService {
     public String generateAccessToken(Account account) {
         return Jwts.builder()
                 .setSubject(account.getEmail())
-                .claim("role", account.getRole())
+                .claim("role", account.getRole().getName())
                 .setIssuedAt(new Date())
                 .setExpiration(new Date(System.currentTimeMillis() + accessTokenLife))
                 .signWith(getSecretKey())
@@ -46,7 +46,7 @@ public class JWTService {
     public String generateRefreshToken(Account account) {
         return Jwts.builder()
                 .setSubject(account.getEmail())
-                .claim("role", account.getRole())
+                .claim("role", account.getRole().getName())
                 .setIssuedAt(new Date())
                 .setExpiration(new Date(System.currentTimeMillis() + refreshTokenLife))
                 .signWith(getSecretKey())

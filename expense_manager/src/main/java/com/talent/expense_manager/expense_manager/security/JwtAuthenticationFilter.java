@@ -46,50 +46,42 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                 return;
             }
 
-            String token = authHeader.split("Bearer ")[1];
+        String token = authHeader.substring(7);
             String email;
 
             try {
                 email = jwtService.extractUsername(token);
+
+
+                if (email != null && SecurityContextHolder.getContext().getAuthentication() == null) {
+                    UserDetails userDetails = userDetailsService.loadUserByUsername(email);
+
+                    if (jwtService.validateToken(token, userDetails)) {
+                        UsernamePasswordAuthenticationToken authToken =
+                                new UsernamePasswordAuthenticationToken(
+                                        userDetails,
+                                        null,
+                                        userDetails.getAuthorities()
+
+                                );
+
+
+                        authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
+
+                        SecurityContextHolder.getContext().setAuthentication(authToken); // 🔥 MUST
+
+                    }
+                }
+
             } catch (JwtTokenExpiredException ex) {
                handlerExceptionResolver.resolveException(request,response,null,ex);
                 return;
             }
 
-            if (email != null && SecurityContextHolder.getContext().getAuthentication() == null) {
-                Account account = accountRepository.findByEmail(email).orElseThrow();
 
-                if (jwtService.validateToken(token, account)) {
-                    UsernamePasswordAuthenticationToken authToken =
-                            new UsernamePasswordAuthenticationToken(
-                                    account,
-                                    null,
-                                    account.getAuthorities()
-                            );
-
-
-
-
-
-                    SecurityContextHolder.getContext().setAuthentication(authToken); // 🔥 MUST
-
-                    System.out.println("Is Authenticated: " +
-                            SecurityContextHolder.getContext()
-                                    .getAuthentication()
-                                    .isAuthenticated());
-
-                    System.out.println("===== JWT FILTER AUTH =====");
-                    SecurityContextHolder.getContext()
-                            .getAuthentication()
-                            .getAuthorities()
-                            .forEach(a -> System.out.println(a.getAuthority()));
-                    System.out.println("===========================");
-
-
-                }
-            }
 
             filterChain.doFilter(request, response);
 
     }
 }
+

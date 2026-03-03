@@ -21,7 +21,7 @@ public class TransactionController {
     private final TransactionService transactionService;
 
 
-//    @PreAuthorize("hasRole('ADMIN')")
+
     @PostMapping("/account/{accountId}")
     public ResponseEntity<BaseResponse<String>> createTransaction(
             @PathVariable String accountId,
