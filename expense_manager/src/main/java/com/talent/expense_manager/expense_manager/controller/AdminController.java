@@ -43,7 +43,7 @@ public class AdminController {
     }
 
 
-    @DeleteMapping("accountdelete/{accountId}")
+    @DeleteMapping("/{accountId}")
     public ResponseEntity<BaseResponse<String>> accountDelete(@PathVariable String accountId) {
 
         LOGGER.info("REST request to delete account ID: {}", accountId);

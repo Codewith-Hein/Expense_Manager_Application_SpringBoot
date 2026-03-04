@@ -59,13 +59,8 @@ public class TransactionServiceImpl implements TransactionService {
     @Override
     public String createTrasaction(String accountId, TransactionRequest request) {
 
-//        Account currentAccount = securityUtils.getCurrentAccount(accountId);
-//
-//        if(!permissoinService.hasPermission(currentAccount,"TRANSACTION","CREATE")){
-//            throw new RuntimeException("You do not have permission to create a transaction.");
-//        }
 
-        LOGGER.info("Starting creation of {} transaction for account: {}", request.getTransactionType(), accountId);
+        LOGGER.info("[{}] createTransaction() - Creating Transaction - ACCOUNT_ID={}", this.getClass().getSimpleName(), accountId);
 
         Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new AccountNotFound("Account not found"));
 
@@ -111,25 +106,11 @@ public class TransactionServiceImpl implements TransactionService {
         return message;
     }
 
-//    @Override
-//    public TransactionResponse findTransactionById(Long id) {
-//        Transaction transaction = transactionRepository.findById(id)
-//                .orElseThrow(() -> new RuntimeException("Transaction not found"));
-//
-//
-//        auditService.log("findTransactionById","Transaction",transaction.getId().toString(),"View Transaction",);
-//
-//        return mapToResponse(transaction);
-//    }
 
     @Override
     public TransactionListResponse getAllTransactionsByAccountId(String accountId) {
 
-//        Account currentAccount = securityUtils.getCurrentAccount(accountId);
-//
-//        if(!permissoinService.hasPermission(currentAccount,"TRANSACTION","VIEW")){
-//            throw new RuntimeException("You do not have permission to View.");
-//        }
+        LOGGER.info("[{}] getAllWalletById() - Fetching Wallet By Id - ACCOUNT_ID={}", this.getClass().getSimpleName(), accountId);
 
         Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new AccountNotFound("Account with ID " + accountId + " not found"));
 
@@ -155,7 +136,7 @@ public class TransactionServiceImpl implements TransactionService {
     @Override
     public void deleteTransaction(Long transactionId) {
 
-        LOGGER.info("Attempting to delete Transaction: {}", transactionId);
+        LOGGER.info("[{}] deleteTransaction() - deleting transaction - TRANSACTION_ID={} ", this.getClass().getSimpleName(), transactionId);
         Transaction transaction = transactionRepository.findById(transactionId).orElseThrow(() -> new RuntimeException("Invalid Id"));
 
 
@@ -181,6 +162,10 @@ public class TransactionServiceImpl implements TransactionService {
 
     @Override
     public void updateTransaction(Long transactionId, TransactionRequest request) {
+
+        LOGGER.info("[{}] updateTransaction() - ACTION=START TRANSACTION_ID={}",
+                this.getClass().getSimpleName(),
+                transactionId);
         Transaction transaction = transactionRepository.findById(transactionId).orElseThrow(() -> new RuntimeException("Transaction Id Not Found"));
 
         Wallet wallet = transaction.getWallet();
@@ -205,19 +190,24 @@ public class TransactionServiceImpl implements TransactionService {
         walletRepository.save(wallet);
         transactionRepository.save(transaction);
 
+        LOGGER.info("[{}] updateTransaction() - ACTION=SUCCESS TRANSACTION_ID={} NEW_TYPE={} NEW_AMOUNT={}",
+                this.getClass().getSimpleName(),
+                transactionId,
+                request.getTransactionType(),
+                request.getAmount());
 
     }
 
     @Override
     public MonthlySummaryResponse getMonthlySumary(String accountId, int year, int month) {
 
-        LOGGER.info("Generating monthly summary for Wallet: {} (Month: {}, Year: {})", accountId, month, year);
+        LOGGER.info("[{}] getMonthlySummary() - ACTION=START ACCOUNT_ID={} YEAR={} MONTH={}",
+                this.getClass().getSimpleName(),
+                accountId,
+                year,
+                month);
 
-//        Account currentAccount = securityUtils.getCurrentAccount(accountId);
-//
-//        if(!permissoinService.hasPermission(currentAccount,"TRANSACTION","VIEW")){
-//            throw new RuntimeException("You do not have permission to view MonthlySummary");
-//        }
+
         Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new AccountNotFound("Account Not Found"));
 
         Wallet wallet = account.getWallet();
@@ -228,27 +218,23 @@ public class TransactionServiceImpl implements TransactionService {
 
         List<Transaction> transactions = transactionRepository.findByWalletAndCreatedDatetimeGreaterThanEqualAndCreatedDatetimeLessThan(wallet, startDate.atStartOfDay(), endDate.atTime(23, 59, 59));
 
+
+        LOGGER.info("[{}] getMonthlySummary() - ACTION=SUCCESS ACCOUNT_ID={} TOTAL_TRANSACTIONS={}",
+                this.getClass().getSimpleName(),
+                accountId,
+                transactions.size());
         return getMonthlySummaryResponse(transactions);
 
     }
 
     @Override
     public List<TransactionResponse> viewAllTransaction() {
-        LOGGER.info("View All Transaction by admin");
+        LOGGER.info("[{}] getAllTransactions() - Fetching all transactions (Admin)",this.getClass().getSimpleName());
         return transactionRepository.findAll().stream().map(
                 this::mapToResponse
         ).toList();
     }
-
-//    @Override
-//    public TransactionListResponse viewAllTransaction() {
-//
-//        Transaction transaction= (Transaction) transactionRepository.findAll();
-//
-//
-//
-//    }
-
+    
     private static @NonNull MonthlySummaryResponse getMonthlySummaryResponse(List<Transaction> transactions) {
         BigDecimal totalIncome = BigDecimal.ZERO;
         BigDecimal totalExpense = BigDecimal.ZERO;

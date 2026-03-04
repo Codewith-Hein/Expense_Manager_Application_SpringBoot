@@ -38,6 +38,9 @@ public class WalletServiceImpl implements WalletService {
     @Override
     public WalletResponse myWallet(String accountId) {
 
+        LOGGER.info("[{}] myWallet() - Fetching wallet - ACCOUNT_ID={}",
+                this.getClass().getSimpleName(), accountId);
+
         Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new AccountNotFound("Account Not found"));
 
         Wallet wallet = walletRepository.findByAccountAndDeletedDatetimeIsNull(account).orElseThrow(() -> new WalletNotFoundException("Wallet not found"));
@@ -54,6 +57,11 @@ public class WalletServiceImpl implements WalletService {
 
     @Override
     public void addMyBudget(String accountId, AddBudgetRequest request) {
+
+        LOGGER.info("[{}] addMyBudget() - Adding budget - ACCOUNT_ID={} AMOUNT={}",
+                this.getClass().getSimpleName(),
+                accountId,
+                request.getMyBudget());
         Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new AccountNotFound("Account Not found"));
 
         Wallet wallet = account.getWallet();
@@ -77,7 +85,10 @@ public class WalletServiceImpl implements WalletService {
     public void updateBudget(String accountId, AddBudgetRequest request) {
 
 
-        LOGGER.info("updateBudget : {} started.", accountId);
+        LOGGER.info("[{}] updateBudget() - Updating budget - ACCOUNT_ID={} NEW_BUDGET={}",
+                this.getClass().getSimpleName(),
+                accountId,
+                request.getMyBudget());
 
         Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new AccountNotFound("Account Not found"));
 
@@ -92,6 +103,11 @@ public class WalletServiceImpl implements WalletService {
 
     @Override
     public void addBalance(Long walletId, BigDecimal amount) {
+
+        LOGGER.info("[{}] addBalance() - Adding balance - WALLET_ID={} AMOUNT={}",
+                this.getClass().getSimpleName(),
+                walletId,
+                amount);
         Wallet wallet = walletRepository.findById(walletId).orElseThrow(() -> new WalletNotFoundException("Wallet Not Found"));
 
         BigDecimal newBalance = wallet.getBalance().add(amount);
@@ -103,6 +119,11 @@ public class WalletServiceImpl implements WalletService {
 
     @Override
     public void withDrawBlance(Long walletId, BigDecimal amount) {
+
+        LOGGER.info("[{}] withDrawBalance() - Withdrawing - WALLET_ID={} AMOUNT={}",
+                this.getClass().getSimpleName(),
+                walletId,
+                amount);
         Wallet wallet = walletRepository.findById(walletId).orElseThrow(() -> new WalletNotFoundException("Wallet Not Found"));
 
 
@@ -114,6 +135,12 @@ public class WalletServiceImpl implements WalletService {
         if (amount.compareTo(wallet.getBalance()) > 0) {
             throw new ResponseStatusException(HttpStatus.CONFLICT, "Insufficient Balance");
         }
+
+        LOGGER.error("[{}] withDrawBalance() - Insufficient balance - WALLET_ID={}",
+                this.getClass().getSimpleName(),
+                walletId);
+
+
         BigDecimal newBalance = wallet.getBalance().subtract(amount);
 
 
@@ -125,6 +152,10 @@ public class WalletServiceImpl implements WalletService {
     @Override
     @Transactional
     public void deleteWallet(Long walletId) {
+
+        LOGGER.info("[{}] deleteWallet() - Soft deleting wallet - WALLET_ID={}",
+                this.getClass().getSimpleName(),
+                walletId);
         Wallet wallet = walletRepository.findById(walletId).orElseThrow(() -> new RuntimeException("Invalid Wallet id"));
 
         wallet.setDeletedDatetime(LocalDateTime.now());
@@ -137,11 +168,15 @@ public class WalletServiceImpl implements WalletService {
     @Transactional
     public WalletResponse createWallet(String accountId, WalletRequest request) {
 
-        LOGGER.info("createWallet SYSTEM : {} is started now.",accountId);
+        LOGGER.info("[{}] createWallet() - Restoring deleted wallet - ACCOUNT_ID={}",
+                this.getClass().getSimpleName(),
+                accountId);
+
+
         Account account = accountRepository.findByAccountId(accountId)
                 .orElseThrow(() -> new AccountNotFound("Account not found"));
 
-        // 🔥 IMPORTANT — find ANY wallet (even deleted)
+
         Optional<Wallet> existingWallet = walletRepository.findByAccount(account);
 
         if (existingWallet.isPresent()) {
@@ -170,7 +205,12 @@ public class WalletServiceImpl implements WalletService {
 
     @Override
     public List<WalletResponse> getAllWallet() {
-        LOGGER.info("getAllWallets SYSTEM : Admin fetching all wallets.");
+
+
+        LOGGER.info("[{}] getAllWallet() - Fetching all wallets (Admin)",
+                this.getClass().getSimpleName());
+
+
         return walletRepository.findAll()
                 .stream()
                 .map(this::mapToResponse)

@@ -74,7 +74,7 @@ public class WalletController {
         );
     }
 
-    @PatchMapping("/addbaddlance/{walletId}")
+    @PatchMapping("/addbalance/{walletId}")
     public ResponseEntity<BaseResponse<String>> addBalance(@PathVariable Long walletId, @RequestBody BigDecimal amount) {
         walletService.addBalance(walletId, amount);
 

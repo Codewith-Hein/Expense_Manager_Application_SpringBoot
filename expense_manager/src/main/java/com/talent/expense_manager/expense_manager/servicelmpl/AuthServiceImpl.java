@@ -17,6 +17,8 @@ import com.talent.expense_manager.expense_manager.response.WalletInfo;
 import com.talent.expense_manager.expense_manager.security.JWTService;
 import com.talent.expense_manager.expense_manager.service.AuthService;
 import lombok.RequiredArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -30,6 +32,8 @@ import java.math.BigDecimal;
 @RequiredArgsConstructor
 public class AuthServiceImpl implements AuthService {
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(AuthServiceImpl.class);
+
 
     private final AuthenticationManager authenticationManager;
     private final JWTService jwtService;
@@ -39,47 +43,63 @@ public class AuthServiceImpl implements AuthService {
 
     @Override
     public AccountResponse login(LoginRequest request) {
-try{
-    Authentication authentication = authenticationManager.authenticate(
-            new UsernamePasswordAuthenticationToken(
-                    request.getEmail(),
-                    request.getPassword()
-            )
-    );
 
-    Account account = (Account) authentication.getPrincipal();
+        LOGGER.info("[{}] login() - ACTION=START EMAIL={}",
+                this.getClass().getSimpleName(),
+                request.getEmail());
 
+        try {
+            Authentication authentication = authenticationManager.authenticate(
+                    new UsernamePasswordAuthenticationToken(
+                            request.getEmail(),
+                            request.getPassword()
+                    )
+            );
 
-    String accessToken = jwtService.generateAccessToken(account);
-    String refreshToken = jwtService.generateRefreshToken(account);
-
-
-    AccountResponse response = new AccountResponse();
-
-    WalletInfo walletInfo = new WalletInfo(account.getWallet().getBalance(), account.getWallet().getBudget());
-
-    TokenResponseDto tokenResponseDto = new TokenResponseDto(accessToken, refreshToken);
+            Account account = (Account) authentication.getPrincipal();
 
 
-    response.setAccountId(account.getAccountId());
-    response.setName(account.getName());
-    response.setEmail(account.getEmail());
-    response.setDateOfBirth(account.getDateOfBirth());
-    response.setRole(account.getRole().getName());
-    response.setWalletInfo(walletInfo);
-    response.setTokenResponseDto(tokenResponseDto);
+            String accessToken = jwtService.generateAccessToken(account);
+            String refreshToken = jwtService.generateRefreshToken(account);
 
 
-    return response;
+            AccountResponse response = new AccountResponse();
 
-}catch (BadCredentialsException ex){
-    throw new InvalidEmailException("Invalid email or password");
-}
+            WalletInfo walletInfo = new WalletInfo(account.getWallet().getBalance(), account.getWallet().getBudget());
+
+            TokenResponseDto tokenResponseDto = new TokenResponseDto(accessToken, refreshToken);
+
+
+            response.setAccountId(account.getAccountId());
+            response.setName(account.getName());
+            response.setEmail(account.getEmail());
+            response.setDateOfBirth(account.getDateOfBirth());
+            response.setRole(account.getRole().getName());
+            response.setWalletInfo(walletInfo);
+            response.setTokenResponseDto(tokenResponseDto);
+
+            LOGGER.info("[{}] LoginAccount() - ACTION=SUCCESS ACCOUNT_ID={} Role={}",
+                    this.getClass().getSimpleName(), account.getAccountId(), account.getRole().getName());
+
+            return response;
+
+        } catch (BadCredentialsException ex) {
+
+            LOGGER.error("[{}] login() - ERROR=INVALID_CREDENTIALS EMAIL={}",
+                    this.getClass().getSimpleName(),
+                    request.getEmail());
+            throw new InvalidEmailException("Invalid email or password");
+        }
 
     }
 
 
     public AccountResponse createAccount(AccountRequest request) {
+
+
+        LOGGER.info("[{}] RegisterAccount() - ACTION=START EMAIL={}",
+                this.getClass().getSimpleName(),
+                request.getEmail());
 
 
         if (accountRepository.findByEmail(request.getEmail()).isPresent()) {
@@ -121,6 +141,11 @@ try{
         response.setRole(account.getRole().getName());
         response.setWalletInfo(walletInfo);
 
+
+        LOGGER.info("[{}] RegisterAccount() - ACTION=SUCCESS ACCOUNT_ID={} Role={}",
+                this.getClass().getSimpleName(), account.getAccountId(), account.getRole().getName());
+
+
         return response;
 
 
@@ -128,27 +153,32 @@ try{
 
     @Override
     public TokenResponseDto refreshToken(RefreshTokenRequest request) {
-        // 1️⃣ Find account
+
+        LOGGER.info("[{}] RefreshToken() - ACTION=STAR",this.getClass().getSimpleName());
+
         Account account = accountRepository.findByAccountId(request.getAccountId())
                 .orElseThrow(() -> new AccountNotFound("Account not found"));
 
-        // 2️⃣ Validate refresh token
+
         boolean valid = jwtService.validateToken(request.getRefreshToken(), account);
         if (!valid) {
             throw new InvalidRefreshTokenException("Refresh token invalid or expired");
         }
 
-        // 3️⃣ Generate new access token (optionally new refresh token)
+
         String newAccessToken = jwtService.generateAccessToken(account);
 
         TokenResponseDto tokenResponseDto = new TokenResponseDto();
 
         tokenResponseDto.setAccessToken(newAccessToken);
         tokenResponseDto.setRefreshToken(request.getRefreshToken());
+
+        LOGGER.info("[{}] RefreshToken() - ACTION=SUCCESS ACCOUNT_ID={}",
+                this.getClass().getSimpleName(),account.getAccountId());
+
         return tokenResponseDto;
 
     }
-
 
 
     ;

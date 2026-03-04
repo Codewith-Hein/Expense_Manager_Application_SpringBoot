@@ -39,50 +39,13 @@ public class AccountServiceImpl implements AccountService {
     private PasswordEncoder passwordEncoder;
 
 
-    @Override
-    public AccountResponse createAccount(AccountRequest request) {
-
-        LOGGER.info("register {} : {} is started now.", "SYSTEM", request.getEmail());
-
-        if (accountRepository.findByEmail(request.getEmail()).isPresent()) {
-            throw new RuntimeException("Email already exist");
-        }
-
-        Role defaultRole = roleRepository.findByName("USER")
-                .orElseThrow(() -> new RuntimeException("Default role not found"));
-
-        Account account = new Account();
-
-        account.setAccountId(request.getAccountId());
-        account.setName(request.getName());
-        account.setDateOfBirth(request.getDateOfBirth());
-        account.setEmail(request.getEmail());
-        account.setPassword(passwordEncoder.encode(request.getPassword()));
-        account.setActive(true);
-        account.setRole(defaultRole);
-
-
-        Wallet wallet = new Wallet();
-
-        wallet.setBalance(BigDecimal.ZERO);
-        wallet.setBudget(BigDecimal.ZERO);
-        wallet.setAccount(account);
-
-        account.setWallet(wallet);
-
-
-        Account saveAccount = accountRepository.save(account);
-
-        AccountResponse response = new AccountResponse();
-
-        return buildAccountResponse(account);
-
-
-    }
 
 
     @Override
     public void accountDelete(String accountId) {
+
+        LOGGER.info("[{}] deleteAccount() - deleting account - ACCOUNT_ID={}"
+                ,this.getClass().getSimpleName(),accountId);
 
         Account account = accountRepository.findByAccountId(accountId).orElseThrow(() -> new RuntimeException("Account not found"));
 
@@ -103,6 +66,10 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public AccountResponse updateAccount(String accountId, AccountRequest request) {
+
+
+
+
         Account existingAccount = accountRepository.findByAccountId(accountId).orElseThrow(() -> new AccountNotFound("Account not found"));
 
         existingAccount.setName(request.getName());
@@ -131,29 +98,6 @@ public class AccountServiceImpl implements AccountService {
         account.setPassword(passwordEncoder.encode(request.getNewPassword()));
 
         accountRepository.save(account);
-
-    }
-
-
-    @Override
-    public AccountResponse login(AccountRequest request) {
-
-        LOGGER.info("login {} : {} is started now.", "GUEST", request.getEmail());
-
-
-        java.util.Optional<Account> accountOptional = accountRepository.findByEmail(request.getEmail());
-        if (accountOptional.isEmpty()) {
-            throw new RuntimeException("Email incorrect");
-        }
-
-        Account account = accountOptional.get();
-
-        if (!passwordEncoder.matches(request.getPassword(), account.getPassword())) {
-            throw new RuntimeException("Invalid password");
-        }
-        LOGGER.info("Login successful for account: {}", account.getAccountId());
-
-        return buildAccountResponse(account);
 
     }
 

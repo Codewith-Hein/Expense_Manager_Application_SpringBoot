@@ -25,11 +25,10 @@ public class AccountController {
     private final AccountService accountService;
 
 
-
-
-
     @PostMapping("/logout/{accountId}")
     public ResponseEntity<BaseResponse<String>> logout(@PathVariable String accountId) {
+
+        LOGGER.info("Logout Account with account ID {}",accountId);
 
         accountService.logout(accountId);
         return ResponseUtil.success(

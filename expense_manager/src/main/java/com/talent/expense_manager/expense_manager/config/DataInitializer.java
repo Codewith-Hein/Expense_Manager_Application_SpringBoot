@@ -9,12 +9,15 @@ import com.talent.expense_manager.expense_manager.repository.PermissionRepositor
 import com.talent.expense_manager.expense_manager.repository.RoleRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.Profile;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 import java.util.HashSet;
 
+
+//@Profile("!test")
 @Component
 @RequiredArgsConstructor
 public class DataInitializer implements CommandLineRunner {

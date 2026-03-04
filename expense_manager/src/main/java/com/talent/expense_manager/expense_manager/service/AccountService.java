@@ -10,7 +10,7 @@ import java.util.List;
 
 public interface AccountService {
 
-    AccountResponse createAccount(AccountRequest request);
+
 
     public void accountDelete(String id);
 
@@ -23,9 +23,12 @@ public interface AccountService {
     void changePassword(String accountId, ChangePasswordRequest request);
 
 
-    AccountResponse login(AccountRequest request);
+
 
     void logout(String accountId);
+
+
+
 
 
 }

@@ -1,5 +1,6 @@
 package com.talent.expense_manager.expense_manager.security;
 import jakarta.servlet.http.HttpServletRequest;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.core.Authentication;
@@ -8,10 +9,12 @@ import org.springframework.stereotype.Service;
 
 
 @Service
+@RequiredArgsConstructor
 public class AuthenticationService {
 
     private final String apiKey;
-//    private final String secrettoken;
+
+
 
 
     @Autowired
@@ -20,7 +23,7 @@ public class AuthenticationService {
 
     }
 
-    private static final String HEADER_NAME_API_KEY = "X-expense-api-key";
+    private static final String HEADER_NAME_API_KEY ="X-expense-api-key";
     //private static final String HEADER_NAME_TOKEN_KEY = "expensetoken";
 
 

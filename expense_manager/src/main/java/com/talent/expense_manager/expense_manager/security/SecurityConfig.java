@@ -23,13 +23,16 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @EnableMethodSecurity
 @RequiredArgsConstructor
 public class SecurityConfig {
+
+
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
 
-    @Autowired
-    private JwtAuthenticationFilter jwtAuthenticationFilter;
+
+
+    private final JwtAuthenticationFilter jwtAuthenticationFilter;
 
 
     private final CustomAccessDeniedHandler customAccessDeniedHandler;

@@ -10,5 +10,11 @@ public class ApiKeyConfiguration {
     @Value("${jwt.apikey}")
     private String apikey;
 
+    @Value("${jwt.authorization}")
+    private String authorization;
+
+    @Value("${jwt.apiKeyHeader}")
+    private String apiKeyHeader;
+
 
 }
