@@ -7,6 +7,7 @@ import com.talent.expense_manager.expense_manager.response.*;
 import com.talent.expense_manager.expense_manager.service.AccountService;
 import com.talent.expense_manager.expense_manager.service.TransactionService;
 import com.talent.expense_manager.expense_manager.service.WalletService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,6 +22,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/admin")
 @RequiredArgsConstructor
+@Tag(name = "System Administration",description = "Clearly indicates high-level management and restricted access.")
 public class AdminController {
     private final AccountService accountService;
     private final TransactionService transactionService;

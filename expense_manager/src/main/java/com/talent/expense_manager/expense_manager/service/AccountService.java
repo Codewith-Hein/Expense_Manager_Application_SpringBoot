@@ -11,24 +11,20 @@ import java.util.List;
 public interface AccountService {
 
 
-
     public void accountDelete(String id);
 
 
     List<AccountResponse> getAllAccounts();
 
 
-    public AccountResponse updateAccount(String accountId,AccountRequest request);
+    public AccountResponse updateAccount(String accountId, AccountRequest request);
 
     void changePassword(String accountId, ChangePasswordRequest request);
 
 
-
+    AccountResponse accountInfo(String accountId);
 
     void logout(String accountId);
-
-
-
 
 
 }

@@ -32,9 +32,25 @@ public class AuthenticationFilter extends GenericFilter {
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         HttpServletRequest httpRequest = (HttpServletRequest) request;
+        String path = httpRequest.getServletPath();
+
+
+        if (path.startsWith("/v3/api-docs") ||
+                path.startsWith("/swagger-ui") ||
+                path.equals("/swagger-ui.html") ||
+                path.startsWith("/webjars/")) {
+
+            chain.doFilter(request, response);
+            return;
+        }
+
+
+
         String requestUri = httpRequest.getRequestURI();
         String[] segments = requestUri.split("/");
         String apiId =  segments[segments.length - 1];
+
+
 
         try {
             Authentication authentication = authenticationService.doAuthentication(httpRequest);

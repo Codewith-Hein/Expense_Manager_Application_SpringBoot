@@ -7,6 +7,7 @@ import com.talent.expense_manager.expense_manager.response.BaseResponse;
 import com.talent.expense_manager.expense_manager.response.ResponseUtil;
 import com.talent.expense_manager.expense_manager.service.AccountService;
 import com.talent.expense_manager.expense_manager.servicelmpl.AccountServiceImpl;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,8 +18,9 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-    @RequestMapping("/api/accounts")
+@RequestMapping("/api/accounts")
 @RequiredArgsConstructor
+@Tag(name = "User Accounts",description = "Focuses on user-specific profiles and settings.")
 public class AccountController {
     private static final Logger LOGGER = LoggerFactory.getLogger(AccountController.class);
 
@@ -28,7 +30,7 @@ public class AccountController {
     @PostMapping("/logout/{accountId}")
     public ResponseEntity<BaseResponse<String>> logout(@PathVariable String accountId) {
 
-        LOGGER.info("Logout Account with account ID {}",accountId);
+        LOGGER.info("Logout Account with account ID {}", accountId);
 
         accountService.logout(accountId);
         return ResponseUtil.success(
@@ -45,33 +47,42 @@ public class AccountController {
     @PutMapping("/updateAccount/{accountId}")
     public ResponseEntity<BaseResponse<AccountResponse>> updateAccount(@PathVariable String accountId, @RequestBody AccountRequest request) {
         LOGGER.info("REST request to update account: {}", accountId);
-       AccountResponse response=accountService.updateAccount(accountId,request);
-       return ResponseUtil.success(
-               HttpStatus.OK,
-               "Update Account",
-               "Put",
-               "Update Account Successful",
-               response
-       );
+        AccountResponse response = accountService.updateAccount(accountId, request);
+        return ResponseUtil.success(
+                HttpStatus.OK,
+                "Update Account",
+                "Put",
+                "Update Account Successful",
+                response
+        );
     }
 
+    @GetMapping("/accountinfo/{accountId}")
+    public ResponseEntity<BaseResponse<AccountResponse>> accountInfo(@PathVariable String accountId) {
+        AccountResponse response = accountService.accountInfo(accountId);
+        return ResponseUtil.success(
+                HttpStatus.OK,
+                "Account Info",
+                "Get",
+                "View Account Success",
+                response
+        );
 
-
+    }
 
 
     @PatchMapping("/change-password/{accountId}")
     public ResponseEntity<BaseResponse<String>> changePassword(@PathVariable String accountId, @RequestBody ChangePasswordRequest request) {
         LOGGER.info("REST request to change password for account ID: {}", accountId);
-            accountService.changePassword(accountId, request);
+        accountService.changePassword(accountId, request);
 
-            return ResponseUtil.success(
-                    HttpStatus.OK,
-                    "change_password",
-                    "PATCH",
-                    "Change Password Successful",
-                    null
-            );
-
+        return ResponseUtil.success(
+                HttpStatus.OK,
+                "change_password",
+                "PATCH",
+                "Change Password Successful",
+                null
+        );
 
 
     }

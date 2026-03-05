@@ -17,7 +17,7 @@ import java.math.BigDecimal;
 import java.util.HashSet;
 
 
-//@Profile("!test")
+@Profile("!test")
 @Component
 @RequiredArgsConstructor
 public class DataInitializer implements CommandLineRunner {

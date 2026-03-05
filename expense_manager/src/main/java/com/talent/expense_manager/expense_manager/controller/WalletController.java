@@ -8,6 +8,7 @@ import com.talent.expense_manager.expense_manager.response.BaseResponse;
 import com.talent.expense_manager.expense_manager.response.ResponseUtil;
 import com.talent.expense_manager.expense_manager.response.WalletResponse;
 import com.talent.expense_manager.expense_manager.service.WalletService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,6 +23,7 @@ import java.time.LocalDateTime;
 
 @RestController
 @RequestMapping("/api/account/mywallet")
+@Tag(name="Wallet & Payments",description = "Describes the financial/balance-related actions.")
 public class WalletController {
     @Autowired
     public final WalletService walletService;

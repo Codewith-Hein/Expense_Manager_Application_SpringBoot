@@ -3,6 +3,7 @@ package com.talent.expense_manager.expense_manager.controller;
 
 import com.talent.expense_manager.expense_manager.model.Role;
 import com.talent.expense_manager.expense_manager.service.RoleService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,6 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/roles")
 @RequiredArgsConstructor
+@Tag(name="Access Control",description = "More descriptive than \"Role,\" focusing on permissions and security.")
 public class RoleController {
 
     private final RoleService roleService;

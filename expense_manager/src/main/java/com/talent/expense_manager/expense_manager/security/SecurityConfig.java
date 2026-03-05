@@ -31,7 +31,6 @@ public class SecurityConfig {
     }
 
 
-
     private final JwtAuthenticationFilter jwtAuthenticationFilter;
 
 
@@ -46,14 +45,21 @@ public class SecurityConfig {
                         session.sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 )
                 .authorizeHttpRequests(auth -> auth
-                                .requestMatchers("/auth/**").permitAll()
-                                .requestMatchers("/hello").permitAll()
+                        .requestMatchers("/auth/**").permitAll()
+                        .requestMatchers(
+                                "/v3/api-docs/**",
+                                "/swagger-ui/**",
+                                "/swagger-ui.html",
+                                "/webjars/**"
+                        ).permitAll()
+                        .requestMatchers("/hello").permitAll()
                         .requestMatchers("/api/**").hasAnyRole("USER", "ADMIN")
                         .requestMatchers("/admin/**").hasRole("ADMIN")
 
 
-                                .anyRequest().authenticated()
-                ).exceptionHandling
+                        .anyRequest().authenticated()
+                )
+                .exceptionHandling
                         (exception -> exception.accessDeniedHandler(customAccessDeniedHandler))
 
                 .addFilterBefore(jwtAuthenticationFilter,

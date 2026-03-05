@@ -20,7 +20,7 @@ import java.util.*;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Account extends BaseEntity implements UserDetails {
+public class Account extends BaseEntity{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -50,31 +50,6 @@ public class Account extends BaseEntity implements UserDetails {
     private Role role;
 
 
-    @Override
-    public Collection<? extends GrantedAuthority> getAuthorities() {
-        List<SimpleGrantedAuthority> authorities = new ArrayList<>();
-
-        // Add the Role (Make sure it starts with ROLE_)
-        authorities.add(new SimpleGrantedAuthority("ROLE_" + role.getName()));
-
-        // Add the Permissions
-        role.getPermissions().forEach(p -> {
-            authorities.add(new SimpleGrantedAuthority(p.getPermission_name()));
-        });
-
-        return authorities;
-    }
-    @Override
-    public String getUsername() { return this.email; } // Email is our "username"
-
-    @Override
-    public boolean isAccountNonExpired() { return true; }
-    @Override
-    public boolean isAccountNonLocked() { return true; }
-    @Override
-    public boolean isCredentialsNonExpired() { return true; }
-    @Override
-    public boolean isEnabled() { return true; }
 }
 
 

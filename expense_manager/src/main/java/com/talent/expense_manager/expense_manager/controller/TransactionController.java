@@ -4,6 +4,7 @@ package com.talent.expense_manager.expense_manager.controller;
 import com.talent.expense_manager.expense_manager.request.TransactionRequest;
 import com.talent.expense_manager.expense_manager.response.*;
 import com.talent.expense_manager.expense_manager.service.TransactionService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/transactions")
 @RequiredArgsConstructor
+@Tag(name = "Transaction", description = "Endpoints for managing financial transactions")
 public class TransactionController {
 
     private final TransactionService transactionService;

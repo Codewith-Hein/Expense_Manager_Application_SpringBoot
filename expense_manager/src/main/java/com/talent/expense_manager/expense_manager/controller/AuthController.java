@@ -11,6 +11,7 @@ import com.talent.expense_manager.expense_manager.response.ResponseUtil;
 import com.talent.expense_manager.expense_manager.response.TokenResponseDto;
 import com.talent.expense_manager.expense_manager.security.JWTService;
 import com.talent.expense_manager.expense_manager.service.AuthService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
@@ -22,6 +23,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/auth")
 @RequiredArgsConstructor
+@Tag(name = "Authentication & Identity", description = "Endpoints for user registration, login, and session management (JWT)")
 public class AuthController {
 
     private final AuthService authService;

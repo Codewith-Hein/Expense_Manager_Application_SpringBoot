@@ -21,11 +21,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 
-@ActiveProfiles("test")
+
 @SpringBootTest
 class ExpenseManagerApplicationTests {
-
-
 
 
 	@Autowired
@@ -35,6 +33,8 @@ class ExpenseManagerApplicationTests {
 	private RoleRepository roleRepository;
 
 	@Autowired
+
+
 	private AccountRepository accountRepository;
 
 	@Autowired
